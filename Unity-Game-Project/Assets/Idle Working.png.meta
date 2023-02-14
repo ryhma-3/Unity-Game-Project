@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f34775572edbd5b40b9ceb91f32da7f5
+guid: 92827e0b100cde14a8c79626c2015971
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CampFireFinished_0
+      name: Idle Working_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dcc285d9369c6147b625a0080e105b1
-      internalID: -2052522107
+      spriteID: 2f18e3730d90e0843a74de56130e91c7
+      internalID: -1145184500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CampFireFinished_1
+      name: Idle Working_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6b82432f34e99499a4d50d13fbab32
+      internalID: -1558076743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle Working_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +173,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2851821097fe3747872024ae77da021
-      internalID: -2059989286
+      spriteID: 4658f0cb673345b428b3c36271b90134
+      internalID: 1203428367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CampFireFinished_2
+      name: Idle Working_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8650d46ef06160147a63ebf17dd83974
+      internalID: 893041243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle Working_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +215,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e027d2ad3850ea478cf572d00abdca9
-      internalID: -555943170
+      spriteID: 064159de902507e42abf8216222e7fd5
+      internalID: -1286574807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CampFireFinished_3
+      name: Idle Working_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70852c6252c48042b2185743c098539
+      internalID: 1493054941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle Working_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d0b3218a90578f41a880c4d19784267
-      internalID: -1124922589
+      spriteID: 5af882c76dc34ca43aa61882dff74a86
+      internalID: 279214901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CampFireFinished_4
+      name: Idle Working_7
       rect:
         serializedVersion: 2
-        x: 256
+        x: 224
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fc35ea263385f24ab03c48a29de62ac
-      internalID: 1028027043
+      spriteID: 74d791a2c7529c24d86fade0346d075b
+      internalID: -444555011
       vertices: []
       indices: 
       edges: []
@@ -232,11 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CampFireFinished_4: 1028027043
-      CampFireFinished_0: -2052522107
-      CampFireFinished_3: -1124922589
-      CampFireFinished_2: -555943170
-      CampFireFinished_1: -2059989286
+      Idle Working_1: -1558076743
+      Idle Working_3: 893041243
+      Idle Working_7: -444555011
+      Idle Working_4: -1286574807
+      Idle Working_5: 1493054941
+      Idle Working_0: -1145184500
+      Idle Working_2: 1203428367
+      Idle Working_6: 279214901
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
