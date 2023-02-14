@@ -6,6 +6,5 @@ Game project for the Ohjelmistoprojekti II-course.
 
 ## [Game Script](https://github.com/ryhma-3/script/blob/main/script.v1.md)
 
-
-![image](https://user-images.githubusercontent.com/112497215/218687617-6aceef3d-ccc0-424d-888b-1331bc430b8a.png)
+![image](https://user-images.githubusercontent.com/112497215/218688502-5ce83a06-6966-484a-9d04-32dbba76a04d.png)
 
