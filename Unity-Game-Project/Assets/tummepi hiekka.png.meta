@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,6 +91,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3140,7 +3152,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tummepi hiekka_144: -1908671806
-      tummepi hiekka_163: 1183440534
       tummepi hiekka_33: 299026174
       tummepi hiekka_159: 954394727
       tummepi hiekka_74: 766031654
@@ -3150,10 +3161,9 @@ TextureImporter:
       tummepi hiekka_129: -194597192
       tummepi hiekka_17: 1661024667
       tummepi hiekka_132: -1766452728
-      tummepi hiekka_166: 673743084
       tummepi hiekka_9: -920754161
-      tummepi hiekka_10: 883275035
       tummepi hiekka_61: -79149608
+      tummepi hiekka_10: 883275035
       tummepi hiekka_110: -1058446231
       tummepi hiekka_75: -1420180689
       tummepi hiekka_136: 2100712215
@@ -3209,37 +3219,37 @@ TextureImporter:
       tummepi hiekka_66: -2038734785
       tummepi hiekka_118: -1008618326
       tummepi hiekka_46: 1866428565
-      tummepi hiekka_71: -125618873
       tummepi hiekka_122: -699855257
-      tummepi hiekka_117: 1990149944
+      tummepi hiekka_71: -125618873
       tummepi hiekka_156: 1745377707
       tummepi hiekka_31: -1875572464
+      tummepi hiekka_117: 1990149944
       tummepi hiekka_58: 647160932
       tummepi hiekka_152: 1281799427
       tummepi hiekka_89: 364887104
       tummepi hiekka_102: -1985803704
       tummepi hiekka_153: -1491905757
       tummepi hiekka_68: 1822469689
-      tummepi hiekka_51: -465157853
-      tummepi hiekka_26: 1364852827
       tummepi hiekka_83: -1608507716
-      tummepi hiekka_30: -1533629029
-      tummepi hiekka_133: 670027753
-      tummepi hiekka_162: -1180914707
+      tummepi hiekka_26: 1364852827
       tummepi hiekka_142: 498969521
+      tummepi hiekka_30: -1533629029
+      tummepi hiekka_162: -1180914707
+      tummepi hiekka_133: 670027753
       tummepi hiekka_150: 838120692
       tummepi hiekka_67: 347050025
+      tummepi hiekka_51: -465157853
       tummepi hiekka_48: 1605500430
       tummepi hiekka_59: -1991756004
       tummepi hiekka_13: -851801271
-      tummepi hiekka_15: -988979407
       tummepi hiekka_36: -201562554
-      tummepi hiekka_47: 1195844718
+      tummepi hiekka_15: -988979407
       tummepi hiekka_22: 24836224
+      tummepi hiekka_47: 1195844718
       tummepi hiekka_85: 63622539
-      tummepi hiekka_134: -237645189
       tummepi hiekka_79: -1831644628
       tummepi hiekka_92: 931721093
+      tummepi hiekka_134: -237645189
       tummepi hiekka_45: -300478796
       tummepi hiekka_112: -375268256
       tummepi hiekka_131: -1668436911
@@ -3269,18 +3279,20 @@ TextureImporter:
       tummepi hiekka_6: 1762292554
       tummepi hiekka_97: 1464310982
       tummepi hiekka_113: -1458135262
+      tummepi hiekka_166: 673743084
       tummepi hiekka_5: 318348011
       tummepi hiekka_18: 1837143266
-      tummepi hiekka_149: -1203677276
       tummepi hiekka_44: 581624575
+      tummepi hiekka_149: -1203677276
       tummepi hiekka_55: 694593565
-      tummepi hiekka_98: 567379736
       tummepi hiekka_140: 1523290049
+      tummepi hiekka_98: 567379736
       tummepi hiekka_25: 1512798374
-      tummepi hiekka_8: -1448378238
+      tummepi hiekka_163: 1183440534
       tummepi hiekka_84: 1783210986
-      tummepi hiekka_77: 1833621296
+      tummepi hiekka_8: -1448378238
       tummepi hiekka_54: -1738938809
+      tummepi hiekka_77: 1833621296
       tummepi hiekka_19: -512054806
       tummepi hiekka_60: -37661256
       tummepi hiekka_12: 1640532200
