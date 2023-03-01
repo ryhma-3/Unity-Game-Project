@@ -1,0 +1,4774 @@
+fileFormatVersion: 2
+guid: 8281d983f919e4a46bce9201fcfd3399
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Terrain and Outside_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6157a20ebc4354bb032e76ed249d4c
+      internalID: -164327567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_193
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be07be553da0e04aba0d2696b41365a
+      internalID: -596475251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_194
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cb67d16323c9a4da142d3674b7988b
+      internalID: -1451456359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915d303f557467e4f9034f1eb0197ba8
+      internalID: 457680136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_197
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e06aa5c70203334a92c8c45b9bde757
+      internalID: -1407880836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f2355f640ab5468fd477a3827b854
+      internalID: -849925371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_199
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad2a507af23a81468f99a7d47cb95d3
+      internalID: -1960992784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e81ed50eed29543880ca206f5ef5c8
+      internalID: 297677482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_201
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68e19fe59ce7a44f90ecfb6dcb5bc14
+      internalID: -2122144951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_202
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5fe95e60da8df43b1a3b699dd0a651
+      internalID: -1516282097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_203
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae49e514f1d12347b63cdd34a4322af
+      internalID: -702719118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_204
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f51f440d882654dbc21d08633ae9e8
+      internalID: 509682620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_205
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bbf7a6ba75eaa4caede264f4912cbe
+      internalID: -1418993383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_206
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f410527dab364db1427df69d70a14
+      internalID: -2095706989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_207
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f909dc7c4ffb6d4e91d4efa707922bf
+      internalID: -1919371712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_208
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fceab87c9724849b1278402490a7b3
+      internalID: -1969753055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_209
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66d2622f0df8f54fbabc97faf95bcc3
+      internalID: -1258995415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9cc143c0afe844596b61bddcd6a884
+      internalID: -1750229527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_225
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709b29d6ddc699344ab23a99244acddb
+      internalID: -1352208992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_226
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33799d63e3dd8434b938a62c2c31d6b7
+      internalID: -1001395852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_228
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4f866c4e739864bb20e28db5991c3a
+      internalID: -954886278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_229
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b7852b992ade34b9ee4414528cfc98
+      internalID: 1570992182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_230
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa5174926720d34a867d4aa4d698bac
+      internalID: 1797065019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_231
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06ad230bb5008d40a27495e0be521e8
+      internalID: -337767119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_232
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f149a1e399827f4ca87bc29bd97b228
+      internalID: -516924705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_233
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138a1867970293a46a92b741abea53b8
+      internalID: -608324784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_234
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf30380e3bf868a4db755e2494bbcc89
+      internalID: -218513436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_235
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8423aa624ccb954fa92d28c87fa376f
+      internalID: 718971565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_236
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6f36907b2f0b845aa74ea47b9643f5
+      internalID: -667409224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_237
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbde8ed096c3e124ebf2b7e70e4a4b2c
+      internalID: 135743091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_238
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad095f4975ca7e4b9fce427e2e43fe2
+      internalID: 1117737793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_239
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743fb384c9047ff45a4a6464ae1f4cd8
+      internalID: 968537612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_240
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303f058a0b055e846bf0fec611c96e12
+      internalID: 1603197416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_241
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179e65b4d9895f741b46374450529dd3
+      internalID: 394675672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa49a92ae58ba049afd99dfbf05f71e
+      internalID: -1253633909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_257
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc50c79fc687a14cab0da03a8926d83
+      internalID: 679860777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_258
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7e63a6d958f2a4f949c4be4b7a2b71
+      internalID: 1755350257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_259
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76163dac20211b64dbaf7242692a5627
+      internalID: 1983311086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_260
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2d464d1e693040956775f2c3e03a4
+      internalID: -1971319662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_261
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b1ddda6ff662b449a79cc1c1a8ee40
+      internalID: -1131069796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_262
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858eb507201e05442a9baed096839bb7
+      internalID: -186040775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_263
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e8b11ff47b4b54396b118da36a8385
+      internalID: 242881955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_264
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c54c7db3a019a94f873a038d15caadd
+      internalID: -17744631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_265
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd13f2f93d225c44693961969443283d
+      internalID: -2017337496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_266
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8e5f8ad0a43854abb139a915b4d9ae
+      internalID: 342572482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_267
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098551febb411f74bb5b689b6e745e47
+      internalID: -1043418846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_268
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 3}
+        - {x: -12, y: -1}
+        - {x: -15, y: -5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 7, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607d8a478e29a4640b5302c6432c6c76
+      internalID: 1781459058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_269
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+        - {x: 6, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27befce44f8d7c245a4db93c758f36dc
+      internalID: -1992403344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_270
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 4}
+        - {x: -13, y: 4}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -5}
+        - {x: 7, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a64ab306cdcb154aba4bd0bff41d08b
+      internalID: 1083327861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_271
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: -9, y: -2}
+        - {x: -14, y: -8}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 9, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85c713db39013e438e88a79bc668cb3
+      internalID: -1437647021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_272
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -3}
+        - {x: 16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b354fe84f89cfae428673200e0348cea
+      internalID: 1149216772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_273
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: -7}
+        - {x: 5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a283c4a13f6b20419f0d6ec7b14bcd0
+      internalID: -510573254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237b84f40a358fe43b8b2a40b3a9df37
+      internalID: -1929022746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_289
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adf629e5f7a9ea4ba978c59f580fb7f
+      internalID: -508817135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_290
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e6370c11772794eaeecf2a9089132c
+      internalID: 1996990500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_291
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78fa27f7fb31a649ab60b90bc79be18
+      internalID: 1737063317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_292
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7762bf64b96ee4a96d43bd70aec411
+      internalID: 931655490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_293
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59e2c7cf67a21e4a9e0869e3608dbc3
+      internalID: 182025981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_294
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6699e633feb2c794eac28ba5c6b206ee
+      internalID: 131102827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_295
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cc8fe58a1c2a542bb0372ac04a02fb
+      internalID: -817085016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_296
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098692cd9cf075b4fbf352f3a2826b44
+      internalID: 2064641432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_297
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d682858c010da540b6aaeb21053c2de
+      internalID: -2075446343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_298
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64acd5579e8919342a5620f14b20bdd6
+      internalID: 2038496369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_299
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ccb39a6230e414c839bfc3e8c19aaf
+      internalID: -1693743474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_300
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f37412c7302f54e8c476aee108008e
+      internalID: 1058627833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_301
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9e8dddba6fa75459ca34c30aeff4f1
+      internalID: -402591056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_302
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a95cd8bd3413443a6d7519f2387d44
+      internalID: 1427592174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_303
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee333ad50eb0864da261d22363b111f
+      internalID: 2122338673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_304
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4e497facd46424281d6b924bc5c37e
+      internalID: -735039591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_305
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d1e0ba93d61d34d95b4f60331f98bc
+      internalID: -1789985780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa1286597cc49542bb0a51f74472d9d
+      internalID: 1214326096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_321
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c80b0790d47c409c5e6b60b1e5041
+      internalID: -70655486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_322
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaff97fd82dac5844bd4b1a7c4d9a15d
+      internalID: -1191892110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_323
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d0b0fc6bae78d4db8770d7ff5a03b1
+      internalID: 177262013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_324
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee8aa3799873794698e76fb0afff751
+      internalID: 1019817497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_325
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed98e961a4018af4ea45a6127f3ce57c
+      internalID: 1557078909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_326
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7cd8c632d2d694a852c83c39828b63
+      internalID: 742062794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_327
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62739b5d210954d4e8db12235d2198a5
+      internalID: -1759176049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_328
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8257415d04cb0af468a301ed2d525cc9
+      internalID: -816163196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_329
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cedd3b3844641a4e8df0ebd9d9d7db8
+      internalID: -595524157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_330
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee0448642a29d3448da3f5d053eca08
+      internalID: -9415495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_331
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3beda7850e64342a0ee2dcf29274a6
+      internalID: 1630890328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_332
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -5}
+        - {x: -12, y: -11}
+        - {x: -7, y: -13}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e180b7da1290354aa9b7312e56ad855
+      internalID: 1769828712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_333
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca57d38eae9a0b945b4b52c384bb389d
+      internalID: -1587646425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_334
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 4, y: -14}
+        - {x: 10, y: -11}
+        - {x: 14, y: -8}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6388fe5d5f2423b4c9191e5005a3329d
+      internalID: -1781394073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_335
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -13, y: -4}
+        - {x: -5, y: -12}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e874bbbe063ad6247b3fb98ccf7df8ab
+      internalID: 548375721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_336
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5c0d4659f03d94d945cc8ee0dfa7d6
+      internalID: 464137596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_337
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: 6, y: -12}
+        - {x: 13, y: -4}
+        - {x: 14, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196029d5aed39c64fa4fa2e863c9d6ac
+      internalID: 1906943394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_352
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1df3bebd88c46344b2d1ae0cfaa1372
+      internalID: 1034405625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_353
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161f14da8c5dc3e4e9b05dd088c514a8
+      internalID: -602894725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_354
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250c1a1f818597f4fb84cb1583e58fb5
+      internalID: 526240777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_355
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d146dcb28ef697345aa9ab7fcc527c42
+      internalID: 457645652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_356
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1b89afc8668de4b99849a240509477
+      internalID: 1672564315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_357
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86aee5f4f1bbf44a6a0b3c78537ea5
+      internalID: 409828136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_358
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6a7bc3a7a99ea41a599f83fd63af31
+      internalID: 1648283286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_359
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68ed51d55d06834790b7ffe81f90227
+      internalID: -2009038796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_360
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc694e0622d6444958e9d00c62e517
+      internalID: 2058296933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_361
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a74287b16bbeeb4c91da5c5644d7582
+      internalID: 1975645616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_362
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6723e2066dfc7d54fbcd47d6c48cf7fa
+      internalID: -1990517625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_363
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb98ade9413fbdb4fb93892871b51656
+      internalID: -684006746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_364
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacb7ccf696921a4f9d811bc329e64eb
+      internalID: 1744005178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_365
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b12a856f3a13a4b8d0c8fb6ac12d1e
+      internalID: 1614376336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_366
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bf628a685a6c74a95162548e668de1
+      internalID: 910504391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_367
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8824d5c91a271a646a9893d73d30e310
+      internalID: -1339323868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_368
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86da901c59e0cac45a9e9a448ea3cabb
+      internalID: -206378876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_369
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00d44bedab2c044490199e01979c962
+      internalID: -284098233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_548
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e48a1f98dc37949a5d5ed8a4889a06
+      internalID: -1755162743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_549
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb36a5c2849732245810d8fbf5dea092
+      internalID: -871940179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_550
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952982579e243b2409a2b82d5796463e
+      internalID: -191636215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_551
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05efc5ff5be43004fa5b43cfba67f53d
+      internalID: 996792413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_552
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c4656f74cab8c47902c4fc33b6814d
+      internalID: 1976650313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_553
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f176a7d86e12f45950271dbe9efe98
+      internalID: -1281121834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_580
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.57245016, y: 0.3822689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -3}
+        - {x: 0, y: -2}
+        - {x: -5, y: -1}
+        - {x: -6, y: -3}
+        - {x: -5, y: -7}
+        - {x: -1, y: -9}
+        - {x: 4, y: -10}
+        - {x: 7, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd41bf3cd7f13dc4e985371b887f1dd1
+      internalID: 808524778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_581
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5769782, y: 0.42302227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -3}
+        - {x: -4, y: -2}
+        - {x: -6, y: -3}
+        - {x: -5, y: -7}
+        - {x: -1, y: -10}
+        - {x: 4, y: -11}
+        - {x: 6, y: -9}
+        - {x: 8, y: -7}
+        - {x: 9, y: -4}
+        - {x: 6, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeb821eb43b8b74ca92e6c5510343c4
+      internalID: 756025585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_582
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.55886555, y: 0.42981434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -3}
+        - {x: -2, y: -2}
+        - {x: -4, y: -3}
+        - {x: -6, y: -5}
+        - {x: -5, y: -8}
+        - {x: -2, y: -10}
+        - {x: 4, y: -11}
+        - {x: 7, y: -9}
+        - {x: 9, y: -6}
+        - {x: 7, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0f68ca56105844abbe6aa76e535793
+      internalID: -526756547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_583
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5815067, y: 0.43434238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 2}
+        - {x: -8, y: -1}
+        - {x: -9, y: -8}
+        - {x: -5, y: -11}
+        - {x: 9, y: -13}
+        - {x: 13, y: -7}
+        - {x: 9, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad325d9bb577f74799ec5ce2a58a59f
+      internalID: -1263861624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_609
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.554338, y: 0.38679695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -2}
+        - {x: 0, y: -2}
+        - {x: -2, y: -1}
+        - {x: -5, y: -2}
+        - {x: -5, y: -6}
+        - {x: -3, y: -8}
+        - {x: 2, y: -10}
+        - {x: 6, y: -9}
+        - {x: 7, y: -5}
+        - {x: 6, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020b3fb68f2608b45bd8fda5e0526cd5
+      internalID: -364604697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_613
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5679226, y: 0.19435215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -14}
+        - {x: -7, y: -16}
+        - {x: -7, y: -26}
+        - {x: 11, y: -27}
+        - {x: 13, y: -21}
+        - {x: 8, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4316a7955815f84dbc21017275f75d8
+      internalID: -507084052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_662
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.40943766, y: 0.42528582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 2}
+        - {x: -15, y: 0}
+        - {x: -21, y: -3}
+        - {x: -18, y: -11}
+        - {x: -9, y: -20}
+        - {x: 1, y: -27}
+        - {x: 3, y: -20}
+        - {x: 3, y: -8}
+        - {x: 2, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db7bff07f26f8c4b8fa55a891c840e8
+      internalID: 1788884684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_706
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 288
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.50523186, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 2}
+        - {x: -7, y: 1}
+        - {x: -10, y: -3}
+        - {x: -5, y: -1}
+        - {x: -2, y: -5}
+        - {x: 2, y: -1}
+        - {x: 6, y: -4}
+        - {x: 9, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c693218701316cd43a534d341d7e0f0e
+      internalID: -1875838206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_707
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ba955d2e3662a4d8ecbc37ff483783
+      internalID: 351401186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_708
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b66094ae0638409645217f4a3e2d5
+      internalID: -1925923894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_709
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002b033fb42b1284a9fa59bd451d2072
+      internalID: -1400176635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_710
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c26bbead3053a4db86d4d77187dfac
+      internalID: 707494132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_711
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e8213e034b4148935c621469c0f78
+      internalID: 369933258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_712
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c73976d4e80aa4a8611c2283134417
+      internalID: -1587711718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_736
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24667a13f9a19ab44904cbb0556e74c5
+      internalID: 247365060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_737
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9513ca68e3519644a730e67211ae269
+      internalID: -1275036723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_738
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54d17a8431054c4585b6187a35ac881
+      internalID: 512142499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_739
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183ddd61e0a62f349966180464e88e89
+      internalID: -28690080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_740
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a119040b48c743bb3a817bcee3b87
+      internalID: -303783985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_741
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b938f7a99e66f48ba5342f246b10e2
+      internalID: -2063253338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_742
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2b68637aa2fbb41bee5c6a9d1e65e6
+      internalID: 1416808680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_765
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 224
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.50591373, y: 0.42311144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 0}
+        - {x: 0, y: 0}
+        - {x: -10, y: 2}
+        - {x: -11, y: -2}
+        - {x: -17, y: -7}
+        - {x: -4, y: -8}
+        - {x: 0, y: -14}
+        - {x: 7, y: -8}
+        - {x: 16, y: -9}
+        - {x: 7, y: -3}
+        - {x: 21, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24c0224e9f51e240852269bbdf3d5c1
+      internalID: -169538233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_766
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e8e07f959d3e1468edacb812dfc97d
+      internalID: -534004209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_767
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff22c8094b9e434380ceb4ed5421973
+      internalID: 1888926680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_768
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e8616ac439a41429614be22df47773
+      internalID: -1783727841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_769
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa019675601ef549a8c7bd608d23408
+      internalID: -730788025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_770
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aebb22577b33374482a21aa93f06640
+      internalID: 1732029535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_771
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdc70f73af5aae4485803df36b9fbf8
+      internalID: 893536984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_772
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59d092f72b9d5a4c89dcc00ac2b138f
+      internalID: -1358390712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_786
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cfa6c2aa59bcf4a9259939a0142888
+      internalID: 2008368741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_794
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f7e15f4b5fcd94aa59fd10241a0ace
+      internalID: 1710144489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_795
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6d0b181715d414b85d3cc21c207384
+      internalID: 988912525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_796
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49617accc5b61de44ac386a5c32e54e0
+      internalID: 1018483344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_797
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943e2040e20ab3b44badf3c7d9ee625c
+      internalID: 1105857138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_798
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42319a4d0230e2c49be2d6a8dcd907f6
+      internalID: -1090239884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_799
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca10ecb173a9a84bb7734ee49f4c60b
+      internalID: -245705612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_800
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffe5a8438c6e314483c9e590b354825
+      internalID: -336094643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_822
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d3db95c0490674bb1100ce5966feb8
+      internalID: 575133494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_823
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0305c3122804746a7b04a369940543
+      internalID: -754047236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_824
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1f91a11b7ed6d43a7c1cdaae808bf9
+      internalID: -1082415447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_825
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2324105d899f38a4798bed1e1b484fda
+      internalID: 2145993320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_826
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219f088ba203fb442b612851c7b05c19
+      internalID: 965195958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_827
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ddfe269dc82a349adc48399c0a3951
+      internalID: 2072942160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_828
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577658b199e1454bb843809d2224add
+      internalID: 578678616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_850
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0576896b1104e9e4daa8e09bdf716346
+      internalID: 2013751389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_851
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ea17f36158f6941bc107afcb913c7e
+      internalID: 777857538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_852
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82f1523b99a582429fb89f62ca86b8c
+      internalID: -1839494819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_853
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1dd299e4f87ee40aea77fb2902d5ee
+      internalID: 1655668048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_854
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9f58d0d5165354badf750e41f427b8
+      internalID: -351234472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_855
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27330062409226468c8e53738294a4f
+      internalID: -550469661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_856
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2024e4c38c407248a77820953d846f3
+      internalID: 328513012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_875
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2823c5f94f7889143a1173e3cb42c294
+      internalID: -2038079091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_876
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faf3bab05f09624eab88649ba4b5ff1
+      internalID: -255238442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_877
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028396808f774c346af2ddf09d1ece24
+      internalID: -614054753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain and Outside_878
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51919d8a39a3ac249b2f7b816ea8c7ec
+      internalID: 571038241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Terrain and Outside_567: 1789932058
+      Terrain and Outside_699: -295744593
+      Terrain and Outside_743: 1033448502
+      Terrain and Outside_258: 1755350257
+      Terrain and Outside_122: -352721572
+      Terrain and Outside_685: -1265420510
+      Terrain and Outside_678: -1965635732
+      Terrain and Outside_912: 670919695
+      Terrain and Outside_627: 547149189
+      Terrain and Outside_884: 1087419167
+      Terrain and Outside_264: -17744631
+      Terrain and Outside_915: 1542148788
+      Terrain and Outside_781: 525704051
+      Terrain and Outside_241: 394675672
+      Terrain and Outside_822: 575133494
+      Terrain and Outside_663: -1709030795
+      Terrain and Outside_535: -1227180670
+      Terrain and Outside_26: -1951104184
+      Terrain and Outside_245: 1511352426
+      Terrain and Outside_761: -288441758
+      Terrain and Outside_328: -816163196
+      Terrain and Outside_340: 96111756
+      Terrain and Outside_17: -1343743771
+      Terrain and Outside_255: 52028219
+      Terrain and Outside_519: 1025097725
+      Terrain and Outside_723: 1298958638
+      Terrain and Outside_784: 1474653612
+      Terrain and Outside_399: -1182593106
+      Terrain and Outside_729: 1290170421
+      Terrain and Outside_99: -1591642907
+      Terrain and Outside_220: 1306108807
+      Terrain and Outside_775: -1647618389
+      Terrain and Outside_434: 2024084210
+      Terrain and Outside_574: 1343431412
+      Terrain and Outside_4: 1477996525
+      Terrain and Outside_400: 779948880
+      Terrain and Outside_720: 1108814902
+      Terrain and Outside_804: 1229258330
+      Terrain and Outside_766: -534004209
+      Terrain and Outside_147: 1496462538
+      Terrain and Outside_842: 126068905
+      Terrain and Outside_265: -2017337496
+      Terrain and Outside_197: -1407880836
+      Terrain and Outside_572: 108808976
+      Terrain and Outside_45: 583167947
+      Terrain and Outside_263: 242881955
+      Terrain and Outside_348: 2048383579
+      Terrain and Outside_277: -1133767372
+      Terrain and Outside_382: 1766486195
+      Terrain and Outside_427: -251908368
+      Terrain and Outside_156: 1082350024
+      Terrain and Outside_913: 1391554346
+      Terrain and Outside_625: 329634176
+      Terrain and Outside_795: 988912525
+      Terrain and Outside_947: -101411057
+      Terrain and Outside_118: -194919617
+      Terrain and Outside_209: -1258995415
+      Terrain and Outside_11: -437868572
+      Terrain and Outside_942: -304612183
+      Terrain and Outside_141: -1015015821
+      Terrain and Outside_694: -346714104
+      Terrain and Outside_914: -109293437
+      Terrain and Outside_813: -554896343
+      Terrain and Outside_228: -954886278
+      Terrain and Outside_680: -2095077918
+      Terrain and Outside_537: -443112870
+      Terrain and Outside_338: -2139093881
+      Terrain and Outside_57: 1074115030
+      Terrain and Outside_693: -491275943
+      Terrain and Outside_317: 469166082
+      Terrain and Outside_895: 1555718935
+      Terrain and Outside_575: 1468554
+      Terrain and Outside_132: -1999758830
+      Terrain and Outside_380: 1839392070
+      Terrain and Outside_194: -1451456359
+      Terrain and Outside_634: 340400286
+      Terrain and Outside_701: -1892627133
+      Terrain and Outside_544: 1784755515
+      Terrain and Outside_581: 756025585
+      Terrain and Outside_700: 560829522
+      Terrain and Outside_876: -255238442
+      Terrain and Outside_810: -623920235
+      Terrain and Outside_195: 2131146649
+      Terrain and Outside_363: -684006746
+      Terrain and Outside_306: 1225573366
+      Terrain and Outside_834: -1293481448
+      Terrain and Outside_836: -1644844230
+      Terrain and Outside_848: 494277625
+      Terrain and Outside_489: -1685547673
+      Terrain and Outside_617: 492012047
+      Terrain and Outside_504: 698088776
+      Terrain and Outside_24: 1631679993
+      Terrain and Outside_54: -781697487
+      Terrain and Outside_615: -977662520
+      Terrain and Outside_527: -407549156
+      Terrain and Outside_746: 1383990472
+      Terrain and Outside_631: -1522632954
+      Terrain and Outside_383: 498346755
+      Terrain and Outside_652: 61953537
+      Terrain and Outside_366: 910504391
+      Terrain and Outside_467: -1166860476
+      Terrain and Outside_555: 219727686
+      Terrain and Outside_524: -2065511189
+      Terrain and Outside_369: -284098233
+      Terrain and Outside_401: 1122926342
+      Terrain and Outside_421: 1590712512
+      Terrain and Outside_337: 1906943394
+      Terrain and Outside_105: -460243350
+      Terrain and Outside_513: -406805054
+      Terrain and Outside_928: 70198870
+      Terrain and Outside_307: -18767008
+      Terrain and Outside_370: -917809884
+      Terrain and Outside_287: -1759649947
+      Terrain and Outside_593: 1823417553
+      Terrain and Outside_6: -2057527237
+      Terrain and Outside_345: 1216170215
+      Terrain and Outside_47: 1503579051
+      Terrain and Outside_465: -1309774642
+      Terrain and Outside_736: 247365060
+      Terrain and Outside_626: 1275545316
+      Terrain and Outside_923: 2019415043
+      Terrain and Outside_266: 342572482
+      Terrain and Outside_594: 2138790458
+      Terrain and Outside_89: 780125726
+      Terrain and Outside_460: -400244956
+      Terrain and Outside_456: 2143219748
+      Terrain and Outside_562: 580959911
+      Terrain and Outside_163: -400318144
+      Terrain and Outside_379: 667972992
+      Terrain and Outside_19: 155776264
+      Terrain and Outside_920: -504144874
+      Terrain and Outside_305: -1789985780
+      Terrain and Outside_377: -27846243
+      Terrain and Outside_395: -204430821
+      Terrain and Outside_590: 1175708386
+      Terrain and Outside_645: 1155237372
+      Terrain and Outside_780: 330054193
+      Terrain and Outside_873: 1793739162
+      Terrain and Outside_851: 777857538
+      Terrain and Outside_416: 1984905835
+      Terrain and Outside_59: 354287775
+      Terrain and Outside_714: -1150739844
+      Terrain and Outside_613: -507084052
+      Terrain and Outside_602: 1172582337
+      Terrain and Outside_748: -118645070
+      Terrain and Outside_943: -2071743926
+      Terrain and Outside_690: 1172934753
+      Terrain and Outside_108: -1553304721
+      Terrain and Outside_835: -21568726
+      Terrain and Outside_623: -229598984
+      Terrain and Outside_637: 684035540
+      Terrain and Outside_472: -1643043705
+      Terrain and Outside_950: -1957055320
+      Terrain and Outside_475: -2062297106
+      Terrain and Outside_885: -1367683863
+      Terrain and Outside_814: -941252005
+      Terrain and Outside_429: -1084019773
+      Terrain and Outside_565: -213857075
+      Terrain and Outside_508: -552830675
+      Terrain and Outside_76: -493026647
+      Terrain and Outside_46: -65569597
+      Terrain and Outside_358: 1648283286
+      Terrain and Outside_117: 241501878
+      Terrain and Outside_522: -237819895
+      Terrain and Outside_5: -1961521440
+      Terrain and Outside_910: 525691529
+      Terrain and Outside_326: 742062794
+      Terrain and Outside_932: 622505513
+      Terrain and Outside_742: 1416808680
+      Terrain and Outside_494: 1320772613
+      Terrain and Outside_695: -1510681043
+      Terrain and Outside_2: -1039159707
+      Terrain and Outside_419: -1509565397
+      Terrain and Outside_448: 508704516
+      Terrain and Outside_532: 180727487
+      Terrain and Outside_802: -1600053352
+      Terrain and Outside_890: -966060408
+      Terrain and Outside_168: -265465055
+      Terrain and Outside_724: 958946996
+      Terrain and Outside_164: -829452424
+      Terrain and Outside_758: -1426243892
+      Terrain and Outside_49: -1514459440
+      Terrain and Outside_794: 1710144489
+      Terrain and Outside_496: 597830227
+      Terrain and Outside_451: 924968324
+      Terrain and Outside_310: -1258406213
+      Terrain and Outside_945: -340941693
+      Terrain and Outside_23: 1228994751
+      Terrain and Outside_554: -333129059
+      Terrain and Outside_367: -1339323868
+      Terrain and Outside_657: -2085417738
+      Terrain and Outside_207: -1919371712
+      Terrain and Outside_15: -2086801048
+      Terrain and Outside_43: 1422409861
+      Terrain and Outside_588: -1422622220
+      Terrain and Outside_687: -1608955689
+      Terrain and Outside_378: 1156954008
+      Terrain and Outside_137: -84829594
+      Terrain and Outside_285: -1296534570
+      Terrain and Outside_534: 735881026
+      Terrain and Outside_39: 1128540901
+      Terrain and Outside_516: -1934399210
+      Terrain and Outside_847: 873982843
+      Terrain and Outside_592: -65637300
+      Terrain and Outside_81: 873052165
+      Terrain and Outside_14: -1993420024
+      Terrain and Outside_144: 1886003145
+      Terrain and Outside_37: -1691677592
+      Terrain and Outside_295: -817085016
+      Terrain and Outside_633: -1532349790
+      Terrain and Outside_359: -2009038796
+      Terrain and Outside_936: -1620050870
+      Terrain and Outside_325: 1557078909
+      Terrain and Outside_222: -965181149
+      Terrain and Outside_951: 2111743009
+      Terrain and Outside_431: 1077734034
+      Terrain and Outside_439: 118121723
+      Terrain and Outside_909: 559786453
+      Terrain and Outside_499: 1679643391
+      Terrain and Outside_577: -1881472495
+      Terrain and Outside_440: 265671148
+      Terrain and Outside_33: -523252400
+      Terrain and Outside_365: 1614376336
+      Terrain and Outside_329: -595524157
+      Terrain and Outside_585: 207732319
+      Terrain and Outside_530: 378703749
+      Terrain and Outside_902: -1820469752
+      Terrain and Outside_683: 1490575871
+      Terrain and Outside_201: -2122144951
+      Terrain and Outside_740: -303783985
+      Terrain and Outside_473: -303236988
+      Terrain and Outside_569: 1140549205
+      Terrain and Outside_832: -1821033800
+      Terrain and Outside_403: -1341550467
+      Terrain and Outside_407: -1805212751
+      Terrain and Outside_954: -459699226
+      Terrain and Outside_393: 1938394686
+      Terrain and Outside_423: 518094898
+      Terrain and Outside_206: -2095706989
+      Terrain and Outside_114: -619537124
+      Terrain and Outside_13: -580515399
+      Terrain and Outside_808: -54537875
+      Terrain and Outside_311: -1208411626
+      Terrain and Outside_650: -756398840
+      Terrain and Outside_67: 2141891856
+      Terrain and Outside_502: 720952301
+      Terrain and Outside_392: 782691213
+      Terrain and Outside_812: -928390451
+      Terrain and Outside_292: 931655490
+      Terrain and Outside_538: -1832528882
+      Terrain and Outside_573: 429342934
+      Terrain and Outside_106: -1316786797
+      Terrain and Outside_622: -1575513916
+      Terrain and Outside_90: -628671512
+      Terrain and Outside_12: 1788139684
+      Terrain and Outside_79: 1600919528
+      Terrain and Outside_806: 1777954980
+      Terrain and Outside_817: -524953356
+      Terrain and Outside_927: 862650879
+      Terrain and Outside_119: 1385543238
+      Terrain and Outside_904: -424522638
+      Terrain and Outside_692: 42437683
+      Terrain and Outside_331: 1630890328
+      Terrain and Outside_352: 1034405625
+      Terrain and Outside_760: -265492821
+      Terrain and Outside_398: -504336116
+      Terrain and Outside_800: -336094643
+      Terrain and Outside_441: -1345520273
+      Terrain and Outside_497: -212403570
+      Terrain and Outside_52: -978455546
+      Terrain and Outside_816: -1298019715
+      Terrain and Outside_718: -1410278452
+      Terrain and Outside_608: -523973160
+      Terrain and Outside_143: -1959619970
+      Terrain and Outside_491: 1419689357
+      Terrain and Outside_339: -2037254960
+      Terrain and Outside_185: 12186355
+      Terrain and Outside_785: 1867460022
+      Terrain and Outside_906: 2023613850
+      Terrain and Outside_139: -1210674274
+      Terrain and Outside_298: 2038496369
+      Terrain and Outside_280: 242587547
+      Terrain and Outside_654: -1530497961
+      Terrain and Outside_853: 1655668048
+      Terrain and Outside_517: -669863346
+      Terrain and Outside_495: 681246687
+      Terrain and Outside_655: -1772020632
+      Terrain and Outside_818: 1615068141
+      Terrain and Outside_734: 193910185
+      Terrain and Outside_409: 917845544
+      Terrain and Outside_512: 1976907810
+      Terrain and Outside_133: 1204328122
+      Terrain and Outside_905: 164021316
+      Terrain and Outside_887: 1000914157
+      Terrain and Outside_188: 1236319649
+      Terrain and Outside_232: -516924705
+      Terrain and Outside_696: 1348840954
+      Terrain and Outside_69: -292678747
+      Terrain and Outside_140: -1783007328
+      Terrain and Outside_953: 1750931815
+      Terrain and Outside_870: 1172739330
+      Terrain and Outside_470: 1365669734
+      Terrain and Outside_31: -1262896515
+      Terrain and Outside_180: -100618282
+      Terrain and Outside_299: -1693743474
+      Terrain and Outside_518: -1284783735
+      Terrain and Outside_582: -526756547
+      Terrain and Outside_65: -1238776107
+      Terrain and Outside_956: 324374666
+      Terrain and Outside_50: -2702662
+      Terrain and Outside_324: 1019817497
+      Terrain and Outside_651: 268751092
+      Terrain and Outside_250: -1581002419
+      Terrain and Outside_127: -610079975
+      Terrain and Outside_511: -80875116
+      Terrain and Outside_811: 1892054317
+      Terrain and Outside_523: -1645416011
+      Terrain and Outside_252: -1102860171
+      Terrain and Outside_51: -1470259227
+      Terrain and Outside_36: -813186387
+      Terrain and Outside_218: -898488212
+      Terrain and Outside_172: 1499855660
+      Terrain and Outside_124: 884396741
+      Terrain and Outside_291: 1737063317
+      Terrain and Outside_318: 914837927
+      Terrain and Outside_224: -1750229527
+      Terrain and Outside_819: -915161468
+      Terrain and Outside_134: -2108683646
+      Terrain and Outside_320: 1214326096
+      Terrain and Outside_244: -715354168
+      Terrain and Outside_507: 339945881
+      Terrain and Outside_772: -1358390712
+      Terrain and Outside_896: -1673131731
+      Terrain and Outside_707: 351401186
+      Terrain and Outside_857: 1053864797
+      Terrain and Outside_589: -163564
+      Terrain and Outside_549: -871940179
+      Terrain and Outside_322: -1191892110
+      Terrain and Outside_661: -1221563316
+      Terrain and Outside_22: 1313346007
+      Terrain and Outside_293: 182025981
+      Terrain and Outside_62: -1301536084
+      Terrain and Outside_422: 676293117
+      Terrain and Outside_174: -1623615791
+      Terrain and Outside_176: 1790103739
+      Terrain and Outside_706: -1875838206
+      Terrain and Outside_458: -507522568
+      Terrain and Outside_675: 892018391
+      Terrain and Outside_8: -828534868
+      Terrain and Outside_344: -288332028
+      Terrain and Outside_829: 96348109
+      Terrain and Outside_86: 978115183
+      Terrain and Outside_503: -551978309
+      Terrain and Outside_482: 1438950457
+      Terrain and Outside_782: 1506521124
+      Terrain and Outside_952: 1683626629
+      Terrain and Outside_755: 35072917
+      Terrain and Outside_621: -1267250744
+      Terrain and Outside_356: 1672564315
+      Terrain and Outside_722: -1563075692
+      Terrain and Outside_447: 296592730
+      Terrain and Outside_570: 1569220273
+      Terrain and Outside_591: -311169273
+      Terrain and Outside_452: 1989595072
+      Terrain and Outside_704: 86388526
+      Terrain and Outside_437: -1126216385
+      Terrain and Outside_629: 935209283
+      Terrain and Outside_204: 509682620
+      Terrain and Outside_98: -2109431709
+      Terrain and Outside_213: 1527071187
+      Terrain and Outside_939: -222890910
+      Terrain and Outside_355: 457645652
+      Terrain and Outside_446: 67445189
+      Terrain and Outside_408: 464866361
+      Terrain and Outside_103: -489015741
+      Terrain and Outside_342: 1153074795
+      Terrain and Outside_702: -142210078
+      Terrain and Outside_726: 2040946922
+      Terrain and Outside_807: 403343833
+      Terrain and Outside_274: -1854143897
+      Terrain and Outside_485: -662476530
+      Terrain and Outside_425: -838498054
+      Terrain and Outside_70: 1250905403
+      Terrain and Outside_667: -1357758557
+      Terrain and Outside_493: -227780561
+      Terrain and Outside_856: 328513012
+      Terrain and Outside_362: -1990517625
+      Terrain and Outside_341: -1939174732
+      Terrain and Outside_716: 985704692
+      Terrain and Outside_471: -2026274316
+      Terrain and Outside_136: -1119110811
+      Terrain and Outside_550: -191636215
+      Terrain and Outside_841: -629371050
+      Terrain and Outside_792: -1779117808
+      Terrain and Outside_940: -232240980
+      Terrain and Outside_151: -538010394
+      Terrain and Outside_0: -889582028
+      Terrain and Outside_182: -1645087618
+      Terrain and Outside_820: -748994153
+      Terrain and Outside_937: -1772772387
+      Terrain and Outside_647: -1032583331
+      Terrain and Outside_269: -1992403344
+      Terrain and Outside_568: 132589893
+      Terrain and Outside_148: -2062190730
+      Terrain and Outside_426: -699774313
+      Terrain and Outside_826: 965195958
+      Terrain and Outside_78: 419890564
+      Terrain and Outside_237: 135743091
+      Terrain and Outside_184: -160747796
+      Terrain and Outside_251: -949621318
+      Terrain and Outside_852: -1839494819
+      Terrain and Outside_210: 1444016571
+      Terrain and Outside_159: 1144041700
+      Terrain and Outside_183: -1502090780
+      Terrain and Outside_505: 848164811
+      Terrain and Outside_257: 679860777
+      Terrain and Outside_449: 2098815976
+      Terrain and Outside_586: 1699082360
+      Terrain and Outside_304: -735039591
+      Terrain and Outside_332: 1769828712
+      Terrain and Outside_698: -1622054232
+      Terrain and Outside_111: 691066731
+      Terrain and Outside_296: 2064641432
+      Terrain and Outside_528: 602783136
+      Terrain and Outside_239: 968537612
+      Terrain and Outside_825: 2145993320
+      Terrain and Outside_7: -1108557283
+      Terrain and Outside_774: 1375294541
+      Terrain and Outside_32: -1776602473
+      Terrain and Outside_771: 893536984
+      Terrain and Outside_638: 217915610
+      Terrain and Outside_411: -1191386588
+      Terrain and Outside_679: -982863059
+      Terrain and Outside_238: 1117737793
+      Terrain and Outside_96: 34825851
+      Terrain and Outside_712: -1587711718
+      Terrain and Outside_48: 252632455
+      Terrain and Outside_94: 531636604
+      Terrain and Outside_715: 536939890
+      Terrain and Outside_483: -604066354
+      Terrain and Outside_614: -964144622
+      Terrain and Outside_418: 429439775
+      Terrain and Outside_948: 453835092
+      Terrain and Outside_171: -1251730638
+      Terrain and Outside_248: 1274468858
+      Terrain and Outside_417: 276830677
+      Terrain and Outside_294: 131102827
+      Terrain and Outside_284: -1307727868
+      Terrain and Outside_506: 500488881
+      Terrain and Outside_101: 1806937811
+      Terrain and Outside_603: -1776811600
+      Terrain and Outside_599: -2129264437
+      Terrain and Outside_110: -1935884112
+      Terrain and Outside_480: 1864719616
+      Terrain and Outside_872: 653891225
+      Terrain and Outside_113: -1655109658
+      Terrain and Outside_668: -1569983573
+      Terrain and Outside_278: 1335726163
+      Terrain and Outside_705: 660237289
+      Terrain and Outside_405: 1682408622
+      Terrain and Outside_587: 1336996957
+      Terrain and Outside_612: 23393657
+      Terrain and Outside_334: -1781394073
+      Terrain and Outside_474: 1469534108
+      Terrain and Outside_607: -1456843230
+      Terrain and Outside_29: -1084589869
+      Terrain and Outside_844: -2135776928
+      Terrain and Outside_436: 2116234489
+      Terrain and Outside_58: 1978475356
+      Terrain and Outside_926: -1059096557
+      Terrain and Outside_256: -1253633909
+      Terrain and Outside_542: -2091052946
+      Terrain and Outside_763: -200433074
+      Terrain and Outside_584: -91251724
+      Terrain and Outside_903: -1138187956
+      Terrain and Outside_157: -1640630695
+      Terrain and Outside_865: -212329880
+      Terrain and Outside_107: -304670334
+      Terrain and Outside_364: 1744005178
+      Terrain and Outside_391: 1650809954
+      Terrain and Outside_268: 1781459058
+      Terrain and Outside_478: 975246812
+      Terrain and Outside_402: 1434952417
+      Terrain and Outside_833: -889089976
+      Terrain and Outside_152: -1221953688
+      Terrain and Outside_309: 358967688
+      Terrain and Outside_957: -275623457
+      Terrain and Outside_146: -840547043
+      Terrain and Outside_861: 197062050
+      Terrain and Outside_387: 704273834
+      Terrain and Outside_868: 771630036
+      Terrain and Outside_619: 1134277587
+      Terrain and Outside_529: 57791900
+      Terrain and Outside_130: 1423918054
+      Terrain and Outside_454: 157069287
+      Terrain and Outside_815: 1875348121
+      Terrain and Outside_247: 2100510016
+      Terrain and Outside_840: 390549669
+      Terrain and Outside_432: -1101639221
+      Terrain and Outside_558: 1037766555
+      Terrain and Outside_312: -561842093
+      Terrain and Outside_166: -2021328583
+      Terrain and Outside_350: -371798402
+      Terrain and Outside_170: 2064685389
+      Terrain and Outside_862: 832910326
+      Terrain and Outside_476: 1082536937
+      Terrain and Outside_509: -1789385075
+      Terrain and Outside_492: -998870718
+      Terrain and Outside_571: 1160161823
+      Terrain and Outside_308: 44950963
+      Terrain and Outside_879: 1087412190
+      Terrain and Outside_778: -1064739475
+      Terrain and Outside_466: -490384978
+      Terrain and Outside_578: 135612102
+      Terrain and Outside_666: -149648063
+      Terrain and Outside_934: 675551160
+      Terrain and Outside_488: 1750363151
+      Terrain and Outside_632: -1599837340
+      Terrain and Outside_845: 317182085
+      Terrain and Outside_240: 1603197416
+      Terrain and Outside_756: 892414699
+      Terrain and Outside_343: -156935385
+      Terrain and Outside_463: 721843583
+      Terrain and Outside_875: -2038079091
+      Terrain and Outside_430: -674612233
+      Terrain and Outside_520: -511796637
+      Terrain and Outside_546: -1667178578
+      Terrain and Outside_787: 1914411305
+      Terrain and Outside_404: 365559073
+      Terrain and Outside_744: -402440879
+      Terrain and Outside_839: -195203947
+      Terrain and Outside_659: 788446027
+      Terrain and Outside_254: 936185166
+      Terrain and Outside_64: 1058949656
+      Terrain and Outside_791: 1451375055
+      Terrain and Outside_673: 1808843385
+      Terrain and Outside_412: -1288977712
+      Terrain and Outside_908: -2026120650
+      Terrain and Outside_129: -1291112164
+      Terrain and Outside_433: -937139020
+      Terrain and Outside_3: -1418731570
+      Terrain and Outside_487: 186359288
+      Terrain and Outside_931: 1905185489
+      Terrain and Outside_87: -1986374125
+      Terrain and Outside_41: -658746158
+      Terrain and Outside_374: 1340502254
+      Terrain and Outside_533: -108182596
+      Terrain and Outside_63: -1510360880
+      Terrain and Outside_335: 548375721
+      Terrain and Outside_415: 1122811152
+      Terrain and Outside_372: -107511395
+      Terrain and Outside_38: 50342834
+      Terrain and Outside_181: 1120963068
+      Terrain and Outside_670: -1847995430
+      Terrain and Outside_635: 148356568
+      Terrain and Outside_531: 1118082311
+      Terrain and Outside_216: -891655457
+      Terrain and Outside_676: 54442393
+      Terrain and Outside_871: -1809962028
+      Terrain and Outside_390: 402911826
+      Terrain and Outside_688: -1643354611
+      Terrain and Outside_891: 1113476943
+      Terrain and Outside_42: -1362097383
+      Terrain and Outside_203: -702719118
+      Terrain and Outside_595: 1178652270
+      Terrain and Outside_717: 580570325
+      Terrain and Outside_327: -1759176049
+      Terrain and Outside_56: -1921256976
+      Terrain and Outside_889: -195881078
+      Terrain and Outside_600: 466099050
+      Terrain and Outside_109: -1024426965
+      Terrain and Outside_548: -1755162743
+      Terrain and Outside_120: -164096110
+      Terrain and Outside_302: 1427592174
+      Terrain and Outside_149: 1230918050
+      Terrain and Outside_435: 1845111960
+      Terrain and Outside_53: 328025808
+      Terrain and Outside_92: -1691090139
+      Terrain and Outside_709: -1400176635
+      Terrain and Outside_212: -669475561
+      Terrain and Outside_34: -328761649
+      Terrain and Outside_869: -537821694
+      Terrain and Outside_894: -1085054987
+      Terrain and Outside_71: 51598991
+      Terrain and Outside_762: 1211770684
+      Terrain and Outside_261: -1131069796
+      Terrain and Outside_850: 2013751389
+      Terrain and Outside_397: -732996995
+      Terrain and Outside_656: -1057235828
+      Terrain and Outside_161: 1541405060
+      Terrain and Outside_173: -1652903080
+      Terrain and Outside_413: 1176673424
+      Terrain and Outside_525: 1868535966
+      Terrain and Outside_333: -1587646425
+      Terrain and Outside_672: -1348364110
+      Terrain and Outside_354: 526240777
+      Terrain and Outside_644: 685640879
+      Terrain and Outside_930: 1714108093
+      Terrain and Outside_259: 1983311086
+      Terrain and Outside_25: 94132292
+      Terrain and Outside_560: -531537700
+      Terrain and Outside_44: -81693043
+      Terrain and Outside_236: -667409224
+      Terrain and Outside_907: -1229866019
+      Terrain and Outside_361: 1975645616
+      Terrain and Outside_186: -88448084
+      Terrain and Outside_21: -158328165
+      Terrain and Outside_604: 1128980167
+      Terrain and Outside_543: -1849289746
+      Terrain and Outside_199: -1960992784
+      Terrain and Outside_642: 2097449211
+      Terrain and Outside_711: 369933258
+      Terrain and Outside_793: -1332566313
+      Terrain and Outside_18: 183611540
+      Terrain and Outside_40: -1510955552
+      Terrain and Outside_630: -1083527417
+      Terrain and Outside_138: 1944353859
+      Terrain and Outside_730: -1003449752
+      Terrain and Outside_165: 974288176
+      Terrain and Outside_866: 1880882504
+      Terrain and Outside_728: 1641082969
+      Terrain and Outside_229: 1570992182
+      Terrain and Outside_759: -1014076707
+      Terrain and Outside_583: -1263861624
+      Terrain and Outside_749: 1445421745
+      Terrain and Outside_877: -614054753
+      Terrain and Outside_125: -2095567249
+      Terrain and Outside_271: -1437647021
+      Terrain and Outside_892: -426777495
+      Terrain and Outside_605: -1398585004
+      Terrain and Outside_727: 1759628820
+      Terrain and Outside_960: -1257080402
+      Terrain and Outside_468: -813130840
+      Terrain and Outside_838: 429390094
+      Terrain and Outside_389: 923175700
+      Terrain and Outside_867: -1841763307
+      Terrain and Outside_368: -206378876
+      Terrain and Outside_179: 474465711
+      Terrain and Outside_553: -1281121834
+      Terrain and Outside_881: 1902918708
+      Terrain and Outside_738: 512142499
+      Terrain and Outside_938: 1505635576
+      Terrain and Outside_155: 144581987
+      Terrain and Outside_169: 1157362907
+      Terrain and Outside_828: 578678616
+      Terrain and Outside_281: 981288054
+      Terrain and Outside_202: -1516282097
+      Terrain and Outside_375: -251930648
+      Terrain and Outside_732: -1374616564
+      Terrain and Outside_444: 1730262789
+      Terrain and Outside_500: -1866035143
+      Terrain and Outside_684: 1084250034
+      Terrain and Outside_620: 548839124
+      Terrain and Outside_85: -1551383847
+      Terrain and Outside_196: 457680136
+      Terrain and Outside_16: -1073454800
+      Terrain and Outside_719: -1392377601
+      Terrain and Outside_580: 808524778
+      Terrain and Outside_10: 270113718
+      Terrain and Outside_84: 1128876505
+      Terrain and Outside_150: -1527876738
+      Terrain and Outside_190: 1756722465
+      Terrain and Outside_115: -1203451093
+      Terrain and Outside_200: 297677482
+      Terrain and Outside_601: 2143938700
+      Terrain and Outside_406: 1366138454
+      Terrain and Outside_420: -374005829
+      Terrain and Outside_733: 1737102385
+      Terrain and Outside_301: -402591056
+      Terrain and Outside_846: -1000898960
+      Terrain and Outside_597: 444554877
+      Terrain and Outside_445: -94383205
+      Terrain and Outside_55: 893216187
+      Terrain and Outside_112: -1359501954
+      Terrain and Outside_557: -767666371
+      Terrain and Outside_461: 1854704837
+      Terrain and Outside_66: -590544758
+      Terrain and Outside_321: -70655486
+      Terrain and Outside_883: 980823646
+      Terrain and Outside_777: 2092660934
+      Terrain and Outside_351: -1690730783
+      Terrain and Outside_217: -183922602
+      Terrain and Outside_160: 955556032
+      Terrain and Outside_162: 482782709
+      Terrain and Outside_438: 1106930762
+      Terrain and Outside_779: 1708464780
+      Terrain and Outside_916: -1008115853
+      Terrain and Outside_501: 666173817
+      Terrain and Outside_933: -581086945
+      Terrain and Outside_767: 1888926680
+      Terrain and Outside_484: -388416866
+      Terrain and Outside_837: 1670881607
+      Terrain and Outside_769: -730788025
+      Terrain and Outside_922: -194310351
+      Terrain and Outside_279: -545646016
+      Terrain and Outside_710: 707494132
+      Terrain and Outside_128: -1126724798
+      Terrain and Outside_191: -1264771571
+      Terrain and Outside_874: -698548112
+      Terrain and Outside_646: -593405135
+      Terrain and Outside_677: 1340986824
+      Terrain and Outside_886: -1537824218
+      Terrain and Outside_314: -2105689013
+      Terrain and Outside_745: -1054452867
+      Terrain and Outside_725: -1583396400
+      Terrain and Outside_376: 422146081
+      Terrain and Outside_790: -1963713657
+      Terrain and Outside_61: -782166728
+      Terrain and Outside_205: -1418993383
+      Terrain and Outside_798: -1090239884
+      Terrain and Outside_249: 1161394240
+      Terrain and Outside_450: -1033335059
+      Terrain and Outside_88: -1250843412
+      Terrain and Outside_639: 1709393162
+      Terrain and Outside_177: 879700133
+      Terrain and Outside_135: -2056912631
+      Terrain and Outside_262: -186040775
+      Terrain and Outside_486: -1908033643
+      Terrain and Outside_682: -1163361464
+      Terrain and Outside_357: 409828136
+      Terrain and Outside_660: 2143187481
+      Terrain and Outside_752: -310142428
+      Terrain and Outside_924: -1476623799
+      Terrain and Outside_681: -552847836
+      Terrain and Outside_741: -2063253338
+      Terrain and Outside_126: 634125279
+      Terrain and Outside_1: -1325163934
+      Terrain and Outside_579: -501398112
+      Terrain and Outside_854: -351234472
+      Terrain and Outside_211: 1530955329
+      Terrain and Outside_911: -986162061
+      Terrain and Outside_618: 1017594221
+      Terrain and Outside_410: -151332701
+      Terrain and Outside_801: -1550084777
+      Terrain and Outside_214: -1686868745
+      Terrain and Outside_797: 1105857138
+      Terrain and Outside_68: 72567840
+      Terrain and Outside_949: 994808666
+      Terrain and Outside_610: -1054373841
+      Terrain and Outside_442: -1036155487
+      Terrain and Outside_75: -1597938949
+      Terrain and Outside_796: 1018483344
+      Terrain and Outside_93: 719319422
+      Terrain and Outside_764: 746474783
+      Terrain and Outside_648: 522156554
+      Terrain and Outside_80: 1162167607
+      Terrain and Outside_776: 445260063
+      Terrain and Outside_941: 834742845
+      Terrain and Outside_863: 2031361839
+      Terrain and Outside_373: 1352742245
+      Terrain and Outside_455: 2095906497
+      Terrain and Outside_349: -1674937638
+      Terrain and Outside_545: 1252493362
+      Terrain and Outside_898: -1832467480
+      Terrain and Outside_286: 1325212338
+      Terrain and Outside_564: -149246491
+      Terrain and Outside_616: -1888183060
+      Terrain and Outside_878: 571038241
+      Terrain and Outside_855: -550469661
+      Terrain and Outside_283: 1987167036
+      Terrain and Outside_360: 2058296933
+      Terrain and Outside_689: -971735793
+      Terrain and Outside_849: 1826855835
+      Terrain and Outside_521: -329540402
+      Terrain and Outside_453: 1256915873
+      Terrain and Outside_551: 996792413
+      Terrain and Outside_490: 1841701558
+      Terrain and Outside_827: 2072942160
+      Terrain and Outside_315: 378095515
+      Terrain and Outside_526: 1244329192
+      Terrain and Outside_443: -1441398274
+      Terrain and Outside_464: -1526742409
+      Terrain and Outside_20: 1294584520
+      Terrain and Outside_198: -849925371
+      Terrain and Outside_330: -9415495
+      Terrain and Outside_893: 796238365
+      Terrain and Outside_97: 944911174
+      Terrain and Outside_123: 572614170
+      Terrain and Outside_799: -245705612
+      Terrain and Outside_703: -1429205571
+      Terrain and Outside_479: 144434034
+      Terrain and Outside_628: 1182574965
+      Terrain and Outside_919: 1910908197
+      Terrain and Outside_735: -876478241
+      Terrain and Outside_457: -1827060780
+      Terrain and Outside_823: -754047236
+      Terrain and Outside_74: 1453216599
+      Terrain and Outside_713: 1615060340
+      Terrain and Outside_697: -787644330
+      Terrain and Outside_901: -2017815725
+      Terrain and Outside_323: 177262013
+      Terrain and Outside_253: -134060325
+      Terrain and Outside_552: 1976650313
+      Terrain and Outside_91: -98925212
+      Terrain and Outside_83: -852648253
+      Terrain and Outside_192: -164327567
+      Terrain and Outside_477: 1610919031
+      Terrain and Outside_783: 716029205
+      Terrain and Outside_347: 1792258947
+      Terrain and Outside_131: -914526318
+      Terrain and Outside_737: -1275036723
+      Terrain and Outside_773: 410707106
+      Terrain and Outside_233: -608324784
+      Terrain and Outside_860: 2054352402
+      Terrain and Outside_606: 2047862476
+      Terrain and Outside_921: 1040047816
+      Terrain and Outside_882: -126777372
+      Terrain and Outside_946: 227489145
+      Terrain and Outside_786: 2008368741
+      Terrain and Outside_809: 1356793492
+      Terrain and Outside_624: -1688603243
+      Terrain and Outside_145: 700653304
+      Terrain and Outside_221: -671344405
+      Terrain and Outside_662: 1788884684
+      Terrain and Outside_918: -1727343448
+      Terrain and Outside_346: 1179963590
+      Terrain and Outside_121: -1318547671
+      Terrain and Outside_35: -729731091
+      Terrain and Outside_396: -1857414517
+      Terrain and Outside_596: -167162763
+      Terrain and Outside_394: 233843271
+      Terrain and Outside_821: -2071605305
+      Terrain and Outside_246: -1536820723
+      Terrain and Outside_753: 1192724774
+      Terrain and Outside_824: -1082415447
+      Terrain and Outside_178: 515952707
+      Terrain and Outside_900: 792807923
+      Terrain and Outside_917: 1355662555
+      Terrain and Outside_319: 121496356
+      Terrain and Outside_598: 309170381
+      Terrain and Outside_208: -1969753055
+      Terrain and Outside_386: -348335109
+      Terrain and Outside_82: -876634154
+      Terrain and Outside_754: 212743520
+      Terrain and Outside_609: -364604697
+      Terrain and Outside_219: -1101413855
+      Terrain and Outside_636: 1540377210
+      Terrain and Outside_510: 711300148
+      Terrain and Outside_739: -28690080
+      Terrain and Outside_805: -890503289
+      Terrain and Outside_803: -1161953347
+      Terrain and Outside_353: -602894725
+      Terrain and Outside_643: -456432764
+      Terrain and Outside_243: 963974014
+      Terrain and Outside_273: -510573254
+      Terrain and Outside_187: -1658907289
+      Terrain and Outside_272: 1149216772
+      Terrain and Outside_750: 872511393
+      Terrain and Outside_561: 2053951307
+      Terrain and Outside_708: -1925923894
+      Terrain and Outside_275: -751371784
+      Terrain and Outside_235: 718971565
+      Terrain and Outside_514: 1702239682
+      Terrain and Outside_944: -894753164
+      Terrain and Outside_60: -435484496
+      Terrain and Outside_658: -829797044
+      Terrain and Outside_897: 357057211
+      Terrain and Outside_462: -1326808385
+      Terrain and Outside_515: 1383804436
+      Terrain and Outside_880: 994598427
+      Terrain and Outside_789: -1139550522
+      Terrain and Outside_104: 1083293642
+      Terrain and Outside_226: -1001395852
+      Terrain and Outside_559: -1581495168
+      Terrain and Outside_536: 1002284527
+      Terrain and Outside_757: -201996568
+      Terrain and Outside_664: -1457037070
+      Terrain and Outside_858: -1575531335
+      Terrain and Outside_9: 452311849
+      Terrain and Outside_765: -169538233
+      Terrain and Outside_316: -1584479019
+      Terrain and Outside_371: -69006040
+      Terrain and Outside_459: -1587130991
+      Terrain and Outside_671: -2016158109
+      Terrain and Outside_414: -405746162
+      Terrain and Outside_747: -237240677
+      Terrain and Outside_859: -1555607182
+      Terrain and Outside_541: -1225620796
+      Terrain and Outside_576: -1254261238
+      Terrain and Outside_288: -1929022746
+      Terrain and Outside_297: -2075446343
+      Terrain and Outside_864: -1113800401
+      Terrain and Outside_242: 1679746024
+      Terrain and Outside_385: 1449003245
+      Terrain and Outside_955: 811278611
+      Terrain and Outside_167: 806470843
+      Terrain and Outside_300: 1058627833
+      Terrain and Outside_958: 1620857129
+      Terrain and Outside_231: -337767119
+      Terrain and Outside_539: 422672459
+      Terrain and Outside_674: -923504442
+      Terrain and Outside_230: 1797065019
+      Terrain and Outside_566: -697053167
+      Terrain and Outside_388: 1130021888
+      Terrain and Outside_267: -1043418846
+      Terrain and Outside_270: 1083327861
+      Terrain and Outside_72: -617004700
+      Terrain and Outside_154: -177153782
+      Terrain and Outside_142: 1950900888
+      Terrain and Outside_899: 642230546
+      Terrain and Outside_768: -1783727841
+      Terrain and Outside_686: 374685177
+      Terrain and Outside_640: -2061176895
+      Terrain and Outside_925: 739722355
+      Terrain and Outside_830: -50157073
+      Terrain and Outside_498: -1499242320
+      Terrain and Outside_649: -312961729
+      Terrain and Outside_175: -1392858840
+      Terrain and Outside_384: -1624695680
+      Terrain and Outside_77: -748817564
+      Terrain and Outside_424: 844292865
+      Terrain and Outside_788: 872862380
+      Terrain and Outside_959: -387616596
+      Terrain and Outside_721: -1011027946
+      Terrain and Outside_158: -2046730982
+      Terrain and Outside_95: 444384304
+      Terrain and Outside_313: 1920135691
+      Terrain and Outside_653: 759065462
+      Terrain and Outside_665: -1546686039
+      Terrain and Outside_641: 1326005702
+      Terrain and Outside_215: 2045339372
+      Terrain and Outside_28: -1006203574
+      Terrain and Outside_336: 464137596
+      Terrain and Outside_282: -447141496
+      Terrain and Outside_73: -148442749
+      Terrain and Outside_260: -1971319662
+      Terrain and Outside_428: -1640887178
+      Terrain and Outside_116: -955347316
+      Terrain and Outside_193: -596475251
+      Terrain and Outside_691: 1359260926
+      Terrain and Outside_30: 1666807595
+      Terrain and Outside_929: 1917990867
+      Terrain and Outside_225: -1352208992
+      Terrain and Outside_935: 410217188
+      Terrain and Outside_276: -814112897
+      Terrain and Outside_751: -1971779572
+      Terrain and Outside_469: -525920491
+      Terrain and Outside_290: 1996990500
+      Terrain and Outside_547: -2044686788
+      Terrain and Outside_888: -724491917
+      Terrain and Outside_100: 22763389
+      Terrain and Outside_381: 1510108289
+      Terrain and Outside_234: -218513436
+      Terrain and Outside_556: -1584373849
+      Terrain and Outside_27: -1770668687
+      Terrain and Outside_563: -1145252275
+      Terrain and Outside_611: -1070771225
+      Terrain and Outside_289: -508817135
+      Terrain and Outside_540: 405713918
+      Terrain and Outside_770: 1732029535
+      Terrain and Outside_189: -938921441
+      Terrain and Outside_831: 882901670
+      Terrain and Outside_669: -1815368963
+      Terrain and Outside_102: 1415183557
+      Terrain and Outside_843: -856955015
+      Terrain and Outside_223: -1098603699
+      Terrain and Outside_731: -1989250697
+      Terrain and Outside_303: 2122338673
+      Terrain and Outside_481: 1225938745
+      Terrain and Outside_153: -503951512
+      Terrain and Outside_227: -1532505629
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
