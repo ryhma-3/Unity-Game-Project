@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,2419 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 486
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -11}
+        - {x: -1, y: -14}
+        - {x: -1, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: -3}
+        - {x: 12, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71630aa03d088204ab37a358766218ac
+      internalID: 1092491613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 486
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -2}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 1, y: -16}
+        - {x: 4, y: -13}
+        - {x: 16, y: -14}
+        - {x: 16, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612c95ef216e56e418263c57c1700cd2
+      internalID: 1655471589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 486
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -8.91571}
+        - {x: 16, y: -3}
+        - {x: 7, y: 1}
+        - {x: -10, y: 1}
+        - {x: -16, y: -2}
+        - {x: -16, y: -14}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a23b107a51a64a8220a7ca58ad9c5
+      internalID: 375872115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 486
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: -2, y: -13}
+        - {x: -12, y: -6}
+        - {x: -16, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd82c1d9bd8cc14685eb50232fb91c1
+      internalID: 1759655432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 454
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -11}
+        - {x: 2, y: -12}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 13, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dd93448e944524f8a05a7f5426c9f6
+      internalID: -379981448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 454
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16}
+        - {x: -6, y: 11}
+        - {x: -12, y: 5}
+        - {x: -13, y: 0}
+        - {x: -16, y: -2}
+        - {x: -16, y: -16}
+        - {x: -15, y: -16}
+        - {x: -10, y: -12}
+        - {x: -1, y: -3}
+        - {x: 8, y: 10}
+        - {x: 12, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17938dc5c3f47e4ba830bae3b907216
+      internalID: 1721728584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 454
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 10}
+        - {x: -6, y: 8}
+        - {x: 16, y: -10}
+        - {x: 16, y: 6}
+        - {x: 4, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62267656d143b6d4aba7ec87f1c7a519
+      internalID: -1259028714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 454
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -9}
+        - {x: -13, y: -16}
+        - {x: -3, y: -16}
+        - {x: -7, y: -8}
+        - {x: -13, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c935802a37d56624c84d397b7cb7f432
+      internalID: 2084846804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 454
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 0}
+        - {x: -5, y: 5}
+        - {x: -14, y: 5}
+        - {x: -16, y: 3}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 9, y: -10}
+        - {x: 3, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f1d6ba1f4e6548ab139530ba5ebe8
+      internalID: 1607063292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 454
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -7}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 9, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201f8e029267316478c11c33c587cb3a
+      internalID: 149079052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 16}
+        - {x: 0, y: 1}
+        - {x: 0, y: -6}
+        - {x: 1, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -12}
+        - {x: 11, y: -2}
+        - {x: 13, y: 5}
+        - {x: 14, y: 10}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0d149f7947314c930189a14905a0b
+      internalID: 239149825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 9}
+        - {x: -16, y: -16}
+        - {x: 5, y: -16}
+        - {x: 6, y: -6}
+        - {x: 3, y: 7}
+        - {x: -3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8136533aa9f575741929858cfeabfcde
+      internalID: 1070199744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -9}
+        - {x: -9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 13, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3a622fb938da141a078efbba210e05
+      internalID: -1686584319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 422
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16}
+        - {x: -5, y: 13}
+        - {x: -7, y: 9}
+        - {x: -12, y: 6}
+        - {x: -15, y: 10}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -15}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7762b3714ab6e7040b1d0712b2468eca
+      internalID: -1050835812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 390
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -1, y: 5}
+        - {x: -1, y: -2}
+        - {x: 0, y: -12}
+        - {x: 0, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba2c153f1c14e84cb162b39329dfdb1
+      internalID: -1303671891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 390
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -10, y: 12}
+        - {x: -10, y: 3}
+        - {x: -16, y: -5}
+        - {x: -16, y: -13}
+        - {x: -13, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efc810e387db894ca117fb4865059a2
+      internalID: -938969655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 390
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 16}
+        - {x: -1, y: 9}
+        - {x: 6, y: 2}
+        - {x: 12, y: -8}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cebfd026f7bd74eb2b0c7143225ae6
+      internalID: -1054061477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 390
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -13}
+        - {x: -10, y: -8}
+        - {x: -5, y: 0}
+        - {x: 3, y: 3}
+        - {x: 8, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdb963db4bbe8c47b6218419fc1904e
+      internalID: -2102968865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 16}
+        - {x: -3, y: 7}
+        - {x: -1, y: 2}
+        - {x: -1, y: -7}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -10}
+        - {x: 10, y: -1}
+        - {x: 10, y: 11}
+        - {x: 13, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c74935350473bf4e82742fcc4a08dcd
+      internalID: 1702170433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -12}
+        - {x: -9, y: -9}
+        - {x: -16, y: -10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ead7b65022754aa5553a235608df3
+      internalID: 1551871356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: -16, y: -14}
+        - {x: -1, y: -12}
+        - {x: 16, y: -13}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e303a45a44bf8f74f9b79f8df8497f26
+      internalID: 1171431726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -10}
+        - {x: -11, y: -11}
+        - {x: -16, y: -13}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 9, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbfeaa3cd8c47f458d4ed2f4a3b1cf4
+      internalID: 253446237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: 7}
+        - {x: 6, y: -5}
+        - {x: 0, y: -10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce2e161cc41e6e469f489e364c9a1aa
+      internalID: 289023029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 4, y: -2}
+        - {x: 3, y: 10}
+        - {x: 5, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348a5217334d02f48ba47a9c4e7acd5b
+      internalID: 860999336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -1}
+        - {x: -5, y: -12}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb115c8f975538c41bbc6d7316cb18d4
+      internalID: 404277650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -11}
+        - {x: -1, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4535f17bd836f1489b915693c59a51d
+      internalID: 1997979817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990529d21d87ab4438d741fa3c068368
+      internalID: -1551349480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4ac9e678cfae44892657839bebb5ac
+      internalID: 1127937661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 16}
+        - {x: -4, y: 5}
+        - {x: 0, y: -3}
+        - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08f00ac5b00d03458c066c5408018d6
+      internalID: -607942341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dab70a412be69f49a5a6b9b48ca89ca
+      internalID: 1101365910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90255de00556304087801c0b74475e2
+      internalID: -100823975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e3d7640a522474e98700e1d55fc3be
+      internalID: 211941806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaea0904b54a4b146a713e5727efb42c
+      internalID: -874724011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -10, y: -13}
+        - {x: -7, y: -6}
+        - {x: 2, y: -1}
+        - {x: 3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cab430178eecea4d80f459714c4caef
+      internalID: 2081508197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 16}
+        - {x: -15, y: -6}
+        - {x: -15, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60f5fa51f4a9ac4a95c6c0f4db156cc
+      internalID: 826976451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -10, y: -9}
+        - {x: -9, y: -14}
+        - {x: -3, y: -16}
+        - {x: 14, y: -16}
+        - {x: 13, y: 0}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982428408dc406b4099128563c313e7a
+      internalID: 839282758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a48120a1e6e448bfab25edaca30bd
+      internalID: -1300162088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_42
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d249df2d82364174abe00ac611b4920b
+      internalID: 694156794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ef1aad5ba942643b90664e7acac316
+      internalID: -1112872783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -2, y: 15}
+        - {x: 4, y: 9}
+        - {x: 10, y: 3}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a17835a0ef5546a216c0359006ddf
+      internalID: -268866369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -8}
+        - {x: 4, y: -14}
+        - {x: 10, y: -14}
+        - {x: 16, y: -11}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aef8e8faaaa9d049ab0ae73ec3dd62c
+      internalID: -668347364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -11}
+        - {x: -13, y: -14}
+        - {x: -7, y: -12}
+        - {x: 2, y: -13}
+        - {x: 10, y: -12}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc880706373ff9646b68a908d23d0239
+      internalID: -839273249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: 1, y: -13}
+        - {x: 6, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f508b25c5b4a3f408c3fdf1636ed0cf
+      internalID: -1129678785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -8}
+        - {x: -2, y: -12}
+        - {x: 8, y: -9}
+        - {x: 16, y: -4}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb84e20e932bff4fafedfb4f459d41e
+      internalID: -2143045497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 12}
+        - {x: -10, y: 7}
+        - {x: -5, y: 7}
+        - {x: 5, y: -2}
+        - {x: 9, y: -2}
+        - {x: 16, y: -11}
+        - {x: 16, y: 3}
+        - {x: 14, y: 7}
+        - {x: 9, y: 12}
+        - {x: 4, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcce518ed681784aaa33b48835cbd04
+      internalID: -33165588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 16}
+        - {x: 1, y: 16}
+        - {x: -4, y: 11}
+        - {x: -9, y: 7}
+        - {x: -10, y: 3}
+        - {x: -16, y: 2}
+        - {x: -16, y: -11}
+        - {x: -9, y: -6}
+        - {x: -3, y: 1}
+        - {x: 4, y: 5}
+        - {x: 9, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60575850f4af564393f472a3ed9dfcf
+      internalID: 1264820189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -4}
+        - {x: -12, y: -9}
+        - {x: 1, y: -9}
+        - {x: 3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac92b2bac6b122846b50f5d68b542cc8
+      internalID: -776826408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca408b1bb1ecaf41914508efd600920
+      internalID: 1869026154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 16}
+        - {x: -4, y: -12}
+        - {x: 6, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ccc73698324d24c98fd14c7e502792
+      internalID: 1952251737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 9, y: -14}
+        - {x: 8, y: -10}
+        - {x: 3, y: -9}
+        - {x: 0, y: -4}
+        - {x: -1, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753ebd7a972296e49bd6ec38e3b08c1f
+      internalID: 2010596361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: -4, y: -4}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e82c6b552d304db4456f7fc5f24be
+      internalID: 1205094671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_72
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5e0ba379deed544b7e47dcea7be3e7
+      internalID: 1343485161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -13}
+        - {x: -16, y: -16}
+        - {x: -5, y: -16}
+        - {x: -7, y: -14}
+        - {x: -10, y: -12}
+        - {x: -12, y: -12}
+      - - {x: 8, y: -12}
+        - {x: 4, y: -12}
+        - {x: 1, y: -14}
+        - {x: -1, y: -16}
+        - {x: 14, y: -16}
+        - {x: 12, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee8e1b4e26546e4ebf26241976e8433
+      internalID: -1166041092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -6}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+        - {x: 13, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b3251e46c6a8041a5d24c8a4f1b80d
+      internalID: 1143873448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 4}
+        - {x: -16, y: 3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+        - {x: 12, y: -2}
+        - {x: 6, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595454f57a5c0334ea9785338757a814
+      internalID: -1927560152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 9}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 14, y: -11}
+        - {x: 10, y: -8}
+        - {x: -1, y: -1}
+        - {x: -5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54df2e985e1a0498d39189941be12f
+      internalID: 573759894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -4, y: -3}
+        - {x: -11, y: -12}
+        - {x: -16, y: -16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 10, y: 11}
+        - {x: 1, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d15c15836fda41b602282d4fea922
+      internalID: 774603122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -3}
+        - {x: -5, y: -4}
+        - {x: -2, y: -10}
+        - {x: -2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e4c05e74701140830a0637907d9ba
+      internalID: -553829484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 9}
+        - {x: 7, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537281bc67067a04ca4a156ac73cc9a5
+      internalID: 76829111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1af7cf2ecec6742b967fc26a13b17c
+      internalID: 2099865352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2144faef2dadab44f9eb05e90d7b09c6
+      internalID: -2079914805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510b8f1c67c466643b4b00b13c36dd7e
+      internalID: -1994120405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb08538070e8cc3438c846359959ca28
+      internalID: 1222040325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -9}
+        - {x: -7, y: -10}
+        - {x: -2, y: -14}
+        - {x: 6, y: -14}
+        - {x: 11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a26eb1232b52b4d9f194ec446a7711
+      internalID: -893115034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -13, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e3b2d61f0776845bebdaf9fb6ffc87
+      internalID: -454677448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a6fd81290ca24cb6ba72931625285
+      internalID: 215678149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_87
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 198
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -8, y: -16}
+        - {x: 1, y: -14}
+        - {x: 5, y: -13}
+        - {x: 14, y: -8}
+        - {x: 16, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1078c8ca0c5ac0f47bef3a4cbdfbe7c7
+      internalID: 478932381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -1, y: 11}
+        - {x: 5, y: 7}
+        - {x: 13, y: 1}
+        - {x: 13, y: -7}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595863d6607933645b45e56d7dfc5094
+      internalID: 643204945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -13}
+        - {x: -13, y: -14}
+        - {x: -7, y: -14}
+        - {x: -5, y: -10}
+        - {x: 2, y: -12}
+        - {x: 12, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c80c37a567e534c84bbe18f4d2d405
+      internalID: -315004606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -13}
+        - {x: -4, y: -12}
+        - {x: 6, y: -10}
+        - {x: 16, y: -6}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e0c3d18b74404fba65453bf37a87c
+      internalID: 1909933621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -10, y: -14}
+        - {x: 5, y: -14}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54370625c67a11d4daa2b02518e1f7b5
+      internalID: 132628693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: -4, y: -13}
+        - {x: 10, y: -10}
+        - {x: 16, y: -6}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ec386c9c815bd4d900adaba69e8b83
+      internalID: 1504415508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -6}
+        - {x: -13, y: 2}
+        - {x: -4, y: 6}
+        - {x: 4, y: 3}
+        - {x: 16, y: 0}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5479ed17827770449b5b780db435797
+      internalID: 1399368376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: 16}
+        - {x: 13, y: 14}
+        - {x: 16, y: 13}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d612f32ed302804aaf4f4564268b3da
+      internalID: 1870694349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 13}
+        - {x: -15, y: 9}
+        - {x: -13, y: 8}
+        - {x: -12, y: 9}
+        - {x: -12, y: 15}
+        - {x: -13, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12690a0a61119d4c9a5cf6933338a1e
+      internalID: -1030729773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: 16}
+        - {x: 9, y: 10}
+        - {x: 10, y: 7}
+        - {x: 12, y: 7}
+        - {x: 15, y: 12}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc917976f56c814e8e28c28b31d6a9d
+      internalID: -599348092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -15}
+        - {x: 5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -13}
+        - {x: 13, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb2bce55646e31408c5b783541d91b4
+      internalID: -1870247531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -3}
+        - {x: 12, y: -4}
+        - {x: 3, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d13899c0853644a805ee66b529fbf0
+      internalID: 1733660259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -12}
+        - {x: 5, y: -6}
+        - {x: -1, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48989261ce73c824e9d814b0b911d0e7
+      internalID: 938172981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: -9, y: -16}
+        - {x: -10, y: -13}
+        - {x: -12, y: -12}
+        - {x: -16, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1667431abfa065444a2a94091d3445ca
+      internalID: -1640663517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 16}
+        - {x: -1, y: 16}
+        - {x: -9, y: 10}
+        - {x: -12, y: 7}
+        - {x: -16, y: -3}
+        - {x: -16, y: -9}
+        - {x: -11, y: -7}
+        - {x: -7, y: -2}
+        - {x: -3, y: 6}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68604835d8434d3438cc549a9cd44ebb
+      internalID: -247773475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 16}
+        - {x: 4, y: 13}
+        - {x: 6, y: 8}
+        - {x: 9, y: 0}
+        - {x: 13, y: -4}
+        - {x: 16, y: -5}
+        - {x: 16, y: 0}
+        - {x: 14, y: 9}
+        - {x: 9, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a824f4e730198c3439aacf87c31d2868
+      internalID: -1475628102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 16}
+        - {x: -16, y: 0}
+        - {x: -16, y: -15}
+        - {x: -10, y: -10}
+        - {x: -1, y: -1}
+        - {x: 9, y: 6}
+        - {x: 16, y: 3}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5853de4688d6db943af0d6c4ad4efd0c
+      internalID: -897180476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 3}
+        - {x: -10, y: 8}
+        - {x: -1, y: 9}
+        - {x: 3, y: 11}
+        - {x: 7, y: 9}
+        - {x: 12, y: 7}
+        - {x: 16, y: 10}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a84b086b51f3fa419ed9334228dc9fd
+      internalID: -1338052223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 10}
+        - {x: -1, y: 10}
+        - {x: 3, y: 6}
+        - {x: 9, y: 8}
+        - {x: 12, y: 1}
+        - {x: 16, y: -2}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e64200cfef1a4d85b43f665763e55
+      internalID: -1250249090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -2}
+        - {x: -14, y: -4}
+        - {x: -8, y: -1}
+        - {x: -2, y: -7}
+        - {x: 7, y: -9}
+        - {x: 11, y: -15}
+        - {x: 16, y: -16}
+        - {x: 16, y: -3}
+        - {x: 12, y: -1}
+        - {x: 10, y: 5}
+        - {x: 5, y: 9}
+        - {x: 1, y: 9}
+        - {x: -2, y: 13}
+        - {x: -9, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192ed4233517c5d4ab0c7570cf974bef
+      internalID: -59682336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -4}
+        - {x: -16, y: -2}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 12, y: -13}
+        - {x: 6, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c20415f5862d514693b71b6e2bc11a3
+      internalID: 1837391083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_110
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -7, y: 13}
+        - {x: 4, y: 10}
+        - {x: 7, y: 4}
+        - {x: 16, y: 0}
+        - {x: 16, y: 13}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469f6aa0d67fc1c43b15e39ff0f865d0
+      internalID: -967474671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff_Tiles_No_Grass_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 9}
+        - {x: -16, y: 13}
+        - {x: -16, y: 0}
+        - {x: -14, y: -16}
+        - {x: -4, y: -16}
+        - {x: -5, y: -1}
+        - {x: -8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7216fc844b7684fa3c0701608d2734
+      internalID: -1183729426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +2538,128 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cliff_Tiles_No_Grass_45: -668347364
+      Cliff_Tiles_No_Grass_68: 2136608386
+      Cliff_Tiles_No_Grass_74: 1143873448
+      Cliff_Tiles_No_Grass_104: -1338052223
+      Cliff_Tiles_No_Grass_16: -1050835812
+      Cliff_Tiles_No_Grass_73: -1166041092
+      Cliff_Tiles_No_Grass_98: 1733660259
+      Cliff_Tiles_No_Grass_56: 2026184506
+      Cliff_Tiles_No_Grass_119: 1118989348
+      Cliff_Tiles_No_Grass_27: 289023029
+      Cliff_Tiles_No_Grass_112: 1249924539
+      Cliff_Tiles_No_Grass_34: 1101365910
+      Cliff_Tiles_No_Grass_87: 478932381
+      Cliff_Tiles_No_Grass_43: -1112872783
+      Cliff_Tiles_No_Grass_91: 132628693
+      Cliff_Tiles_No_Grass_42: 694156794
+      Cliff_Tiles_No_Grass_46: -839273249
+      Cliff_Tiles_No_Grass_86: 215678149
+      Cliff_Tiles_No_Grass_66: -1619768822
+      Cliff_Tiles_No_Grass_40: 839282758
+      Cliff_Tiles_No_Grass_120: -851264641
+      Cliff_Tiles_No_Grass_59: 291698444
+      Cliff_Tiles_No_Grass_63: 488054873
+      Cliff_Tiles_No_Grass_9: 2084846804
+      Cliff_Tiles_No_Grass_25: 1171431726
+      Cliff_Tiles_No_Grass_90: 1909933621
+      Cliff_Tiles_No_Grass_118: -896768794
+      Cliff_Tiles_No_Grass_78: -553829484
+      Cliff_Tiles_No_Grass_23: 1702170433
+      Cliff_Tiles_No_Grass_92: 1504415508
+      Cliff_Tiles_No_Grass_38: 2081508197
+      Cliff_Tiles_No_Grass_102: -1475628102
+      Cliff_Tiles_No_Grass_60: -535576947
+      Cliff_Tiles_No_Grass_88: 643204945
+      Cliff_Tiles_No_Grass_93: 1399368376
+      Cliff_Tiles_No_Grass_15: -1686584319
+      Cliff_Tiles_No_Grass_79: 76829111
+      Cliff_Tiles_No_Grass_64: 995838364
+      Cliff_Tiles_No_Grass_84: -893115034
+      Cliff_Tiles_No_Grass_21: -1054061477
+      Cliff_Tiles_No_Grass_18: -433284112
+      Cliff_Tiles_No_Grass_100: -1640663517
+      Cliff_Tiles_No_Grass_0: 1092491613
+      Cliff_Tiles_No_Grass_26: 253446237
+      Cliff_Tiles_No_Grass_62: 375570076
+      Cliff_Tiles_No_Grass_36: 211941806
+      Cliff_Tiles_No_Grass_95: -1030729773
+      Cliff_Tiles_No_Grass_65: 544636497
+      Cliff_Tiles_No_Grass_72: 1343485161
+      Cliff_Tiles_No_Grass_37: -874724011
+      Cliff_Tiles_No_Grass_89: -315004606
+      Cliff_Tiles_No_Grass_67: -1511246010
+      Cliff_Tiles_No_Grass_19: -1416837500
+      Cliff_Tiles_No_Grass_81: -2079914805
+      Cliff_Tiles_No_Grass_101: -247773475
+      Cliff_Tiles_No_Grass_107: 1837391083
+      Cliff_Tiles_No_Grass_14: 1070199744
+      Cliff_Tiles_No_Grass_30: 1997979817
+      Cliff_Tiles_No_Grass_22: -2102968865
+      Cliff_Tiles_No_Grass_103: -897180476
+      Cliff_Tiles_No_Grass_13: 2039212916
+      Cliff_Tiles_No_Grass_76: 573759894
+      Cliff_Tiles_No_Grass_61: -2093039638
+      Cliff_Tiles_No_Grass_17: -1303671891
+      Cliff_Tiles_No_Grass_105: -1250249090
+      Cliff_Tiles_No_Grass_55: 1293106857
+      Cliff_Tiles_No_Grass_94: 1870694349
+      Cliff_Tiles_No_Grass_35: -100823975
+      Cliff_Tiles_No_Grass_6: -229720367
+      Cliff_Tiles_No_Grass_48: -2143045497
+      Cliff_Tiles_No_Grass_77: 774603122
+      Cliff_Tiles_No_Grass_80: 2099865352
+      Cliff_Tiles_No_Grass_53: 1952251737
+      Cliff_Tiles_No_Grass_2: 375872115
+      Cliff_Tiles_No_Grass_117: 2059076568
+      Cliff_Tiles_No_Grass_11: 149079052
+      Cliff_Tiles_No_Grass_115: -181276661
+      Cliff_Tiles_No_Grass_109: 656027590
+      Cliff_Tiles_No_Grass_20: -938969655
+      Cliff_Tiles_No_Grass_111: -1183729426
+      Cliff_Tiles_No_Grass_110: -967474671
+      Cliff_Tiles_No_Grass_58: -1896735812
+      Cliff_Tiles_No_Grass_113: 931701785
+      Cliff_Tiles_No_Grass_5: 1721728584
+      Cliff_Tiles_No_Grass_7: 887355115
+      Cliff_Tiles_No_Grass_10: 1607063292
+      Cliff_Tiles_No_Grass_8: -1259028714
+      Cliff_Tiles_No_Grass_4: -379981448
+      Cliff_Tiles_No_Grass_32: 1127937661
+      Cliff_Tiles_No_Grass_114: -2100828726
+      Cliff_Tiles_No_Grass_33: -607942341
+      Cliff_Tiles_No_Grass_75: -1927560152
+      Cliff_Tiles_No_Grass_97: -1870247531
+      Cliff_Tiles_No_Grass_24: 1551871356
+      Cliff_Tiles_No_Grass_85: -454677448
+      Cliff_Tiles_No_Grass_70: -2092149360
+      Cliff_Tiles_No_Grass_50: 1264820189
+      Cliff_Tiles_No_Grass_99: 938172981
+      Cliff_Tiles_No_Grass_47: -1129678785
+      Cliff_Tiles_No_Grass_41: -1300162088
+      Cliff_Tiles_No_Grass_57: -426809150
+      Cliff_Tiles_No_Grass_108: -552551918
+      Cliff_Tiles_No_Grass_82: -1994120405
+      Cliff_Tiles_No_Grass_39: 826976451
+      Cliff_Tiles_No_Grass_83: 1222040325
+      Cliff_Tiles_No_Grass_51: -776826408
+      Cliff_Tiles_No_Grass_52: 1869026154
+      Cliff_Tiles_No_Grass_3: 1759655432
+      Cliff_Tiles_No_Grass_116: 1554599121
+      Cliff_Tiles_No_Grass_49: -33165588
+      Cliff_Tiles_No_Grass_29: 404277650
+      Cliff_Tiles_No_Grass_1: 1655471589
+      Cliff_Tiles_No_Grass_44: -268866369
+      Cliff_Tiles_No_Grass_106: -59682336
+      Cliff_Tiles_No_Grass_28: 860999336
+      Cliff_Tiles_No_Grass_54: 151789010
+      Cliff_Tiles_No_Grass_69: 2010596361
+      Cliff_Tiles_No_Grass_31: -1551349480
+      Cliff_Tiles_No_Grass_71: 1205094671
+      Cliff_Tiles_No_Grass_96: -599348092
+      Cliff_Tiles_No_Grass_12: 239149825
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
