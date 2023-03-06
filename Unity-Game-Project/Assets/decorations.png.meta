@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorations_16
+      name: decorations_16.02
       rect:
         serializedVersion: 2
         x: 0
@@ -415,7 +415,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.20033455}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: -15}
       tessellationDetail: 0
       bones: []
       spriteID: b247d5b83aa045f43b51362f027dce50
@@ -662,7 +666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorations_32
+      name: decorations_32.02
       rect:
         serializedVersion: 2
         x: 0
@@ -673,7 +677,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6, y: -10}
+        - {x: -8, y: -13}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -13}
+        - {x: 5, y: -10}
       tessellationDetail: 0
       bones: []
       spriteID: 064ef42630b115f4c9f0a84c8ce3c0ef
@@ -1410,7 +1420,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -9, y: -8}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 0398bdd22fd57cb4d99863bcb61ddd0b
@@ -1498,7 +1512,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -15, y: -16}
+        - {x: -16, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 60ab2dec4de7b9d4a9599aacc7471572
@@ -1519,7 +1537,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -15, y: -16}
+        - {x: -16, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 0f226573794a1ed4596aaa92df5378c5
@@ -2220,7 +2242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorations_130
+      name: decorations_130.02
       rect:
         serializedVersion: 2
         x: 64
@@ -2231,7 +2253,11 @@ TextureImporter:
       pivot: {x: 0.47204208, y: 0.24838638}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -10}
+        - {x: -16, y: -31}
+        - {x: 15, y: -31}
+        - {x: 16, y: -10}
       tessellationDetail: 0
       bones: []
       spriteID: 7eaeea381f352c44aa66e01251cc05be
@@ -5028,7 +5054,11 @@ TextureImporter:
       pivot: {x: 0.53832436, y: 0.25088215}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -11, y: -32}
+        - {x: -12, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: -32}
       tessellationDetail: 0
       bones: []
       spriteID: 64d6c0e173d68fa4fa67ce92cc14d9d8
@@ -5423,9 +5453,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       decorations_833: 2082209976
-      decorations_304: -1407459872
-      decorations_231: -640154519
+      decorations_289: -282577624
       decorations_895: -638405539
+      decorations_304: -1407459872
       decorations_150: -1154142187
       decorations_408: 1455015018
       decorations_494: -1605655722
@@ -5460,6 +5490,7 @@ TextureImporter:
       decorations_422: -1456511283
       decorations_892: 1027581847
       decorations_262: 1145469697
+      decorations_130.02: -1762328099
       decorations_20: -557624488
       decorations_741: -1950002287
       decorations_257: -939460611
@@ -5598,9 +5629,8 @@ TextureImporter:
       decorations_332: 568385663
       decorations_715: 328388958
       decorations_479: 1360727489
-      decorations_16: 698593475
-      decorations_712: -1772792204
       decorations_565: 2133192438
+      decorations_712: -1772792204
       decorations_306: -616620603
       decorations_501: 1587823481
       decorations_573: 626621067
@@ -5828,6 +5858,7 @@ TextureImporter:
       decorations_537: 1781059047
       decorations_384: -387105435
       decorations_570: 1584007792
+      decorations_32.02: -1918028137
       decorations_268: -1749391321
       decorations_337: 588036626
       decorations_140: 1943668941
@@ -5900,6 +5931,7 @@ TextureImporter:
       decorations_405: -1445474812
       decorations_203: -323394626
       decorations_217: -1834773831
+      decorations_16.02: 698593475
       decorations_196: -1816789882
       decorations_93: -598295956
       decorations_38: 1747539270
@@ -5974,10 +6006,9 @@ TextureImporter:
       decorations_233: 2105593434
       decorations_403: -1806265249
       decorations_407: 247482256
-      decorations_130: -1762328099
       decorations_596: 1961818773
-      decorations_884: -959468416
       decorations_735: -269144872
+      decorations_884: -959468416
       decorations_91: -384675123
       decorations_545: 454464920
       decorations_628: -697227388
@@ -6248,7 +6279,6 @@ TextureImporter:
       decorations_210: -1525656222
       decorations_857: -409548564
       decorations_480: -962382058
-      decorations_32: -1918028137
       decorations_841: 902599433
       decorations_739: 538198182
       decorations_485: 658623165
@@ -6350,11 +6380,11 @@ TextureImporter:
       decorations_19: -2046121247
       decorations_90: 1971768600
       decorations_188: -1093001821
+      decorations_598: 1743070696
+      decorations_876: -858098053
+      decorations_231: -640154519
       decorations_126: -592324087
       decorations_288: -1420874172
-      decorations_598: 1743070696
-      decorations_289: -282577624
-      decorations_876: -858098053
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
