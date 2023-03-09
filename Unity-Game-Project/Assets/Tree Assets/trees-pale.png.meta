@@ -1,0 +1,1488 @@
+fileFormatVersion: 2
+guid: c152e088c6e274646af88056f5c62e38
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trees-pale_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 963
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.48313093, y: 0.21710572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5.5, y: -25}
+        - {x: -11.5, y: -22}
+        - {x: -11.5, y: -16}
+        - {x: -5.5, y: -13}
+        - {x: 4.5, y: -13}
+        - {x: 4.5, y: -15}
+        - {x: 10.499996, y: -19.179993}
+        - {x: 10.5, y: -25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f41c29f84d6984c8bdb716a4bdf988
+      internalID: 1718327303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 960
+        width: 53
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15998268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12.5, y: -32}
+        - {x: -12.5, y: -32}
+        - {x: -13.731293, y: -25.432983}
+        - {x: -8.5, y: -19}
+        - {x: 6.5, y: -19}
+        - {x: 18.5, y: -21}
+        - {x: 18.5, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34865c3bec914644da238a98b1fcaaf3
+      internalID: -1395648829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 964
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4934057, y: 0.22485983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6.5, y: -29}
+        - {x: -2.5, y: -25}
+        - {x: -13.5, y: -27}
+        - {x: -17.5, y: -25}
+        - {x: -17.5, y: -17}
+        - {x: -9.5, y: -15}
+        - {x: -6.5, y: -11}
+        - {x: 3.5, y: -11}
+        - {x: 6.5, y: -15}
+        - {x: 18.5, y: -15}
+        - {x: 18.5, y: -19}
+        - {x: 10.5, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea326d578c2b7cb4aae7b57fd7b0e18f
+      internalID: -153979583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 963
+        width: 48
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13059828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -16}
+        - {x: -7, y: -24}
+        - {x: 8, y: -25}
+        - {x: 5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64073a0ce61562e4f9f273a9389c9c75
+      internalID: 1466708976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 961
+        width: 64
+        height: 63
+      alignment: 9
+      pivot: {x: 0.48866606, y: 0.15458558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -20.5}
+        - {x: -4, y: -20.5}
+        - {x: -9, y: -22.5}
+        - {x: -14, y: -28.5}
+        - {x: -5, y: -30.5}
+        - {x: 8, y: -30.5}
+        - {x: 13, y: -28.5}
+        - {x: 10, y: -26.5}
+        - {x: 6, y: -22.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f28ab295f77a34ead3d9aa672baa92
+      internalID: -1362445064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 927
+        width: 64
+        height: 97
+      alignment: 9
+      pivot: {x: 0.51700115, y: 0.126098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -46.5}
+        - {x: -21, y: -38.5}
+        - {x: -8, y: -30.5}
+        - {x: 11, y: -29.5}
+        - {x: 20, y: -34.5}
+        - {x: 19, y: -47.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b770f45f89b134397705e5e8968f67
+      internalID: 2057509959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 800
+        width: 112
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4807524, y: 0.17671299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -60}
+        - {x: -23, y: -34}
+        - {x: 2, y: -28}
+        - {x: 19, y: -33}
+        - {x: 30, y: -42}
+        - {x: 21, y: -58}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7ee651f6d194945af5fd1152ad38a5
+      internalID: -610205520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 930
+        width: 58
+        height: 93
+      alignment: 9
+      pivot: {x: 0.44529882, y: 0.11078931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -42.5}
+        - {x: -11, y: -36.5}
+        - {x: -6, y: -31.5}
+        - {x: -1, y: -31.5}
+        - {x: 4, y: -43.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6f7802b3433154bbb8471c8491b8e0
+      internalID: 469584795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_8
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 932
+        width: 83
+        height: 92
+      alignment: 9
+      pivot: {x: 0.47183412, y: 0.22591898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: -42}
+        - {x: -26.5, y: -40}
+        - {x: -33.5, y: -38}
+        - {x: -30.5, y: -28}
+        - {x: -18.5, y: -18}
+        - {x: 6.5, y: -17}
+        - {x: 24.5, y: -28}
+        - {x: 22.5, y: -39}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c827ff5408088c449b993f2ef7d70e2
+      internalID: 1566530986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 936
+        width: 65
+        height: 80
+      alignment: 9
+      pivot: {x: 0.46506724, y: 0.33979645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: -40}
+        - {x: -26.5, y: -27}
+        - {x: -25.5, y: -8}
+        - {x: -15.5, y: 1}
+        - {x: 8.5, y: 1}
+        - {x: 24.5, y: -8}
+        - {x: 24.5, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac684368cb11c644b804f139ed95845
+      internalID: -787310912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5026906, y: 0.2142067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: -16}
+        - {x: -5.5, y: -16}
+        - {x: -12.5, y: -11}
+        - {x: -10.5, y: -4}
+        - {x: -0.5, y: -1}
+        - {x: 10.5, y: -3}
+        - {x: 11.5, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeae281d393607341bcf68ab1705cb2d
+      internalID: 88358765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 805
+        width: 63
+        height: 117
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.08771691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -58.5}
+        - {x: -11.5, y: -54.5}
+        - {x: -9.5, y: -42.5}
+        - {x: 9.5, y: -42.5}
+        - {x: 12.5, y: -55.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d85cbb670c528459b36c168bcdf26d
+      internalID: -1419952282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 800
+        width: 64
+        height: 128
+      alignment: 9
+      pivot: {x: 0.49433303, y: 0.19115114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -52}
+        - {x: -16, y: -46}
+        - {x: -9, y: -35}
+        - {x: 10, y: -36}
+        - {x: 14, y: -47}
+        - {x: 9, y: -51}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717085650851a7246be507aca397528a
+      internalID: -1988906753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 802
+        width: 95
+        height: 118
+      alignment: 9
+      pivot: {x: 0.50381774, y: 0.16190402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -57}
+        - {x: -16.5, y: -49}
+        - {x: -27.5, y: -43}
+        - {x: -6.5, y: -31}
+        - {x: 9.5, y: -33}
+        - {x: 23.5, y: -40}
+        - {x: 20.5, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da132f628596f9c42ab408b85809610a
+      internalID: 1131845878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 814
+        width: 83
+        height: 106
+      alignment: 9
+      pivot: {x: 0.46262184, y: 0.18432559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -47}
+        - {x: -29.5, y: -41}
+        - {x: -27.5, y: -35}
+        - {x: -17.5, y: -29}
+        - {x: -2.5, y: -26}
+        - {x: 10.5, y: -28}
+        - {x: 20.5, y: -33}
+        - {x: 26.5, y: -40}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2c7120aa7827543b25dacdc3026dbe
+      internalID: 974570279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 96
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5161581, y: 0.18394895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -53}
+        - {x: -28, y: -47}
+        - {x: -28, y: -40}
+        - {x: -15, y: -33}
+        - {x: -1, y: -28}
+        - {x: 14, y: -32}
+        - {x: 23, y: -38}
+        - {x: 27, y: -46}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed97213b81398e47b404657ca73f8ac
+      internalID: -702144585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_20
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 808
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4756597, y: 0.261261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -47}
+        - {x: -7, y: -39}
+        - {x: -24, y: -42}
+        - {x: -21, y: -27}
+        - {x: 3, y: -19}
+        - {x: 22, y: -29}
+        - {x: 15, y: -46}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f32c6a1a0129bb40bb2afddd13cc72d
+      internalID: -1489489246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 681
+        width: 50
+        height: 111
+      alignment: 9
+      pivot: {x: 0.48227203, y: 0.088744566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -52.5}
+        - {x: -6, y: -42.5}
+        - {x: 4, y: -42.5}
+        - {x: 4, y: -52.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c92c6e4be534a45804302295c50aa8
+      internalID: -843428159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 674
+        width: 88
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47230008, y: 0.19160818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -45}
+        - {x: -25, y: -49}
+        - {x: -20, y: -39}
+        - {x: -11, y: -35}
+        - {x: -2, y: -34}
+        - {x: 7, y: -35}
+        - {x: 17, y: -39}
+        - {x: 23, y: -49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad5083e360a1584a9d92450a3f3bd8c
+      internalID: 615318055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 672
+        width: 89
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4551822, y: 0.18145132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16.5, y: -49}
+        - {x: -16.5, y: -43}
+        - {x: -10.5, y: -37}
+        - {x: 1.5, y: -38}
+        - {x: 7.5, y: -49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28376390ff937c342a72527882b36cfc
+      internalID: -1922389617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 672
+        width: 107
+        height: 128
+      alignment: 9
+      pivot: {x: 0.58905345, y: 0.20915127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11.5, y: -49}
+        - {x: -1.5, y: -48}
+        - {x: -1.5, y: -41}
+        - {x: 5.5, y: -35}
+        - {x: 19.5, y: -37}
+        - {x: 28.5, y: -47}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a68e735a97bd64997c8897aa985b65
+      internalID: 1671039820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 673
+        width: 94
+        height: 127
+      alignment: 9
+      pivot: {x: 0.27132887, y: 0.13706622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -53.5}
+        - {x: -15, y: -60.5}
+        - {x: -29, y: -55.5}
+        - {x: -39, y: -53.5}
+        - {x: -35, y: -42.5}
+        - {x: -19, y: -32.5}
+        - {x: -3, y: -39.5}
+        - {x: 6, y: -51.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18439c9639114db4b9481f35f6b11e7f
+      internalID: -1190285802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_26
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 672
+        width: 89
+        height: 126
+      alignment: 9
+      pivot: {x: 0.4775905, y: 0.1218751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16.5, y: -56}
+        - {x: -14.5, y: -43}
+        - {x: 10.5, y: -43}
+        - {x: 13.5, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0a3c4b7d6fce046936e11c69af23af
+      internalID: 1868887798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_27
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 673
+        width: 115
+        height: 127
+      alignment: 9
+      pivot: {x: 0.4845836, y: 0.17196342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14.5, y: -52.5}
+        - {x: -13.5, y: -37.5}
+        - {x: 12.5, y: -38.5}
+        - {x: 15.5, y: -52.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe06efe32220a4438f15a4cdaa515c4
+      internalID: -254965040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_28
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 672
+        width: 120
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48707226, y: 0.09315777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -64}
+        - {x: -27, y: -62}
+        - {x: -33, y: -55}
+        - {x: -26, y: -41}
+        - {x: -11, y: -34}
+        - {x: 5, y: -33}
+        - {x: 19, y: -40}
+        - {x: 27, y: -51}
+        - {x: 23, y: -62}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59eab61ca3cc7a4ea356676bd6625c3
+      internalID: -680951283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 523
+        width: 62
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5071483, y: 0.087367825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -68.5}
+        - {x: -7, y: -65.5}
+        - {x: -4, y: -54.5}
+        - {x: 6, y: -53.5}
+        - {x: 8, y: -66.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e2cc72bf24114eb1d3b561611914d
+      internalID: 47360557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 519
+        width: 63
+        height: 149
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.08952178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -70.5}
+        - {x: -14.5, y: -69.5}
+        - {x: -7.5, y: -54.5}
+        - {x: 4.5, y: -55.5}
+        - {x: 9.5, y: -63.5}
+        - {x: 11.5, y: -71.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d5db8e175fd854a85e2cd5d4217e7d
+      internalID: 1870615323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 535
+        width: 94
+        height: 137
+      alignment: 9
+      pivot: {x: 0.49292755, y: 0.13444307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -60.5}
+        - {x: -12, y: -55.5}
+        - {x: -8, y: -44.5}
+        - {x: 8, y: -44.5}
+        - {x: 13, y: -56.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1b5a1b767d09b45896a46c100f59a3
+      internalID: -717777771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 513
+        width: 93
+        height: 159
+      alignment: 9
+      pivot: {x: 0.473789, y: 0.13624352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9.5, y: -70.5}
+        - {x: -5.5, y: -74.5}
+        - {x: -16.5, y: -69.5}
+        - {x: -30.5, y: -72.5}
+        - {x: -21.5, y: -59.5}
+        - {x: -9.5, y: -52.5}
+        - {x: 3.5, y: -53.5}
+        - {x: 15.5, y: -59.5}
+        - {x: 18.5, y: -70.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186da3573fe4d8649b2677d0aff73a42
+      internalID: -1736845911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_34
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 521
+        width: 125
+        height: 151
+      alignment: 9
+      pivot: {x: 0.48710865, y: 0.18272713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12.5, y: -74.5}
+        - {x: -11.5, y: -65.5}
+        - {x: -29.5, y: -68.5}
+        - {x: -30.5, y: -56.5}
+        - {x: -30.5, y: -43.5}
+        - {x: -15.5, y: -36.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 14.5, y: -32.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 35.5, y: -56.5}
+        - {x: 20.5, y: -69.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954c759f51f6c92498306446c3af0e4d
+      internalID: -886148551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_35
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 530
+        width: 104
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4957381, y: 0.16920759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -63}
+        - {x: -11, y: -57}
+        - {x: -22, y: -58}
+        - {x: -20, y: -45}
+        - {x: -12, y: -41}
+        - {x: -1, y: -39}
+        - {x: 10, y: -41}
+        - {x: 20, y: -45}
+        - {x: 19, y: -58}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2384fc9eb972544988f7c99c33353fa
+      internalID: -1611791880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_36
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 513
+        width: 172
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5231905, y: 0.17155129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -66}
+        - {x: 1, y: -67}
+        - {x: -11, y: -63}
+        - {x: -20, y: -58}
+        - {x: -15, y: -49}
+        - {x: -6, y: -44}
+        - {x: 5, y: -42}
+        - {x: 15, y: -44}
+        - {x: 20, y: -49}
+        - {x: 30, y: -59}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0020b9d03e83a0241a65b957bfcaade6
+      internalID: 2051895701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_37
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 514
+        width: 160
+        height: 156
+      alignment: 9
+      pivot: {x: 0.49168968, y: 0.078110136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -76}
+        - {x: -16, y: -70}
+        - {x: -12, y: -60}
+        - {x: 0, y: -54}
+        - {x: 11, y: -57}
+        - {x: 14, y: -68}
+        - {x: 9, y: -74}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d428049cdf4015419df9507e345814f
+      internalID: 1202402220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 150
+        height: 169
+      alignment: 9
+      pivot: {x: 0.4678883, y: 0.18648173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -69.5}
+        - {x: -15, y: -82.5}
+        - {x: -38, y: -70.5}
+        - {x: -33, y: -51.5}
+        - {x: -18, y: -42.5}
+        - {x: -3, y: -38.5}
+        - {x: 17, y: -43.5}
+        - {x: 34, y: -50.5}
+        - {x: 31, y: -61.5}
+        - {x: 38, y: -75.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d937e243a30c60749baf352182cc74f8
+      internalID: -874429202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 329
+        width: 127
+        height: 165
+      alignment: 9
+      pivot: {x: 0.49157175, y: 0.18536858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 22.5, y: -68.5}
+        - {x: 14.5, y: -82.5}
+        - {x: -9.5, y: -73.5}
+        - {x: -31.5, y: -74.5}
+        - {x: -29.5, y: -50.5}
+        - {x: -16.5, y: -42.5}
+        - {x: -0.5, y: -36.5}
+        - {x: 13.5, y: -38.5}
+        - {x: 28.5, y: -44.5}
+        - {x: 36.5, y: -61.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257a269ae8b29b6488a113f121677629
+      internalID: 1482101822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_40
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 324
+        width: 165
+        height: 188
+      alignment: 9
+      pivot: {x: 0.525949, y: 0.20820326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 30.5, y: -84}
+        - {x: 11.5, y: -79}
+        - {x: -13.5, y: -78}
+        - {x: -25.5, y: -78}
+        - {x: -23.5, y: -61}
+        - {x: -11.5, y: -50}
+        - {x: 5.5, y: -45}
+        - {x: 23.5, y: -51}
+        - {x: 39.5, y: -73}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df308fb50669c642864473019302663
+      internalID: -279079320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_41
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 321
+        width: 170
+        height: 189
+      alignment: 9
+      pivot: {x: 0.515741, y: 0.17576656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -84.5}
+        - {x: -32, y: -86.5}
+        - {x: -26, y: -66.5}
+        - {x: -5, y: -56.5}
+        - {x: 13, y: -56.5}
+        - {x: 27, y: -60.5}
+        - {x: 36, y: -75.5}
+        - {x: 28, y: -87.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae31db25626be1847a4bd29716a807ed
+      internalID: -1693524778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 320
+        width: 160
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5351223, y: 0.18284583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -84.5}
+        - {x: -32, y: -86.5}
+        - {x: -26, y: -66.5}
+        - {x: -5, y: -56.5}
+        - {x: 13, y: -56.5}
+        - {x: 28, y: -58.5}
+        - {x: 41, y: -75.5}
+        - {x: 28, y: -87.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69131afa2da2b54ba279c95c1015bed
+      internalID: 1519255776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_43
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 321
+        width: 155
+        height: 170
+      alignment: 9
+      pivot: {x: 0.53280264, y: 0.2150861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 31.5, y: -79}
+        - {x: 14.5, y: -75}
+        - {x: -13.5, y: -72}
+        - {x: -27.5, y: -71}
+        - {x: -24.5, y: -56}
+        - {x: -7.5, y: -47}
+        - {x: 6.5, y: -44}
+        - {x: 25.5, y: -47}
+        - {x: 38.5, y: -63}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54657acc577669e4a970064e2a8c6aac
+      internalID: 1075720644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 128
+        height: 190
+      alignment: 9
+      pivot: {x: 0.49465507, y: 0.11471164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: -88}
+        - {x: -15, y: -85}
+        - {x: -10, y: -72}
+        - {x: -1, y: -69}
+        - {x: 8, y: -72}
+        - {x: 11, y: -84}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a67713ef51fe4479f89f3e2c26915e
+      internalID: -1119439913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_45
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 129
+        width: 113
+        height: 179
+      alignment: 9
+      pivot: {x: 0.64534754, y: 0.14050011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 15.5, y: -78.5}
+        - {x: 0.5, y: -76.5}
+        - {x: 7.5, y: -63.5}
+        - {x: 22.5, y: -62.5}
+        - {x: 36.5, y: -69.5}
+        - {x: 30.5, y: -77.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17a21e95df2254c8e8f0428dee75ea
+      internalID: 1294575181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_46
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 7
+        width: 271
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5239548, y: 0.15456559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 30.5, y: -131}
+        - {x: 3.5, y: -127}
+        - {x: -25.5, y: -126}
+        - {x: -22.5, y: -107}
+        - {x: -7.5, y: -98}
+        - {x: 7.5, y: -94}
+        - {x: 27.5, y: -97}
+        - {x: 40.5, y: -123}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5986992303e3a844d9ca958b2fa61ead
+      internalID: 259094018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_47
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 8
+        width: 242
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5014706, y: 0.33888507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 89}
+        - {x: -80, y: 66}
+        - {x: -116, y: 55}
+        - {x: -112, y: -71}
+        - {x: -44, y: -139}
+        - {x: 44, y: -139}
+        - {x: 73, y: -107}
+        - {x: 106, y: -71}
+        - {x: 112, y: 56}
+        - {x: 71, y: 68}
+        - {x: 31, y: 89}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18d18b6c4b007943830b66a515285b8
+      internalID: -1866259215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 928
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48052597, y: 0.21558952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: -16}
+        - {x: -5.5, y: -16}
+        - {x: -12.5, y: -11}
+        - {x: -11, y: -6}
+        - {x: -3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 8, y: -5}
+        - {x: 10, y: -8}
+        - {x: 9, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6fdd32594354846b2dfa9098ad7900
+      internalID: 710646837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 928
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13731511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -47}
+        - {x: -19, y: -46}
+        - {x: -21, y: -33}
+        - {x: -8, y: -24}
+        - {x: 11, y: -25}
+        - {x: 21, y: -33}
+        - {x: 22, y: -42}
+        - {x: 14, y: -47}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774505ede7df7aa4a8ccab9b5fa413d3
+      internalID: 962066506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees-pale_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 930
+        width: 64
+        height: 75
+      alignment: 9
+      pivot: {x: 0.51043797, y: 0.16824707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -36.5}
+        - {x: -13, y: -26.5}
+        - {x: -5, y: -19.5}
+        - {x: 5, y: -19.5}
+        - {x: 14, y: -25.5}
+        - {x: 11, y: -35.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209902f790d2fb743ac9061412dd1105
+      internalID: 836100069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      trees-pale_43: 1075720644
+      trees-pale_23: -1922389617
+      trees-pale_9: -787310912
+      trees-pale_4: -1362445064
+      trees-pale_36: 2051895701
+      trees-pale_1: -1395648829
+      trees-pale_41: -1693524778
+      trees-pale_40: -279079320
+      trees-pale_29: 47360557
+      trees-pale_22: 615318055
+      trees-pale_14: -1952788340
+      trees-pale_21: -843428159
+      trees-pale_11: 962066506
+      trees-pale_12: 836100069
+      trees-pale_5: 2057509959
+      trees-pale_33: -1736845911
+      trees-pale_25: -1190285802
+      trees-pale_26: 1868887798
+      trees-pale_37: 1202402220
+      trees-pale_15: -1419952282
+      trees-pale_20: -1489489246
+      trees-pale_18: 974570279
+      trees-pale_32: 529575763
+      trees-pale_2: -153979583
+      trees-pale_44: -1119439913
+      trees-pale_0: 1718327303
+      trees-pale_39: 1482101822
+      trees-pale_13: -776603764
+      trees-pale_8: 1566530986
+      trees-pale_3: 1466708976
+      trees-pale_48: 710646837
+      trees-pale_16: -1988906753
+      trees-pale_10: 88358765
+      trees-pale_34: -886148551
+      trees-pale_30: 1870615323
+      trees-pale_19: -702144585
+      trees-pale_31: -717777771
+      trees-pale_27: -254965040
+      trees-pale_7: 469584795
+      trees-pale_45: 1294575181
+      trees-pale_46: 259094018
+      trees-pale_17: 1131845878
+      trees-pale_35: -1611791880
+      trees-pale_42: 1519255776
+      trees-pale_6: -610205520
+      trees-pale_47: -1866259215
+      trees-pale_24: 1671039820
+      trees-pale_28: -680951283
+      trees-pale_38: -874429202
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
