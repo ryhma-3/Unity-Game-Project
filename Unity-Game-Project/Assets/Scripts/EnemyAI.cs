@@ -14,6 +14,7 @@ public class EnemyAI : MonoBehaviour
     //public Animator anim;
     //public Transform enemy;
     public Rigidbody2D rb;
+    public Animator anim;
 
     private Transform target;
     private bool isInChaseRange;
@@ -29,7 +30,7 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, playerMask);
-        //anim.SetBool("isMoving", isInChaseRange);
+        anim.SetBool("isMoving", isInChaseRange);
 
         dir = target.position - transform.position;
         dir.Normalize();
