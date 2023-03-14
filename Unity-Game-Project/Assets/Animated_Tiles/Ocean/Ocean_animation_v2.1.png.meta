@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: c69d7baa1ea3cb245929604c53f6af77
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1eb49043d8d5c43885bba650fca5a1
+      internalID: 779923341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 634
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e37fbc30af819b4ca07912c19a7b0b0
+      internalID: 135964611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 634
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8395f505764c740adfe5d0e4471e7b
+      internalID: -1677275010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 634
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8165793b223bd46b146e58ebdd757e
+      internalID: 1137789905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 634
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e89452284bf3a94b978bb422b0e33a6
+      internalID: -816054656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 634
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f37626f750499044aae6b09da9d6878
+      internalID: -2114388546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a812e6abaf81b54fb72ccc9ca7342df
+      internalID: -361534959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 602
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09189fadc8f05e040a211be3c7aaff00
+      internalID: 1567516000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 602
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a8d35874a866040af582f25ab2b2b5
+      internalID: 1084402859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 602
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffce265858534ca48b2953feb035a89d
+      internalID: 1771738885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 602
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ac4e349a0c42b42bd2cea880ebee4b
+      internalID: -2010002737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 602
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363cbce9bf51eb146bb6e62df9018ee1
+      internalID: -1971952339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e620d41072f20428157f2fd3f7714a
+      internalID: -456212734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908601128dfe48940b6039a5dc165063
+      internalID: -1431807640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad060e75f10236142b38cf17fc057952
+      internalID: -3827312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7759edb4602567e4abffbe72a4a3e967
+      internalID: 334238013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad4f8f7e792d914fa41f389fbe9d0a5
+      internalID: 2067967308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 570
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444df1ddaf5588046bb4c52f56f79b5b
+      internalID: 1331398373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c43bbbf16844c243a2e141f44199f24
+      internalID: 983604456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ba87b39ead63b43874a45c9aaeca38
+      internalID: 271251218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6616987b56c652e4bb21704f9f427183
+      internalID: -1073924195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de269a077368ee54ba2676d0b498a355
+      internalID: 1391970914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35aac13466378ee42b843353ad75afe8
+      internalID: -1611238471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_animation_v2.1_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b8be1341ba1e546abf4baa7dbe0380
+      internalID: -1840236120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ocean_animation_v2.1_69: -1931546813
+      Ocean_animation_v2.1_71: 183670822
+      Ocean_animation_v2.1_66: 1735235878
+      Ocean_animation_v2.1_84: -1661223912
+      Ocean_animation_v2.1_123: 1076560877
+      Ocean_animation_v2.1_39: 334238013
+      Ocean_animation_v2.1_90: -905463295
+      Ocean_animation_v2.1_122: -1258649035
+      Ocean_animation_v2.1_68: -1654165672
+      Ocean_animation_v2.1_91: 686736417
+      Ocean_animation_v2.1_46: -1196338286
+      Ocean_animation_v2.1_82: 1549919523
+      Ocean_animation_v2.1_85: 1292960194
+      Ocean_animation_v2.1_10: 1258187210
+      Ocean_animation_v2.1_125: -1605013357
+      Ocean_animation_v2.1_106: -1107260137
+      Ocean_animation_v2.1_61: -1053943146
+      Ocean_animation_v2.1_52: 271251218
+      Ocean_animation_v2.1_36: -456212734
+      Ocean_animation_v2.1_9: 1954097153
+      Ocean_animation_v2.1_17: -888831770
+      Ocean_animation_v2.1_18: 1014182539
+      Ocean_animation_v2.1_43: -934596691
+      Ocean_animation_v2.1_32: 1084402859
+      Ocean_animation_v2.1_33: 1771738885
+      Ocean_animation_v2.1_37: -1431807640
+      Ocean_animation_v2.1_3: -1433272786
+      Ocean_animation_v2.1_13: -785157194
+      Ocean_animation_v2.1_4: -578246536
+      Ocean_animation_v2.1_73: -845945943
+      Ocean_animation_v2.1_96: 1545131524
+      Ocean_animation_v2.1_42: 1820666065
+      Ocean_animation_v2.1_58: 1227660753
+      Ocean_animation_v2.1_108: -819205370
+      Ocean_animation_v2.1_116: -920039455
+      Ocean_animation_v2.1_54: 1391970914
+      Ocean_animation_v2.1_81: -541697473
+      Ocean_animation_v2.1_45: 142436005
+      Ocean_animation_v2.1_119: -1125060825
+      Ocean_animation_v2.1_14: -541802461
+      Ocean_animation_v2.1_19: -1027954724
+      Ocean_animation_v2.1_95: -766590794
+      Ocean_animation_v2.1_93: -1674237902
+      Ocean_animation_v2.1_15: -488810683
+      Ocean_animation_v2.1_49: 292744458
+      Ocean_animation_v2.1_67: 1066040040
+      Ocean_animation_v2.1_126: 134845832
+      Ocean_animation_v2.1_75: -1652588401
+      Ocean_animation_v2.1_113: -1931545856
+      Ocean_animation_v2.1_50: -181662261
+      Ocean_animation_v2.1_76: -1911109223
+      Ocean_animation_v2.1_57: 2029597101
+      Ocean_animation_v2.1_12: 1304586265
+      Ocean_animation_v2.1_74: 376432138
+      Ocean_animation_v2.1_109: -698784009
+      Ocean_animation_v2.1_2: -593304931
+      Ocean_animation_v2.1_98: -301006411
+      Ocean_animation_v2.1_127: 1722453434
+      Ocean_animation_v2.1_34: -2010002737
+      Ocean_animation_v2.1_65: -570943718
+      Ocean_animation_v2.1_78: -376584843
+      Ocean_animation_v2.1_100: 1701517190
+      Ocean_animation_v2.1_111: 2005805511
+      Ocean_animation_v2.1_41: 1331398373
+      Ocean_animation_v2.1_102: -875465211
+      Ocean_animation_v2.1_72: -466584364
+      Ocean_animation_v2.1_121: -737531027
+      Ocean_animation_v2.1_77: 1475228627
+      Ocean_animation_v2.1_48: 1599831639
+      Ocean_animation_v2.1_28: -816054656
+      Ocean_animation_v2.1_107: -166672154
+      Ocean_animation_v2.1_92: -1795608107
+      Ocean_animation_v2.1_55: -1611238471
+      Ocean_animation_v2.1_38: -3827312
+      Ocean_animation_v2.1_64: 2023501035
+      Ocean_animation_v2.1_94: 167379752
+      Ocean_animation_v2.1_101: 606609881
+      Ocean_animation_v2.1_120: -1245765626
+      Ocean_animation_v2.1_105: 2124127916
+      Ocean_animation_v2.1_115: -1512793431
+      Ocean_animation_v2.1_62: -1589413692
+      Ocean_animation_v2.1_20: 1668140635
+      Ocean_animation_v2.1_124: -1837796590
+      Ocean_animation_v2.1_27: 1137789905
+      Ocean_animation_v2.1_29: -2114388546
+      Ocean_animation_v2.1_25: 135964611
+      Ocean_animation_v2.1_30: -361534959
+      Ocean_animation_v2.1_63: -1540998847
+      Ocean_animation_v2.1_60: 1216981410
+      Ocean_animation_v2.1_56: -1840236120
+      Ocean_animation_v2.1_31: 1567516000
+      Ocean_animation_v2.1_0: 1381974716
+      Ocean_animation_v2.1_11: 1255395120
+      Ocean_animation_v2.1_26: -1677275010
+      Ocean_animation_v2.1_128: -1168487603
+      Ocean_animation_v2.1_110: -984393777
+      Ocean_animation_v2.1_104: -1611576976
+      Ocean_animation_v2.1_44: -715278576
+      Ocean_animation_v2.1_80: 1904143961
+      Ocean_animation_v2.1_5: -80139561
+      Ocean_animation_v2.1_23: 1012047753
+      Ocean_animation_v2.1_21: -1475745855
+      Ocean_animation_v2.1_97: 1665472585
+      Ocean_animation_v2.1_88: 336318741
+      Ocean_animation_v2.1_112: 1202118525
+      Ocean_animation_v2.1_1: 1301664754
+      Ocean_animation_v2.1_40: 2067967308
+      Ocean_animation_v2.1_83: 545896942
+      Ocean_animation_v2.1_7: 102682860
+      Ocean_animation_v2.1_118: -72829351
+      Ocean_animation_v2.1_99: -145119659
+      Ocean_animation_v2.1_22: -969172618
+      Ocean_animation_v2.1_103: 727421404
+      Ocean_animation_v2.1_16: 499733286
+      Ocean_animation_v2.1_35: -1971952339
+      Ocean_animation_v2.1_6: -1602483405
+      Ocean_animation_v2.1_24: 779923341
+      Ocean_animation_v2.1_70: 1627147298
+      Ocean_animation_v2.1_117: -368978837
+      Ocean_animation_v2.1_87: -1359094889
+      Ocean_animation_v2.1_114: -740788708
+      Ocean_animation_v2.1_79: 1121721807
+      Ocean_animation_v2.1_47: -1102622321
+      Ocean_animation_v2.1_53: -1073924195
+      Ocean_animation_v2.1_8: 1876776687
+      Ocean_animation_v2.1_89: -1551776361
+      Ocean_animation_v2.1_59: 1412120144
+      Ocean_animation_v2.1_86: 415739914
+      Ocean_animation_v2.1_51: 983604456
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
