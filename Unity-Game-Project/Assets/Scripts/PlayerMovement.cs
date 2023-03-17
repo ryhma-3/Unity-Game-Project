@@ -15,7 +15,16 @@ public class PlayerMovement : MonoBehaviour
 
     // Vector 2 määrittelee liikkumisen suunnan.
     Vector2 movement;
-    
+
+    public VectorValue startingPosition;
+
+
+    void Start()
+    {
+        transform.position = startingPosition.initialValue;
+    }
+
+
     // Update-funktio välittää näppäinkomennot pelille 
     void Update()
     {
