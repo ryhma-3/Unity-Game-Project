@@ -1,0 +1,2218 @@
+fileFormatVersion: 2
+guid: b8886bb0f21085c43b984d1d38bdd7ae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woodshop_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 450
+        width: 77
+        height: 52
+      alignment: 9
+      pivot: {x: 0.45563224, y: 0.3978019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -38.5, y: 15}
+        - {x: -38.5, y: -25}
+        - {x: -21.5, y: -25}
+        - {x: 16.5, y: -25}
+        - {x: 34.5, y: -10}
+        - {x: 37.5, y: -5}
+        - {x: 38.5, y: 3}
+        - {x: 34.5, y: 9}
+        - {x: 27.5, y: 9}
+        - {x: 27.5, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95238e7399d85174f9b2ae484b728bcb
+      internalID: -224883485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 459
+        width: 95
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.255385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -47.5, y: 12}
+        - {x: -47.5, y: -23}
+        - {x: 47.5, y: -23}
+        - {x: 47.5, y: -5}
+        - {x: 47.5, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ff3b917dfe8ef499774ddaa843c5c4
+      internalID: -838491909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 480
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b2785fa5026843ae6ae708fde29c3
+      internalID: 1818754482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 459
+        width: 95
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b816210be21f5e488ac922de17ab6ad
+      internalID: -507165427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 357
+        width: 40
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4240819, y: 0.49568626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 30}
+        - {x: -2, y: 23}
+        - {x: -20, y: 23}
+        - {x: -20, y: -44}
+        - {x: 17, y: -44}
+        - {x: 18, y: -4}
+        - {x: 19, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50023a697662214ba49898ea6e0a564
+      internalID: 280251423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 357
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: 25}
+        - {x: -2.5, y: 34}
+        - {x: -21.5, y: 34}
+        - {x: -20.5, y: -20}
+        - {x: -18.5, y: -44}
+        - {x: 18.5, y: -44}
+        - {x: 19.5, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7977fbb503868294aa2ff867930a2fcd
+      internalID: -2081692344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 331
+        width: 31
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15.5, y: 42}
+        - {x: -15.5, y: -58}
+        - {x: 15.5, y: -58}
+        - {x: 15.5, y: 42}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a0821ca31453b4fb81e3790b46c677
+      internalID: 1550377532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 406
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4606312, y: 0.30069542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2.5, y: 2}
+        - {x: -13.5, y: -5}
+        - {x: -1.5, y: -16}
+        - {x: 13.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ab73745848884cb779424503eac99
+      internalID: 1701303846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 416
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53796387, y: 0.35052204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2.5, y: 2}
+        - {x: -13.5, y: -5}
+        - {x: -2, y: -16}
+        - {x: 13.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8b44e31d2f01488ada14be1657f5f
+      internalID: -2080501546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 352
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.51898247, y: 0.267478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -14, y: -11}
+        - {x: 2, y: -16}
+        - {x: 12, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6ee05decbc6ef43a32f8e5b882aa8f
+      internalID: 500049704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 342
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.51898193, y: 0.35052204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -14, y: -11}
+        - {x: 2, y: -16}
+        - {x: 12, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed74ad5c6e087464b85f3025cb1261df
+      internalID: -2061968749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 51
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4906229, y: 0.26088205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25.5, y: -18}
+        - {x: 25.5, y: -18}
+        - {x: 25.5, y: -10}
+        - {x: -25.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06411b93d7f0a04792dc7943365aca9
+      internalID: 1310682801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 292
+        width: 51
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49062303, y: 0.34058803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25.5, y: -18}
+        - {x: 25.5, y: -18}
+        - {x: 25.5, y: -10}
+        - {x: -25.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178adf49896760347978a382187e3c69
+      internalID: 1383326335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4850545, y: 0.28402218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15.5}
+        - {x: 16, y: -15.5}
+        - {x: 16, y: -6.5}
+        - {x: -16, y: -6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d662a1d0e8ebe7441a2d226b9b4ef0b8
+      internalID: 1413890827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 257
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183b1c725590db74793212f4552f55ca
+      internalID: -616496650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 257
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d454bf7503e2e44980233dee62749c
+      internalID: -1684408432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 257
+        width: 96
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d273854eb5bd80442b8a1a3523bb027d
+      internalID: -285660982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 258
+        width: 94
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31888fb9e30d5d4faae76f7abccde36
+      internalID: 1407920199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 262
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8b0e8270a381044859d2867842fbea
+      internalID: -406209312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 262
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35925cc98550d54a8741df67435274c
+      internalID: 315114358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_20
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 262
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb77ac8d0ec0b1e4a9b39411fd7b1ed6
+      internalID: -1898135183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 256
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c998bec7fe32f84280dd0ec68a65e37
+      internalID: -329967264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_22
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 261
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba45e44de106824dbd88875a81950ed
+      internalID: 1677776866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 264
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111d88434837c774cbd5f28369eac516
+      internalID: 1323447283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 242
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87248fbf57355384da85c63436c2e290
+      internalID: 942720567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 227
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a1635cc5bd576428de5c4429d6693c
+      internalID: 266040479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 228
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d50af0c2ac709b48afe243434496e69
+      internalID: 1877762263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 243
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ad6c4dbd9c3284e92c784cdda18835
+      internalID: 2060294489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 241
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f125410e31379d04f968543b677427a3
+      internalID: -1261425947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 238
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43345aa66491e74f8fdd8a651f18eae
+      internalID: 367420745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_30
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 239
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b190484a37b965245805fe355249cc48
+      internalID: 1048224576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 225
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0.45516396, y: 0.26088256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 0}
+        - {x: -16, y: -14}
+        - {x: -15, y: -15}
+        - {x: 14, y: -15}
+        - {x: 16, y: -14}
+        - {x: 16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3852f8e24d923f488ea16775e54af29
+      internalID: -132019784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 229
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ef7e53340517b47a8133d9a093c39e
+      internalID: -401524326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_33
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 226
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b85b1bb5df81c64e84f26ca6071cae1
+      internalID: -525081793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 226
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a45d67622424cc47adb792cb842bd6a
+      internalID: 1787644235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 227
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9afd41dc5d38024791a65ce39529afa
+      internalID: 54546216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 229
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f4cb5cba29d6349a597beb1ad89f7b
+      internalID: -684947954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 226
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ce17c7ba2ea04f8c1bc7dc468071c
+      internalID: -419659142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_38
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 225
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cc4c1a3d5d42045b7d9935c6e626d2
+      internalID: 4547454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_39
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 228
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e536edc57e6b22a4f8260cafa0164bea
+      internalID: 1830456112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_40
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 233
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475390138ee9a604dbacb2d19b7e4ca8
+      internalID: 2145488532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_41
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 225
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4155537d602b4b44790660cd95039a15
+      internalID: -342473744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 199
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f29490a3f1040847bc5a8db7d073e0f
+      internalID: -1831425122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0b1437f304a1e42affa03ac0142b2f
+      internalID: 734875716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_44
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9b7f399547a2f4d92bc4bef6d49a97
+      internalID: 1350916310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_45
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 200
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0554156408b361a489da32e75f57e65f
+      internalID: -388725795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_46
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 200
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c2dc7913c75774fb6c131a9b3be9bd
+      internalID: 1498997966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_47
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 200
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a73069def29c204cbaf87f1ac569a85
+      internalID: -1010826221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_48
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 206
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91ed3664ea3d424c98fb9f02bb10463
+      internalID: -50817272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_49
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 196
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e52b13eb76dc64fbc0fb5c4e62fb26
+      internalID: 3089011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_50
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 202
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65d3a55ba9ea00479adab533d9d77d8
+      internalID: -2041642903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_51
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 196
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c19678f5588ae4f9bb7cb2afd497fd
+      internalID: -1288065843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_52
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 206
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fba396a5bfd1446acb3ff564cebdd0
+      internalID: 1624689844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_53
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 197
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc7844fd855ae40bc0c50b1cfac3ca
+      internalID: 1022651670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_54
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 203
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe4a5e45acd444d8a6c5b283838ef4
+      internalID: -902138708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_55
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 193
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9cb00d07438542bd160b8086b896a
+      internalID: 1412840485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 193
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5152931, y: 0.43008277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 0}
+        - {x: -16, y: -10.5}
+        - {x: -15, y: -10.5}
+        - {x: 14, y: -10.5}
+        - {x: 16, y: -10.5}
+        - {x: 16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f940911f5f01e4fbde90f86f2b9335
+      internalID: -1690272774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_57
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 193
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ed068d02e1feb47953943e8a438a4f
+      internalID: -202458764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_58
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 199
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea49adddc9f6f844960fe3b412082db
+      internalID: 1095579228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 166
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dda7a446b091234caf46705cf1ebc20
+      internalID: -2068655512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 167
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1035a20c754ce1547974b0ae5c109711
+      internalID: 648434308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_61
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 165
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4e2e4db962d5042a085d609e950642
+      internalID: -1548649714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_62
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 165
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842a4fe86a87e6545b26261f0808dbe0
+      internalID: 2021561383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_63
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 164
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e5d5714be6a174c93452ca96c33626
+      internalID: 559343997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_64
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 167
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c38b57ef4d8f934ea41ee76ffa6a49a
+      internalID: 1030564706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_65
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 138
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd914076f4b52347a136480a9a29fdc
+      internalID: 283842450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_66
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 137
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f029f4c3da52b459d80db213c17a21
+      internalID: 109661196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_67
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 133
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b0ef564648a144a82ea01f9c8ea29
+      internalID: -1186094099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 137
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322532e9485d2794c9518e0a489769eb
+      internalID: 1579007675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_69
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aa9a54659701440b731b00374c49bb
+      internalID: 1850720564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_70
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0031d347360f60d409438d0ad53b7427
+      internalID: -106344202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_71
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 131
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a49180a5f52ec34599e10853c03cdaa
+      internalID: 1772514945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_72
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 128
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdff93742e1a5fe419702e20cbecdb26
+      internalID: 1690361876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 129
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f509684fed1940429f1350e1a812e6d
+      internalID: -1503543818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_74
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 128
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780b7bea3e2b8274b9bca21f834879ed
+      internalID: -967449249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_75
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 131
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991652c11587f7418ee62d469d8f57d
+      internalID: -1312670903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_76
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 128
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c376d56591ff249b0d40f5bf71c375
+      internalID: -2052039137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_77
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 128
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764d403ac496f7842b6a55f4f44974a9
+      internalID: 1345162666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_78
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 128
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935b0aa9bb0817648b5305f34ca0a4d9
+      internalID: -1476318430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_79
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 128
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa79ace9791dad4a8f507a8e9b4b4e0
+      internalID: -2126477219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bd475408b88774f8ec5832db8b1e94
+      internalID: -1064057637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_81
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 99
+        width: 53
+        height: 28
+      alignment: 9
+      pivot: {x: 0.46493775, y: 0.3274438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16.5, y: 13}
+        - {x: -26.5, y: 0}
+        - {x: 13.5, y: -14}
+        - {x: 25.5, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a9d38cda23f86428631836be85fa20
+      internalID: -1362668620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_82
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 106
+        width: 47
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47627681, y: 0.36485082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e674d3b7a7ddf4db5f475569e78c6a
+      internalID: 2085886578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_83
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db8893b41cf08243be37421637b2c6a
+      internalID: -366511691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_84
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 53
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5210371, y: 0.34071678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25.5, y: -2}
+        - {x: -15.5, y: -14}
+        - {x: 26.5, y: 1}
+        - {x: 15.5, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709e14219118f2a48b97c911e3113de7
+      internalID: -965167164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_85
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 74
+        width: 47
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.33106372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e962c0d3574a449aee87995ca3e3bc
+      internalID: 548557607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_86
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1678b2e17d9deb640b2718187286a050
+      internalID: -1725245699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_87
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a7ebf309e29f478a74dc6356b86b4
+      internalID: 135127778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_88
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1601e9c0adf5a40ad46a199b1cead1
+      internalID: 1923945414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_89
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 33
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59067876561c31e4dab17c3893b9f012
+      internalID: 269047820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodshop_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e6df12ca4f5f640a9a455382645202
+      internalID: -828670209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woodshop_86: -1725245699
+      woodshop_33: -525081793
+      woodshop_17: 1407920199
+      woodshop_84: -965167164
+      woodshop_39: 1830456112
+      woodshop_68: 1579007675
+      woodshop_32: -401524326
+      woodshop_71: 1772514945
+      woodshop_2: 1818754482
+      woodshop_44: 1350916310
+      woodshop_54: -902138708
+      woodshop_50: -2041642903
+      woodshop_10: -2061968749
+      woodshop_47: -1010826221
+      woodshop_25: 266040479
+      woodshop_74: -967449249
+      woodshop_64: 1030564706
+      woodshop_24: 942720567
+      woodshop_78: -1476318430
+      woodshop_37: -419659142
+      woodshop_76: -2052039137
+      woodshop_83: -366511691
+      woodshop_59: -2068655512
+      woodshop_42: -1831425122
+      woodshop_31: -132019784
+      woodshop_36: -684947954
+      woodshop_35: 54546216
+      woodshop_16: -285660982
+      woodshop_14: -616496650
+      woodshop_82: 2085886578
+      woodshop_51: -1288065843
+      woodshop_19: 315114358
+      woodshop_46: 1498997966
+      woodshop_79: -2126477219
+      woodshop_3: -507165427
+      woodshop_53: 1022651670
+      woodshop_67: -1186094099
+      woodshop_41: -342473744
+      woodshop_6: 1550377532
+      woodshop_72: 1690361876
+      woodshop_87: 135127778
+      woodshop_1: -838491909
+      woodshop_62: 2021561383
+      woodshop_58: 1095579228
+      woodshop_61: -1548649714
+      woodshop_77: 1345162666
+      woodshop_40: 2145488532
+      woodshop_65: 283842450
+      woodshop_5: -2081692344
+      woodshop_23: 1323447283
+      woodshop_73: -1503543818
+      woodshop_30: 1048224576
+      woodshop_29: 367420745
+      woodshop_48: -50817272
+      woodshop_85: 548557607
+      woodshop_45: -388725795
+      woodshop_7: 1701303846
+      woodshop_28: -1261425947
+      woodshop_26: 1877762263
+      woodshop_4: 280251423
+      woodshop_60: 648434308
+      woodshop_38: 4547454
+      woodshop_80: -1064057637
+      woodshop_9: 500049704
+      woodshop_43: 734875716
+      woodshop_20: -1898135183
+      woodshop_8: -2080501546
+      woodshop_63: 559343997
+      woodshop_90: -828670209
+      woodshop_88: 1923945414
+      woodshop_18: -406209312
+      woodshop_22: 1677776866
+      woodshop_15: -1684408432
+      woodshop_52: 1624689844
+      woodshop_57: -202458764
+      woodshop_81: -1362668620
+      woodshop_21: -329967264
+      woodshop_70: -106344202
+      woodshop_27: 2060294489
+      woodshop_34: 1787644235
+      woodshop_49: 3089011
+      woodshop_75: -1312670903
+      woodshop_12: 1383326335
+      woodshop_66: 109661196
+      woodshop_13: 1413890827
+      woodshop_11: 1310682801
+      woodshop_56: -1690272774
+      woodshop_55: 1412840485
+      woodshop_0: -224883485
+      woodshop_69: 1850720564
+      woodshop_89: 269047820
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
