@@ -34,5 +34,38 @@ This asset pack can be used in free and commercial projects. You can modify the 
 Link:
 https://pixivan.itch.io/top-down-forest-tileset
 
+## Whispers of Avalon: Desert Tileset 
+
+Made by:
+Leonard pabin, Ali-G
+
+LICENCE:
+CC-BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+Some rights reserved:
+GPL 3.0
+https://www.gnu.org/licenses/gpl-3.0.html
+GPL 2.0
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+Link:
+https://opengameart.org/content/whispers-of-avalon-desert-tileset
+
+## Whispers of Avalon: Grassland Tileset
+
+Made by:
+Leonard pabin
+
+LICENCE:
+CC-BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+Some rights reserved:
+GPL 3.0
+https://www.gnu.org/licenses/gpl-3.0.html
+GPL 2.0
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+Link:
+https://opengameart.org/content/whispers-of-avalon-grassland-tileset
 
 
