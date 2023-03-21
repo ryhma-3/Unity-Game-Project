@@ -42,9 +42,11 @@ Leonard pabin, Ali-G
 LICENCE:
 CC-BY 3.0
 https://creativecommons.org/licenses/by/3.0/
+
 Some rights reserved:
 GPL 3.0
 https://www.gnu.org/licenses/gpl-3.0.html
+
 GPL 2.0
 https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -59,9 +61,11 @@ Leonard pabin
 LICENCE:
 CC-BY 3.0
 https://creativecommons.org/licenses/by/3.0/
+
 Some rights reserved:
 GPL 3.0
 https://www.gnu.org/licenses/gpl-3.0.html
+
 GPL 2.0
 https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
