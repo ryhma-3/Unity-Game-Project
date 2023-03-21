@@ -1,4 +1,4 @@
-#List of used assets
+# List of used assets
 
 ## Pixel Art Top Down - Basic
 
