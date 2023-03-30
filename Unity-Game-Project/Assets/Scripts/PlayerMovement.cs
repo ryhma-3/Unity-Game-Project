@@ -2,9 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerState
+{
+    attack,
+    interact,
+    walk
+}
+
 // Hahmon ohjausfunktio
 public class PlayerMovement : MonoBehaviour
 {
+    public PlayerState currentState;
+
     // pelihahmon nopeuden säätäminen
     public float speed;
     
@@ -21,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        currentState = PlayerState.walk;
         transform.position = startingPosition.initialValue;
     }
 
@@ -32,7 +42,25 @@ public class PlayerMovement : MonoBehaviour
         movement = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        UpdateAnimation();
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack )
+        {
+            StartCoroutine(AttackCo());
+        }
+        else if (currentState == PlayerState.walk)
+        {
+            UpdateAnimation();
+        }
+        
+    }
+
+    private IEnumerator AttackCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.33f);
+        currentState = PlayerState.walk;
     }
 
     void UpdateAnimation()
