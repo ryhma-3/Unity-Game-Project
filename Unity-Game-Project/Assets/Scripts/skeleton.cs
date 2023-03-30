@@ -38,6 +38,7 @@ public class skeleton : Enemy
         {
             Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.fixedDeltaTime);
             myRigidbody.MovePosition(temp);
+            ChangeState(EnemyState.walk);
         }
     }
 
