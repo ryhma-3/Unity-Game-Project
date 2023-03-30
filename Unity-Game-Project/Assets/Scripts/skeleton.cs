@@ -36,9 +36,14 @@ public class skeleton : Enemy
             &&  Vector3.Distance(target.position,
                                  transform.position) > attacRadius)
         {
-            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.fixedDeltaTime);
-            myRigidbody.MovePosition(temp);
-            ChangeState(EnemyState.walk);
+            if(currentState == EnemyState.idle || currentState == EnemyState.walk
+                && currentState != EnemyState.stagger)
+            {
+      
+                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.fixedDeltaTime);
+                myRigidbody.MovePosition(temp);
+                ChangeState(EnemyState.walk);
+            }
         }
     }
 
