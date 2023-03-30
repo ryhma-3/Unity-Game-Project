@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // pelihahmon nopeuden säätäminen
-    public float moveSpeed = 5f;
+    public float speed;
     
     //Rigidbody 2D määrittelee hahmon fysiikan.
     public Rigidbody2D rb;
@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     // Vector 2 määrittelee liikkumisen suunnan.
-    Vector2 movement;
+    Vector3 movement;
 
     public VectorValue startingPosition;
 
@@ -29,19 +29,33 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //Vaakasuoraisen ja pystysuoraisen liikkumisen määrittely
+        movement = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        
-        // Välittää arvoja pelaajan suunnasta animaattorille.
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        // Välittää arvon pelaajan nopeudesta animaattorille. 
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        UpdateAnimation();
+    }
+
+    void UpdateAnimation()
+    {
+        if (movement != Vector3.zero)
+        {
+
+            MoveCharacter();
+            // Välittää arvoja pelaajan suunnasta animaattorille.
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+            // Välittää arvon pelaajan nopeudesta animaattorille. 
+            animator.SetBool("moving", true);
+        }
+        else
+        {
+            animator.SetBool("moving", false);
+        }
     }
     // FixedUpdate-funktio liikuttaa pelaajaa. 
-    void FixedUpdate()
+    void MoveCharacter()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
     }
 
 
