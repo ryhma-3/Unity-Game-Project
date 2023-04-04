@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-
+    public GameObject settingsMenuUI;
+    public AudioMixer audioMixer;
 
     // Update is called once per frame
     void Update()
@@ -50,4 +52,24 @@ public class PauseMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void OpenSettings()
+    {
+        pauseMenuUI.SetActive(false);
+        settingsMenuUI.SetActive(true);
+    }
+
+    public void ExitSettings()
+    {
+        settingsMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(true);
+    }
+
+    public void SetVolume (float volume)
+    {
+        Debug.Log(volume);
+        audioMixer.SetFloat("Volume", volume);
+    }
+
+
 }
