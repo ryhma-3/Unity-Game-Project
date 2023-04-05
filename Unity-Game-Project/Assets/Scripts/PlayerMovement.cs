@@ -27,6 +27,12 @@ public class PlayerMovement : MonoBehaviour
 
     public VectorValue startingPosition;
 
+    public FloatValue currentHealth;
+
+    public Signali playerHealthSignal;
+
+    //viittaus playerHealth skriptiin hp-bar käsittelyä varten
+    PlayerHealth health;
 
     void Start()
     {
@@ -84,6 +90,19 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         rb.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
+    }
+    public void Knock(float knockTime, float damage)
+    {
+        currentHealth.RuntimeValue -= damage;
+        if(currentHealth.RuntimeValue > 0)
+        {
+            playerHealthSignal.Raise();
+            //StartCoroutine(KnockCo(knockTime));
+        } else
+        {
+            //death handling
+            this.gameObject.SetActive(false);
+        }
     }
 
 

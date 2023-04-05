@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 96393389}
   - component: {fileID: 96393388}
   - component: {fileID: 96393391}
+  - component: {fileID: 1411195264}
   m_Layer: 0
   m_Name: PlayerUI
   m_TagString: Untagged
@@ -116,10 +117,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d7937decf29ee2499687416df123051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  health: 0
+  maxHealth: {fileID: 11400000, guid: 7947af1389f9435468b4cd3d71116b40, type: 2}
   chipSpeed: 2
   frontHealthBar: {fileID: 1743175798}
   backHealthBar: {fileID: 1704222067}
+  playerCurrentHealth: {fileID: 11400000, guid: 8699795d45d06c64e89909be3b79dd94, type: 2}
+--- !u!114 &1411195264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96393386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1edff3e836898c04ea32138724ececf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signali: {fileID: 11400000, guid: 88d3899d3b2802c46bc351795b79a7cb, type: 2}
+  signalEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 96393391}
+        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
+        m_MethodName: UpdateHealthUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1427946192
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +779,8 @@ MonoBehaviour:
   rb: {fileID: 5782531085720332630}
   animator: {fileID: 5782531085720332629}
   startingPosition: {fileID: 11400000, guid: 6fc5de1f0a140d84bb7c2ebe9d47f21b, type: 2}
+  currentHealth: {fileID: 11400000, guid: 8699795d45d06c64e89909be3b79dd94, type: 2}
+  playerHealthSignal: {fileID: 11400000, guid: 88d3899d3b2802c46bc351795b79a7cb, type: 2}
 --- !u!95 &5782531085720332629
 Animator:
   serializedVersion: 5

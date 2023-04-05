@@ -5,23 +5,27 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-
-    private float health;
+    PlayerMovement pscript;
+    public float health;
     private float lerpTimer;
-    public float maxHealth = 100f;
+    public FloatValue maxHealth;
     public float chipSpeed = 2f;
     public Image frontHealthBar;
     public Image backHealthBar;
+    public FloatValue playerCurrentHealth;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
-        health = maxHealth;
+        //health = maxHealth.RuntimeValue;
     }
 
     // Update is called once per frame
     void Update()
     {
-        health = Mathf.Clamp(health, 0, maxHealth);
+        playerCurrentHealth.initialValue = Mathf.Clamp(playerCurrentHealth.initialValue, 0, maxHealth.RuntimeValue);
         UpdateHealthUI();
         if (Input.GetKeyDown(KeyCode.J))
         {
@@ -35,9 +39,10 @@ public class PlayerHealth : MonoBehaviour
 
     public void UpdateHealthUI()
     {
+        float tempHealth = playerCurrentHealth.initialValue;
         float fillFront = frontHealthBar.fillAmount;
         float fillBack = backHealthBar.fillAmount;
-        float HealthFraction = health / maxHealth;
+        float HealthFraction = tempHealth / maxHealth.RuntimeValue;
         if(fillBack > HealthFraction)
         {
             frontHealthBar.fillAmount = HealthFraction;
@@ -60,13 +65,13 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        health -= damage;
+        playerCurrentHealth.initialValue -= damage;
         lerpTimer = 0f;
     }
 
     public void RestoreHealth(float healAmount)
     {
-        health += healAmount;
+        playerCurrentHealth.initialValue += healAmount;
         lerpTimer = 0f;
     }
 
