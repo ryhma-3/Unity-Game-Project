@@ -31,17 +31,15 @@ public class PlayerMovement : MonoBehaviour
 
     public FloatValue currentHealth;
 
-    public Signali playerHealthSignal;
-
     public static bool isSprinting;
 
-    //viittaus playerHealth skriptiin hp-bar käsittelyä varten
-    PlayerHealth health;
+    private PlayerHealth health;
 
     void Start()
     {
         currentState = PlayerState.walk;
         transform.position = startingPosition.initialValue;
+        health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
     }
 
 
@@ -106,10 +104,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Knock(float knockTime, float damage)
     {
-        currentHealth.RuntimeValue -= damage;
-        if(currentHealth.RuntimeValue > 0)
+        health.TakeDamage(damage);
+        if (currentHealth.RuntimeValue > 0)
         {
-            playerHealthSignal.Raise();
             StartCoroutine(KnockCo(knockTime));
         } else
         {

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class SignalListener : MonoBehaviour
 {
-    public Signali signali;
+    public SignalSender signal;
     public UnityEvent signalEvent;
     public void OnSignalRaised()
     {
@@ -14,11 +14,11 @@ public class SignalListener : MonoBehaviour
 
     private void OnEnable()
     {
-        signali.RegisterListener(this);
+        signal.RegisterListener(this);
     }
 
     private void OnDisable()
     {
-        signali.DeRegisterListener(this);
+        signal.DeRegisterListener(this);
     }
 }

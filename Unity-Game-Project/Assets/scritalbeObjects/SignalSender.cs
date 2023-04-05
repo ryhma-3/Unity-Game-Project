@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [CreateAssetMenu]
-public class Signali : ScriptableObject
+public class SignalSender : ScriptableObject
 {
 
     public List<SignalListener> listeners = new List<SignalListener>();

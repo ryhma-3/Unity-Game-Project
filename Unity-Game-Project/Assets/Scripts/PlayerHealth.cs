@@ -11,13 +11,14 @@ public class PlayerHealth : MonoBehaviour
     public Image frontHealthBar;
     public Image backHealthBar;
     public FloatValue playerCurrentHealth;
+    public SignalSender playerHealthSignal;
 
-   
+
     // Update is called once per frame
     void Update()
     {
-        playerCurrentHealth.initialValue = Mathf.Clamp(playerCurrentHealth.initialValue, 0, maxHealth.RuntimeValue);
         UpdateHealthUI();
+        playerCurrentHealth.RuntimeValue = Mathf.Clamp(playerCurrentHealth.RuntimeValue, 0, maxHealth.RuntimeValue);
         if (Input.GetKeyDown(KeyCode.J))
         {
             TakeDamage(Random.Range(5, 10));
@@ -30,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void UpdateHealthUI()
     {
-        float tempHealth = playerCurrentHealth.initialValue;
+        float tempHealth = playerCurrentHealth.RuntimeValue;
         float fillFront = frontHealthBar.fillAmount;
         float fillBack = backHealthBar.fillAmount;
         float HealthFraction = tempHealth / maxHealth.RuntimeValue;
@@ -56,13 +57,13 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        playerCurrentHealth.initialValue -= damage;
+        playerCurrentHealth.RuntimeValue -= damage;
         lerpTimer = 0f;
     }
 
     public void RestoreHealth(float healAmount)
     {
-        playerCurrentHealth.initialValue += healAmount;
+        playerCurrentHealth.RuntimeValue += healAmount;
         lerpTimer = 0f;
     }
 
