@@ -6,7 +6,9 @@ public enum PlayerState
 {
     attack,
     interact,
-    walk
+    walk,
+    stagger,
+    idle
 }
 
 // Hahmon ohjausfunktio
@@ -50,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         movement = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack )
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
         }
@@ -61,11 +63,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (!isSprinting)
         {
-            speed = 10;
+            speed = 5;
         }
         else
         {
-            speed = 30;
+            speed = 10;
         }
     }
 
@@ -101,21 +103,35 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
     }
+
     public void Knock(float knockTime, float damage)
     {
         currentHealth.RuntimeValue -= damage;
         if(currentHealth.RuntimeValue > 0)
         {
             playerHealthSignal.Raise();
-            //StartCoroutine(KnockCo(knockTime));
+            StartCoroutine(KnockCo(knockTime));
         } else
         {
             //death handling
             this.gameObject.SetActive(false);
         }
     }
-    
-    
+
+
+    private IEnumerator KnockCo(float knockTime)
+    {
+        
+        if (rb != null)
+        {
+            yield return new WaitForSeconds(knockTime);
+            rb.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+            rb.velocity = Vector2.zero;
+        }
+    }
+
+
 
 
 }
