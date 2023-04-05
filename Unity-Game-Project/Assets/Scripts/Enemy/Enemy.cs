@@ -11,19 +11,32 @@ public enum EnemyState{
 
 public class Enemy : MonoBehaviour
 {
+    
     public EnemyState currentState;
-    public int health;
+
+    public FloatValue maxHealth;
+    public float health;
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+    public Vector2 homePosition;
 
-     public void Knock(Rigidbody2D myRigidbody, float knockTime)
+    
+
+    private void OnEnable()
+    {
+        transform.position = homePosition;
+        currentState = EnemyState.idle;
+    }
+
+
+    public void Knock(Rigidbody2D myRigidbody, float knockTime)
     {
         StartCoroutine(KnockCo(myRigidbody, knockTime));
         
     }
 
-     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
+    private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
     {
         if (myRigidbody != null)
         {
