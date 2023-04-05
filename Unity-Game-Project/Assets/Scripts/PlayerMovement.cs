@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Signali playerHealthSignal;
 
+    public static bool isSprinting;
+
     //viittaus playerHealth skriptiin hp-bar käsittelyä varten
     PlayerHealth health;
 
@@ -56,7 +58,15 @@ public class PlayerMovement : MonoBehaviour
         {
             UpdateAnimation();
         }
-        
+
+        if (!isSprinting)
+        {
+            speed = 10;
+        }
+        else
+        {
+            speed = 30;
+        }
     }
 
     private IEnumerator AttackCo()
@@ -104,6 +114,8 @@ public class PlayerMovement : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
+    
+    
 
 
 }
