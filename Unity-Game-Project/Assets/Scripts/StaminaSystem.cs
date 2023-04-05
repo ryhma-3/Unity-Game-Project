@@ -27,7 +27,7 @@ public class StaminaSystem : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && stamina >= 0)
         {
             PlayerMovement.isSprinting = true;
-            TakeDamage(0.25f);
+            LooseStamina(0.25f);
         } else
         {
            PlayerMovement.isSprinting = false;
@@ -35,7 +35,7 @@ public class StaminaSystem : MonoBehaviour
 
         if (stamina < 100 && !Input.GetKey(KeyCode.LeftShift))
         {
-            RestoreHealth(0.1f);
+            RestoreStamina(0.1f);
         }
     }
 
@@ -64,15 +64,15 @@ public class StaminaSystem : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public void LooseStamina(float staminaLost)
     {
-        stamina -= damage;
+        stamina -= staminaLost;
         lerpTimer = 0f;
     }
 
-    public void RestoreHealth(float healAmount)
+    public void RestoreStamina(float staminaGained)
     {
-        stamina += healAmount;
+        stamina += staminaGained;
         lerpTimer = 0f;
     }
 }
