@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    PlayerMovement pscript;
-    public float health;
     private float lerpTimer;
     public FloatValue maxHealth;
     public float chipSpeed = 2f;
@@ -14,14 +12,7 @@ public class PlayerHealth : MonoBehaviour
     public Image backHealthBar;
     public FloatValue playerCurrentHealth;
 
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //health = maxHealth.RuntimeValue;
-    }
-
+   
     // Update is called once per frame
     void Update()
     {
