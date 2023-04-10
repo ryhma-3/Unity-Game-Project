@@ -14,22 +14,24 @@ public class SIGN : MonoBehaviour
     public bool playerIsClose;
 
     // Update is called once per frame
-    void Update()
+   void Update()
+{
+    if (playerIsClose) 
     {
-       if(Input.GetKeyDown(KeyCode.F)&& playerIsClose) 
-       {
-        if(dialoguePanel.activeInHierarchy)
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            zeroText();
+            if (dialoguePanel.activeInHierarchy)
+            {
+                NextLine();
+            }
+            else
+            {
+                dialoguePanel.SetActive(true);
+                StartCoroutine(Typing());
+            }
         }
-        else
-        {
-           dialoguePanel.SetActive(true);
-           StartCoroutine(Typing());
-        }
-       }
-
     }
+}
 
     public void zeroText() {
         dialogueText.text="";
