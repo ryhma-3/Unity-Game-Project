@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         currentState = PlayerState.walk;
+        walkSoundEffect.Pause();
         transform.position = startingPosition.initialValue;
         health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
     }
@@ -60,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimation();
+            
         }
 
             if (!isSprinting)
@@ -92,12 +94,14 @@ public class PlayerMovement : MonoBehaviour
             // Välittää arvoja pelaajan suunnasta animaattorille.
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
+            walkSoundEffect.UnPause();
             // Välittää arvon pelaajan nopeudesta animaattorille. 
             animator.SetBool("moving", true);
             
         }
         else
         {
+            walkSoundEffect.Pause();
             animator.SetBool("moving", false);
         }
     }
