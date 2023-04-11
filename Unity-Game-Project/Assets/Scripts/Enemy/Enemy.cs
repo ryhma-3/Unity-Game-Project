@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum EnemyState{
+public enum EnemyState
+{
     idle,
     walk,
     attack,
@@ -11,10 +12,12 @@ public enum EnemyState{
 
 public class Enemy : MonoBehaviour
 {
-    
+
+    [Header("State Machine")]
     public EnemyState currentState;
 
-    public FloatValue maxHealth;
+    [Header("Enemy Stats")]
+    public float maxHealth;
     public float health;
     public string enemyName;
     public int baseAttack;
@@ -26,14 +29,25 @@ public class Enemy : MonoBehaviour
     private void OnEnable()
     {
         transform.position = homePosition;
+        health = maxHealth;
         currentState = EnemyState.idle;
     }
 
+    private void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            this.gameObject.SetActive(false);
+        }
+    
+    }
 
-    public void Knock(Rigidbody2D myRigidbody, float knockTime)
+
+    public void Knock(Rigidbody2D myRigidbody, float knockTime, float damage)
     {
         StartCoroutine(KnockCo(myRigidbody, knockTime));
-        
+        TakeDamage(damage);
     }
 
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
@@ -47,15 +61,4 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
