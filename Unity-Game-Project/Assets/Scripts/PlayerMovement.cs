@@ -35,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerHealth health;
 
+    [SerializeField] private AudioSource walkSoundEffect;
+    [SerializeField] private AudioSource meleeSoundEffect;
+
     void Start()
     {
         currentState = PlayerState.walk;
@@ -59,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             UpdateAnimation();
         }
 
-        if (!isSprinting)
+            if (!isSprinting)
         {
             speed = 5;
         }
@@ -73,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack;
+        meleeSoundEffect.Play();
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.33f);
@@ -83,13 +87,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (movement != Vector3.zero)
         {
-
+            
             MoveCharacter();
             // Välittää arvoja pelaajan suunnasta animaattorille.
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
             // Välittää arvon pelaajan nopeudesta animaattorille. 
             animator.SetBool("moving", true);
+            
         }
         else
         {
