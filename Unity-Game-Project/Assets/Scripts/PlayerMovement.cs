@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
+    [SerializeField] private AudioSource hurtSoundEffect;
 
     void Start()
     {
@@ -116,6 +117,7 @@ public class PlayerMovement : MonoBehaviour
         health.TakeDamage(damage);
         if (currentHealth.RuntimeValue > 0)
         {
+            hurtSoundEffect.Play();
             StartCoroutine(KnockCo(knockTime));
         } else
         {
