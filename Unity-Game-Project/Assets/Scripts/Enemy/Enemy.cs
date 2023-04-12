@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public Vector2 homePosition;
+    private bool alive = true;
 
     
 
@@ -39,6 +40,7 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             this.gameObject.SetActive(false);
+            alive = false;
         }
     
     }
@@ -46,8 +48,10 @@ public class Enemy : MonoBehaviour
 
     public void Knock(Rigidbody2D myRigidbody, float knockTime, float damage)
     {
+        if (alive) { 
         StartCoroutine(KnockCo(myRigidbody, knockTime));
         TakeDamage(damage);
+        }
     }
 
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
