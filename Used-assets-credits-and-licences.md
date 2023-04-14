@@ -13,6 +13,17 @@ https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator/b
 Link:
 https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light
 
+## Pixel Art GUI Elements
+
+Made by:
+Mounir Tohami
+
+LICENCE:
+Free to use for any purpose.
+
+Link:
+https://mounirtohami.itch.io/pixel-art-gui-elements
+
 ## Pixel Art Top Down - Basic
 
 Made by:
