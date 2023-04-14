@@ -1,0 +1,1006 @@
+fileFormatVersion: 2
+guid: b729d86ea2a802c4692bad930831a19d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: conifers_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.49301192, y: 0.39417988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be0b4fa7e921db488773d04f725c2b3
+      internalID: -616570568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 451
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5501d01672625468c5f8dd9bae0c12
+      internalID: -954674323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 355
+        width: 64
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.07377143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -61.5}
+        - {x: -15, y: -68.5}
+        - {x: -1, y: -68.5}
+        - {x: 17, y: -72.5}
+        - {x: 12, y: -64.5}
+        - {x: 5, y: -57.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533536e7ee0681b4cb0ac02fb04c7619
+      internalID: 496182824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 355
+        width: 74
+        height: 154
+      alignment: 9
+      pivot: {x: 0.45165026, y: 0.08180177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -62}
+        - {x: -9, y: -67}
+        - {x: -4, y: -70}
+        - {x: 1, y: -69}
+        - {x: 3, y: -66}
+        - {x: 3, y: -61}
+        - {x: -3, y: -58}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8fff0c5746e5645868e50c487c38a1
+      internalID: 204814726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 353
+        width: 82
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5218171, y: 0.09521967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -54}
+        - {x: -3, y: -56}
+        - {x: -3, y: -66}
+        - {x: 9, y: -67}
+        - {x: 9, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c8a55e4bacaeb4caeb670f286209d0
+      internalID: -986861053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 352
+        width: 74
+        height: 158
+      alignment: 9
+      pivot: {x: 0.45769438, y: 0.05559086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -63}
+        - {x: -3, y: -59}
+        - {x: -12, y: -62}
+        - {x: -23, y: -72}
+        - {x: -14, y: -72}
+        - {x: -16, y: -78}
+        - {x: -3, y: -75}
+        - {x: 14, y: -76}
+        - {x: 19, y: -71}
+        - {x: 14, y: -67}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b190dcc6156283044bac61474478db7b
+      internalID: -685922082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_6
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 423
+        width: 56
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5399333, y: 0.13303395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: -25}
+        - {x: 13, y: -21}
+        - {x: 1, y: -20}
+        - {x: -10, y: -22}
+        - {x: -16, y: -30}
+        - {x: -7, y: -30}
+        - {x: -10, y: -36}
+        - {x: -4, y: -36}
+        - {x: 1, y: -31}
+        - {x: 12, y: -35}
+        - {x: 15, y: -35}
+        - {x: 12, y: -31}
+        - {x: 20, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a52c9e7bbe9fb4290fdf68d6630941
+      internalID: -1367894131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 295
+        width: 127
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49647918, y: 0.13804775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -73.5}
+        - {x: -0.5, y: -71.5}
+        - {x: -7.5, y: -73.5}
+        - {x: -7.5, y: -83.5}
+        - {x: -1.5, y: -84.5}
+        - {x: 5.5, y: -81.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f0f0ad2dbf6df438cd5efec7f7b248
+      internalID: 502807114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 417
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5223272, y: 0.12043293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bd23e294d2b8f469676b6ec0b93102
+      internalID: -1088179496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 321
+        width: 60
+        height: 95
+      alignment: 9
+      pivot: {x: 0.4746956, y: 0.04452065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -38.5}
+        - {x: -6, y: -44.5}
+        - {x: -2, y: -46.5}
+        - {x: 1, y: -44.5}
+        - {x: 1, y: -38.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea86a5716242ba48948f52f2e5308f2
+      internalID: -1677714183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7969fa88b225f499f7f25446e66444
+      internalID: -98380973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 290
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4480f1ef2c3317e468535d64d4df1aa6
+      internalID: -1187301611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_12
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 290
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3967344ed6b86574493fe3054eb631d8
+      internalID: -1748543382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_13
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 300
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80937d0bebc55ec48b6e47070246a154
+      internalID: -1956738034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_14
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 298
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052098e654f307c45a3031c263f2754a
+      internalID: -1986183726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 321
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e40bba414620d04e9e206fa42142c2d
+      internalID: -1671920488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_16
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 331
+        width: 38
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.119845964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -27}
+        - {x: 0, y: -26}
+        - {x: -6, y: -26}
+        - {x: -13, y: -34}
+        - {x: -3, y: -36}
+        - {x: 12, y: -35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1a0eef35fa1684cabcc44f751b4bab
+      internalID: 1954879708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 96
+        width: 68
+        height: 96
+      alignment: 9
+      pivot: {x: 0.4734254, y: 0.08235814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -36.5}
+        - {x: -6, y: -39.5}
+        - {x: -4, y: -43.5}
+        - {x: 0, y: -43.5}
+        - {x: 2, y: -39.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db82050046bddb4439266712a654485d
+      internalID: -1313673560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 227
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3d46049c3019340b25ae97ee1c1b55
+      internalID: 903125899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 131
+        width: 64
+        height: 149
+      alignment: 9
+      pivot: {x: 0.50000095, y: 0.06176471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -61.5}
+        - {x: -15, y: -68.5}
+        - {x: -1, y: -68.5}
+        - {x: 17, y: -72.5}
+        - {x: 12, y: -64.5}
+        - {x: 5, y: -57.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1fa663dd4e730489134746a9a47500
+      internalID: -2072096248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_20
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 130
+        width: 74
+        height: 154
+      alignment: 9
+      pivot: {x: 0.44560653, y: 0.08180177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -62}
+        - {x: -9, y: -67}
+        - {x: -4, y: -70}
+        - {x: 1, y: -69}
+        - {x: 3, y: -66}
+        - {x: 3, y: -61}
+        - {x: -3, y: -58}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b69815b64179840b4404a39f184c56
+      internalID: -2052871027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_21
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 129
+        width: 84
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5327253, y: 0.098761946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -63.5}
+        - {x: -3, y: -65.5}
+        - {x: -4, y: -71.5}
+        - {x: -2, y: -74.5}
+        - {x: 3, y: -75.5}
+        - {x: 9, y: -73.5}
+        - {x: 9, y: -68.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b92ac0dcabe65f4ab7f30ff5602bca1
+      internalID: 280372452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_22
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 128
+        width: 74
+        height: 158
+      alignment: 9
+      pivot: {x: 0.45165026, y: 0.04992956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -63}
+        - {x: -3, y: -59}
+        - {x: -12, y: -62}
+        - {x: -23, y: -72}
+        - {x: -14, y: -72}
+        - {x: -16, y: -78}
+        - {x: -3, y: -75}
+        - {x: 14, y: -76}
+        - {x: 19, y: -71}
+        - {x: 14, y: -67}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd2bde3d7e58af498fda455e4a4ccc3
+      internalID: -225449419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_23
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 199
+        width: 56
+        height: 78
+      alignment: 9
+      pivot: {x: 0.507988, y: 0.12729996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: -25}
+        - {x: 13, y: -21}
+        - {x: 1, y: -20}
+        - {x: -10, y: -22}
+        - {x: -16, y: -30}
+        - {x: -7, y: -30}
+        - {x: -10, y: -36}
+        - {x: -4, y: -36}
+        - {x: 1, y: -31}
+        - {x: 12, y: -35}
+        - {x: 15, y: -35}
+        - {x: 12, y: -31}
+        - {x: 20, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22ff14d62bd10d488de7eddfb07f467
+      internalID: 1935550125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_24
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 71
+        width: 127
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4929574, y: 0.12972699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -73.5}
+        - {x: -0.5, y: -71.5}
+        - {x: -7.5, y: -73.5}
+        - {x: -7.5, y: -83.5}
+        - {x: -1.5, y: -84.5}
+        - {x: 5.5, y: -81.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe5b9f3458ab374a9e5971a89a0d9df
+      internalID: -572221124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 193
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6540776c1bf6942a4d8b1fa81fe1da
+      internalID: -279694693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 97
+        width: 60
+        height: 95
+      alignment: 9
+      pivot: {x: 0.47887802, y: 0.043089055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -38.5}
+        - {x: -6, y: -44.5}
+        - {x: -2, y: -46.5}
+        - {x: 1, y: -44.5}
+        - {x: 1, y: -38.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ca97f6989a2db48bfe1650ceadc29a
+      internalID: -866063010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 36
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4875768, y: 0.13661766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f12672525b7de4f9e5359ef2f973ab
+      internalID: -638746210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 66
+        width: 32
+        height: 60
+      alignment: 9
+      pivot: {x: 0.54192924, y: 0.13475405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727ba315b6b31fd4bb4816a54ca8c06c
+      internalID: -2022093013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_29
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 66
+        width: 30
+        height: 59
+      alignment: 9
+      pivot: {x: 0.51490885, y: 0.12856293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb0f65c6af68d4890f47e6a60ac0ee
+      internalID: 772113058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_30
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 76
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48509318, y: 0.1060019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21060277f3d931046910bf60324bdab0
+      internalID: -1509659208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_31
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 74
+        width: 21
+        height: 44
+      alignment: 9
+      pivot: {x: 0.47870454, y: 0.10358273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c26fc022b982249ab22e7f0f0b6899
+      internalID: -136321213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_32
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 78
+        width: 18
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5000034, y: 0.075440064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8805213888dcf3440bc5437633d10838
+      internalID: 1425356323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conifers_33
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 107
+        width: 38
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.10307455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -27}
+        - {x: 0, y: -26}
+        - {x: -6, y: -26}
+        - {x: -13, y: -34}
+        - {x: -3, y: -36}
+        - {x: 12, y: -35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc048f0a8e807dd498e4d52b3897f4b8
+      internalID: 1020968493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      conifers_1: -954674323
+      conifers_12: -1748543382
+      conifers_14: -1986183726
+      conifers_31: -136321213
+      conifers_33: 1020968493
+      conifers_21: 280372452
+      conifers_20: -2052871027
+      conifers_0: -616570568
+      conifers_11: -1187301611
+      conifers_29: 772113058
+      conifers_27: -638746210
+      conifers_28: -2022093013
+      conifers_6: -1367894131
+      conifers_5: -685922082
+      conifers_2: 496182824
+      conifers_15: -1671920488
+      conifers_23: 1935550125
+      conifers_24: -572221124
+      conifers_30: -1509659208
+      conifers_3: 204814726
+      conifers_25: -279694693
+      conifers_16: 1954879708
+      conifers_10: -98380973
+      conifers_22: -225449419
+      conifers_18: 903125899
+      conifers_17: -1313673560
+      conifers_8: -1088179496
+      conifers_13: -1956738034
+      conifers_19: -2072096248
+      conifers_26: -866063010
+      conifers_7: 502807114
+      conifers_4: -986861053
+      conifers_32: 1425356323
+      conifers_9: -1677714183
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
