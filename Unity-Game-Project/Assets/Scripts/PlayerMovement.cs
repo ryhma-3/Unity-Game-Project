@@ -8,7 +8,8 @@ public enum PlayerState
     interact,
     walk,
     stagger,
-    idle
+    idle,
+    spell
 }
 
 // Hahmon ohjausfunktio
@@ -55,9 +56,13 @@ public class PlayerMovement : MonoBehaviour
         movement = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger && currentState != PlayerState.spell)
         {
             StartCoroutine(AttackCo());
+        }
+        else if (Input.GetButtonDown("spell") && currentState != PlayerState.attack && currentState != PlayerState.stagger && currentState != PlayerState.spell)
+        {
+            StartCoroutine(SpellCo());
         }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
@@ -82,6 +87,16 @@ public class PlayerMovement : MonoBehaviour
         meleeSoundEffect.Play();
         yield return null;
         animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.33f);
+        currentState = PlayerState.walk;
+    }
+
+    private IEnumerator SpellCo()
+    {
+        animator.SetBool("spell", true);
+        currentState = PlayerState.spell;
+        yield return null;
+        animator.SetBool("spell", false);
         yield return new WaitForSeconds(.33f);
         currentState = PlayerState.walk;
     }
