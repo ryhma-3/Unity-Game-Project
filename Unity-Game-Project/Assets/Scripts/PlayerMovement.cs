@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
     [SerializeField] private AudioSource hurtSoundEffect;
+    [SerializeField] private AudioSource spellSoundEffect;
 
     void Start()
     {
@@ -95,9 +96,10 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("spell", true);
         currentState = PlayerState.spell;
+        spellSoundEffect.Play();
         yield return null;
         animator.SetBool("spell", false);
-        yield return new WaitForSeconds(.33f);
+        yield return new WaitForSeconds(1f);
         currentState = PlayerState.walk;
     }
 
