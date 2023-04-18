@@ -29,11 +29,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -280.1
+      value: -236.93
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.57
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -45,15 +45,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429876, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_Name
-      value: zombie v2 Variant
+      value: zombie v2 Variant (6)
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429884, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: damage
@@ -104,8 +104,16 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: potion
+      value: 
+      objectReference: {fileID: 7492021454467103159, guid: 27d0ca122a0059d4b8663f4a07227a01, type: 3}
+    - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: maxHealth
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: dropchance
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: chaseRadius
@@ -117,11 +125,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: homePosition.x
-      value: -280.1
+      value: -236.93
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: homePosition.y
-      value: -1.57
+      value: 0.59
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+--- !u!1 &3306941667641062827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3390544458486429876, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+  m_PrefabInstance: {fileID: 209769044326108447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &825685084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3306941667641062827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e3839582e82654290c7ed751846f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chance: 50
+  potion: {fileID: 7492021454467103159, guid: 27d0ca122a0059d4b8663f4a07227a01, type: 3}

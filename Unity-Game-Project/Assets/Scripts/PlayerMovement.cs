@@ -31,10 +31,12 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
 
     public FloatValue currentHealth;
+    public FloatValue potioncounter;
 
     public static bool isSprinting;
 
     private PlayerHealth health;
+    private potionUI potions;
 
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
@@ -47,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
         walkSoundEffect.Pause();
         transform.position = startingPosition.initialValue;
         health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
+        potions = GameObject.FindWithTag("Healthsystem").GetComponent<potionUI>();
     }
 
 
@@ -78,6 +81,12 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             speed = 10;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.H) && potioncounter.RuntimeValue > 0f )
+        {
+            potions.UsePotion();
         }
     }
 

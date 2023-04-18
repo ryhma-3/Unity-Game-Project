@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
     public Vector2 homePosition;
     private bool alive = true;
 
+
     
 
     private void OnEnable()
@@ -38,7 +39,7 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
         if (health <= 0)
-        {
+        { 
             this.gameObject.SetActive(false);
             alive = false;
         }
