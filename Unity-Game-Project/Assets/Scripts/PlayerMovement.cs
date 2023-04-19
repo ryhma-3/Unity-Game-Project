@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerHealth health;
     private potionUI potions;
+    private DeathScreen death;
 
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
@@ -50,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         transform.position = startingPosition.initialValue;
         health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
         potions = GameObject.FindWithTag("Healthsystem").GetComponent<potionUI>();
+        death = GameObject.FindWithTag("DeathScreen").GetComponent<DeathScreen>();
     }
 
 
@@ -148,6 +150,7 @@ public class PlayerMovement : MonoBehaviour
         } else
         {
             //death handling
+            death.ActivateDeathScreen();
             this.gameObject.SetActive(false);
         }
     }
