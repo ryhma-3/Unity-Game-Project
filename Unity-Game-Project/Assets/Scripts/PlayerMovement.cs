@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerHealth health;
     private potionUI potions;
     private DeathScreen death;
+    private WinScreen win;
 
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
@@ -52,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
         potions = GameObject.FindWithTag("Healthsystem").GetComponent<potionUI>();
         death = GameObject.FindWithTag("DeathScreen").GetComponent<DeathScreen>();
+        win = GameObject.FindWithTag("Victory").GetComponent<WinScreen>();
     }
 
 
@@ -89,6 +91,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H) && potioncounter.RuntimeValue > 0f )
         {
             potions.UsePotion();
+        }
+        //WIN CONDITION DEBUGGIN
+        if (Input.GetKeyDown(KeyCode.F12))
+        {
+            win.ActivateVictory();
         }
     }
 
