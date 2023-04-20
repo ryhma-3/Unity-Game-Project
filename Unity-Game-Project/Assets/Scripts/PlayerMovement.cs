@@ -52,8 +52,8 @@ public class PlayerMovement : MonoBehaviour
         transform.position = startingPosition.initialValue;
         health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
         potions = GameObject.FindWithTag("Healthsystem").GetComponent<potionUI>();
-        death = GameObject.FindWithTag("DeathScreen").GetComponent<DeathScreen>();
-        win = GameObject.FindWithTag("Victory").GetComponent<WinScreen>();
+        death = GameObject.FindWithTag("UI").GetComponent<DeathScreen>();
+        win = GameObject.FindWithTag("UI").GetComponent<WinScreen>();
     }
 
 
