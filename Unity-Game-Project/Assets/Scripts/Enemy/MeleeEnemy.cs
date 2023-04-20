@@ -40,7 +40,7 @@ public class MeleeEnemy : skeleton
     public IEnumerator AttackCo()
     {
         currentState = EnemyState.attack;
-        attackSoundEffect.Play();
+        //attackSoundEffect.Play();
         anim.SetBool("attack", true);
         yield return new WaitForSeconds(1f);
         currentState = EnemyState.walk;
