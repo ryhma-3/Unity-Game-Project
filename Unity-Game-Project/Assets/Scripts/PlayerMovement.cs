@@ -44,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioSource meleeSoundEffect;
     [SerializeField] private AudioSource hurtSoundEffect;
     [SerializeField] private AudioSource spellSoundEffect;
+    [SerializeField] private AudioSource potiondSoundEffect;
 
     void Start()
     {
@@ -90,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.H) && potioncounter.RuntimeValue > 0f )
         {
+            potiondSoundEffect.Play();
             potions.UsePotion();
         }
         //WIN CONDITION DEBUGGIN
