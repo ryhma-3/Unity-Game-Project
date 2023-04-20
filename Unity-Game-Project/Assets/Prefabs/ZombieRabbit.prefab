@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &209769044326108447
+--- !u!1001 &7458023268539281237
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -23,13 +23,25 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.2202917
       objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429872, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429872, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429872, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.46875
+      objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.39
+      value: -3.95
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429873, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -67,9 +79,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429874, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -58786849, guid: c840b4288183439469e83d9bd7916951, type: 3}
+    - target: {fileID: 3390544458486429875, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 92d0385641070b94aaef7a7ea7b1a830, type: 2}
     - target: {fileID: 3390544458486429876, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_Name
-      value: zombie v2
+      value: ZombieRabbit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429876, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429884, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: damage
@@ -98,6 +122,18 @@ PrefabInstance:
     - target: {fileID: 3390544458486429885, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: m_Offset.y
       value: 0.23714381
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429885, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429885, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390544458486429885, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.46875
       objectReference: {fileID: 0}
     - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: health
@@ -133,18 +169,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
---- !u!1 &3306941667641062827 stripped
+--- !u!1 &5228004743235835873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3390544458486429876, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
-  m_PrefabInstance: {fileID: 209769044326108447}
+  m_PrefabInstance: {fileID: 7458023268539281237}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &825685084
+--- !u!114 &6924017529548901080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3306941667641062827}
+  m_GameObject: {fileID: 5228004743235835873}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8e3839582e82654290c7ed751846f4b, type: 3}
