@@ -25,8 +25,8 @@ public class Enemy : MonoBehaviour
     public Vector2 homePosition;
     private bool alive = true;
 
+    [SerializeField] private AudioSource damageSoundEffect;
 
-    
 
     private void OnEnable()
     {
@@ -37,9 +37,11 @@ public class Enemy : MonoBehaviour
 
     private void TakeDamage(float damage)
     {
+        damageSoundEffect.Play();
         health -= damage;
         if (health <= 0)
-        { 
+        {
+            
             this.gameObject.SetActive(false);
             alive = false;
         }

@@ -140,6 +140,8 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             walkSoundEffect.Pause();
+            rb.bodyType = RigidbodyType2D.Static;
+            rb.bodyType = RigidbodyType2D.Dynamic;
             animator.SetBool("moving", false);
         }
     }
@@ -147,6 +149,7 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         rb.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
+        
     }
 
     public void Knock(float knockTime, float damage)
