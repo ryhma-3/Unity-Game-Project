@@ -112,6 +112,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7492021454467103159, guid: 27d0ca122a0059d4b8663f4a07227a01, type: 3}
     - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 3306941667641062829}
+    - target: {fileID: 3390544458486429886, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
       propertyPath: maxHealth
       value: 10
       objectReference: {fileID: 0}
@@ -260,3 +264,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chance: 50
   potion: {fileID: 7492021454467103159, guid: 27d0ca122a0059d4b8663f4a07227a01, type: 3}
+--- !u!212 &3306941667641062829 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3390544458486429874, guid: 4be2da539182f9c4299a417e9ac9e1d7, type: 3}
+  m_PrefabInstance: {fileID: 209769044326108447}
+  m_PrefabAsset: {fileID: 0}

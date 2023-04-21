@@ -27,7 +27,6 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] private AudioSource damageSoundEffect;
 
-
     private void OnEnable()
     {
         transform.position = homePosition;
@@ -39,9 +38,9 @@ public class Enemy : MonoBehaviour
     {
         damageSoundEffect.Play();
         health -= damage;
+        StartCoroutine(Flash());
         if (health <= 0)
         {
-            
             this.gameObject.SetActive(false);
             alive = false;
         }
@@ -66,6 +65,17 @@ public class Enemy : MonoBehaviour
             currentState = EnemyState.idle;
             myRigidbody.velocity = Vector2.zero;
         }
+    }
+
+    public SpriteRenderer sprite;
+
+    public IEnumerator Flash()
+    {
+        float HealthPercent = health/maxHealth + 0.1f;
+        Color newColor = new(HealthPercent, 0f, 0f);
+        sprite.color = newColor;
+        yield return new WaitForSeconds(0.1f);
+        sprite.color = Color.white;
     }
 
 }
