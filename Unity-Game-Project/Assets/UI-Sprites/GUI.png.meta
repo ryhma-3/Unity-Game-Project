@@ -507,40 +507,19 @@ TextureImporter:
       name: GUI_19
       rect:
         serializedVersion: 2
-        x: 32
+        x: 49
         y: 176
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 3, z: 3, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 317502463f68140428bf6bb3bb68f3ff
       internalID: -73073147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI_20
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 176
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcb16a8a8df7e0444baa7abbf33f0135
-      internalID: 1046097296
       vertices: []
       indices: 
       edges: []
@@ -1280,6 +1259,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GUI_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf9a4c0742ec9e4dad464501a941ae8
+      internalID: 1046097296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 209
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfda962ef146ee4fb6a330160c06489
+      internalID: -1904181412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1297,6 +1318,7 @@ TextureImporter:
       GUI_2: 1774579599
       GUI_11: -648916585
       GUI_50: -970570793
+      GUI_56: -1904181412
       GUI_44: -1874487321
       GUI_15: -336537736
       GUI_54: 2026950750
