@@ -30,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7865238409033770559}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -462.17, y: 128.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &7865238409033770552
 Animator:
   serializedVersion: 5
@@ -100,7 +100,7 @@ Animator:
   m_GameObject: {fileID: 7865238409033770559}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6ee12839bf5c4fb42a2ddc9b61bea287, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0a533074167a6ac4b81bdb33089055a0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   enemyName: Patrol Zombie
   baseAttack: 1
   moveSpeed: 2
-  homePosition: {x: -462.17, y: 128.79}
+  homePosition: {x: -445.1, y: 116.2}
   damageSoundEffect: {fileID: 0}
   sprite: {fileID: 0}
   myRigidbody: {fileID: 7865238409033770548}
