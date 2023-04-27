@@ -19,14 +19,6 @@ public class PlayerHealth : MonoBehaviour
     {
         UpdateHealthUI();
         playerCurrentHealth.RuntimeValue = Mathf.Clamp(playerCurrentHealth.RuntimeValue, 0, maxHealth.RuntimeValue);
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            TakeDamage(Random.Range(5, 10));
-        }
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            RestoreHealth(Random.Range(5, 10));
-        }
     }
 
     public void UpdateHealthUI()

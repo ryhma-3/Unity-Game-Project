@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class MeleeEnemy : skeleton
 {
+
     [SerializeField] private AudioSource attackSoundEffect;
+
+    void Start()
+    {
+        anim.SetBool("wakeUp", true);
+    }
 
     public override void CheckDistance()
     {
@@ -22,6 +28,7 @@ public class MeleeEnemy : skeleton
                 changeAnim(temp - transform.position);
                 myRigidbody.MovePosition(temp);
                 ChangeState(EnemyState.walk);
+                anim.SetBool("wakeUp", true);
             }
         }
         else if (Vector3.Distance(target.position,
@@ -35,12 +42,18 @@ public class MeleeEnemy : skeleton
                 StartCoroutine(AttackCo());
             }
         }
+
+        else if (Vector3.Distance(target.position,
+              transform.position) > chaseRadius)
+        {
+            anim.SetBool("wakeUp", false);
+        }
     }
 
     public IEnumerator AttackCo()
     {
         currentState = EnemyState.attack;
-        attackSoundEffect.Play();
+        //attackSoundEffect.Play();
         anim.SetBool("attack", true);
         yield return new WaitForSeconds(1f);
         currentState = EnemyState.walk;

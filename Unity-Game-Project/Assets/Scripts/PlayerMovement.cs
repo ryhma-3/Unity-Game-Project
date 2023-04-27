@@ -8,7 +8,8 @@ public enum PlayerState
     interact,
     walk,
     stagger,
-    idle
+    idle,
+    spell
 }
 
 // Hahmon ohjausfunktio
@@ -30,14 +31,20 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
 
     public FloatValue currentHealth;
+    public FloatValue potioncounter;
 
     public static bool isSprinting;
 
     private PlayerHealth health;
+    private potionUI potions;
+    private DeathScreen death;
+    private WinScreen win;
 
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
     [SerializeField] private AudioSource hurtSoundEffect;
+    [SerializeField] private AudioSource spellSoundEffect;
+    [SerializeField] private AudioSource potiondSoundEffect;
 
     void Start()
     {
@@ -45,6 +52,9 @@ public class PlayerMovement : MonoBehaviour
         walkSoundEffect.Pause();
         transform.position = startingPosition.initialValue;
         health = GameObject.FindWithTag("Healthsystem").GetComponent<PlayerHealth>();
+        potions = GameObject.FindWithTag("Healthsystem").GetComponent<potionUI>();
+        death = GameObject.FindWithTag("UI").GetComponent<DeathScreen>();
+        win = GameObject.FindWithTag("UI").GetComponent<WinScreen>();
     }
 
 
@@ -55,9 +65,13 @@ public class PlayerMovement : MonoBehaviour
         movement = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger && currentState != PlayerState.spell)
         {
             StartCoroutine(AttackCo());
+        }
+        else if (Input.GetButtonDown("spell") && currentState != PlayerState.attack && currentState != PlayerState.stagger && currentState != PlayerState.spell)
+        {
+            StartCoroutine(SpellCo());
         }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
@@ -73,6 +87,18 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = 10;
         }
+
+
+        if (Input.GetKeyDown(KeyCode.H) && potioncounter.RuntimeValue > 0f )
+        {
+            potiondSoundEffect.Play();
+            potions.UsePotion();
+        }
+        //WIN CONDITION DEBUGGIN
+        if (Input.GetKeyDown(KeyCode.F12))
+        {
+            win.ActivateVictory();
+        }
     }
 
     private IEnumerator AttackCo()
@@ -83,6 +109,17 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.33f);
+        currentState = PlayerState.walk;
+    }
+
+    private IEnumerator SpellCo()
+    {
+        animator.SetBool("spell", true);
+        currentState = PlayerState.spell;
+        spellSoundEffect.Play();
+        yield return null;
+        animator.SetBool("spell", false);
+        yield return new WaitForSeconds(1f);
         currentState = PlayerState.walk;
     }
 
@@ -103,6 +140,8 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             walkSoundEffect.Pause();
+            rb.bodyType = RigidbodyType2D.Static;
+            rb.bodyType = RigidbodyType2D.Dynamic;
             animator.SetBool("moving", false);
         }
     }
@@ -110,6 +149,7 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         rb.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
+        
     }
 
     public void Knock(float knockTime, float damage)
@@ -122,6 +162,7 @@ public class PlayerMovement : MonoBehaviour
         } else
         {
             //death handling
+            death.ActivateDeathScreen();
             this.gameObject.SetActive(false);
         }
     }

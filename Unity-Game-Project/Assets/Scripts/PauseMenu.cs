@@ -11,10 +11,12 @@ public class PauseMenu : MonoBehaviour
     public GameObject settingsMenuUI;
     public AudioMixer audioMixer;
 
+
     // Update is called once per frame
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !DeathScreen.playerDead)
         {
             if (GameIsPaused)
             {
