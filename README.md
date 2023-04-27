@@ -1,11 +1,64 @@
+<a name="readme-top"></a>
 # Unity-Game-Project
-Game project for the Ohjelmistoprojekti II-course. 
+Game project for the Haaga-Helia Ohjelmistoprojekti II-course Spring 2023. 
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#scenario-planning">Scenario Planning</a></li>
+    <li><a href="#known-issues">Known Issues</a></li>
+    <li><a href="#license">License</a></li>
+
+  </ol>
+</details>
+
+## About The Project
+This project is a two dimensional role playing game(RPG). It was created using the Unity game engine and various free assets. Our goal was to create a fun and story rich game while familiarizing ourselves with Unity and honing our project-management and cooperation skills.   
+
+## Built-with
+* [Unity][unity-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Acknowledgments
+A list of the assets we used may be found in the link below. 
+
+* [List of used Assets, credits and licenses](https://github.com/ryhma-3/Unity-Game-Project/blob/main/Used-assets-credits-and-licences.md)
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Game Design Document](https://github.com/ryhma-3/GDD/blob/main/GDD.md)
+## Scenario Planning 
 
-## [Game Script](https://github.com/ryhma-3/script/blob/main/script.v1.md)
-## [Game Script2](https://github.com/ryhma-3/Storyboard/blob/main/Script2.md)
+* [Game Design Document](https://github.com/ryhma-3/GDD/blob/main/GDD.md)
+* [Game Script](https://github.com/ryhma-3/script/blob/main/script.v1.md)
+* [Game Script2](https://github.com/ryhma-3/Storyboard/blob/main/Script2.md)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Known issues
+
+
+| Location      | Description |
+| ----------- | ----------- |
+| Forest      | Zombie loop       |
+
+
+
+[unity-url]: https://unity.com/
 
 
 
