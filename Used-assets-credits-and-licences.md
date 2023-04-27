@@ -182,6 +182,16 @@ https://creativecommons.org/licenses/by/3.0/
 Link:
 https://opengameart.org/content/fantasy-sound-effects-library
 
+## Pine Tree Pack
+
+Made by: KnoblePersona
+
+Licence:
+https://creativecommons.org/licenses/by/3.0/
+
+Link:
+https://opengameart.org/content/pine-tree-pack
+
 ## Water Magic Effect
 
 Made by: Cethiel
