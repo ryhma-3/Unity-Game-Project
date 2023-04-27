@@ -95,7 +95,7 @@ Here are some documenets which we have created in the planning phase of our game
 
 
 ## License 
-This game is licensed under the Genral Public License GNU
+This game is licensed under the Genral Public License GNU.
 More information is available [here](https://www.gnu.org/licenses/gpl-3.0.html)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
