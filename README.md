@@ -22,13 +22,14 @@ Game project for the Haaga-Helia Ohjelmistoprojekti II-course Spring 2023.
   </ol>
 </details>
 
+## About The Project
+This project is a two dimensional role playing game(RPG). It was created using the Unity game engine and various free assets. Our goal was to create a fun and story rich game while familiarizing ourselves with Unity and honing our project-management and cooperation skills.   
+
 ## Getting Started
 
 The game will be published on [Unity Play](https://play.unity.com/) once we have determined that it is in a publishable state. Once the game is uploaded on Unity Play, 
 we will add a link to this readme file. At this point the game is only playable through Unity-Hub. 
 
-## About The Project
-This project is a two dimensional role playing game(RPG). It was created using the Unity game engine and various free assets. Our goal was to create a fun and story rich game while familiarizing ourselves with Unity and honing our project-management and cooperation skills.   
 
 ---
 
