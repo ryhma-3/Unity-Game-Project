@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MeleeEnemy : skeleton
 {
-
+    public float toMaxHealthRadius;
+    public float attackAnimationDelay = (1f);
     [SerializeField] private AudioSource attackSoundEffect;
 
     void Start()
@@ -39,6 +40,8 @@ public class MeleeEnemy : skeleton
             if (currentState == EnemyState.walk &&
                 currentState != EnemyState.stagger)
             {
+                myRigidbody.bodyType = RigidbodyType2D.Static;
+                myRigidbody.bodyType = RigidbodyType2D.Dynamic;
                 StartCoroutine(AttackCo());
             }
         }
@@ -46,6 +49,12 @@ public class MeleeEnemy : skeleton
         else if (Vector3.Distance(target.position,
               transform.position) > chaseRadius)
         {
+            if(Vector3.Distance(target.position,
+              transform.position) > toMaxHealthRadius)
+            {
+                health = maxHealth;
+            }
+
             myRigidbody.bodyType = RigidbodyType2D.Static;
             myRigidbody.bodyType = RigidbodyType2D.Dynamic;
             anim.SetBool("wakeUp", false);
@@ -57,7 +66,7 @@ public class MeleeEnemy : skeleton
         currentState = EnemyState.attack;
         //attackSoundEffect.Play();
         anim.SetBool("attack", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(attackAnimationDelay);
         currentState = EnemyState.walk;
         anim.SetBool("attack", false);
     }
