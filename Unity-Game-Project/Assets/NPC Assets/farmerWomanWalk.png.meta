@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: 5faef6496fbfe9940aa10415614d194a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farmerWomanWalk_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 200
+        width: 31
+        height: 46
+      alignment: 9
+      pivot: {x: 0.45917892, y: 0.30000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f182c2499d7a6e4faef1a961b9bb73b
+      internalID: -2099108048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 199
+        width: 31
+        height: 47
+      alignment: 9
+      pivot: {x: 0.46598226, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6262629330173ee4f8786a25666f7eda
+      internalID: 226498088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 198
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44375712, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c5f407b885f6489efaeab4d1d2d9e
+      internalID: -665317174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 197
+        width: 29
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4636362, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9067a64ffb97c43972c6227a6f0746
+      internalID: 983616228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 198
+        width: 31
+        height: 48
+      alignment: 9
+      pivot: {x: 0.47958866, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b0b160100a71498b5b18920c2a731
+      internalID: -1278946207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 199
+        width: 31
+        height: 47
+      alignment: 9
+      pivot: {x: 0.45237386, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b6a052830c9984dab69a21c2746069
+      internalID: 1650289424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 198
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.43664855, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbebac056992e949a3ed750082704e0
+      internalID: 239385986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 197
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4437561, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5257992f3d2da4bb80ca260772a455
+      internalID: -2099326994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 198
+        width: 31
+        height: 48
+      alignment: 9
+      pivot: {x: 0.46597978, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f5db2de4812a749a3c9def7979a217
+      internalID: -1969410179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 135
+        width: 29
+        height: 47
+      alignment: 9
+      pivot: {x: 0.53636366, y: 0.29551274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690ed1393945151448e85da1bd2cb166
+      internalID: -1341980526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 135
+        width: 31
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5408212, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2e771900a16d1479f521f5565e2434
+      internalID: 135718381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 29
+        height: 46
+      alignment: 9
+      pivot: {x: 0.521818, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ad0373476f0940b228523451ea5db
+      internalID: 2080726309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 136
+        width: 24
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4560604, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd85072d41003514699d9da2a7f99366
+      internalID: -1720391767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 135
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4493811, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e49255b11e17c4aa9051e1c354efff
+      internalID: -52533397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 135
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4375068, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e117fd5792d33d4797b142de2afa33c
+      internalID: 428042043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 135
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.46625367, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f98004db0f7fa4288841f103bb6876
+      internalID: -1656242896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 135
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c80253eac6a19143a25ce5e8faf30c5
+      internalID: 1901861039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_17
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 135
+        width: 27
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e46436738543ff458a6bb49c5bb20e5
+      internalID: -632040930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 71
+        width: 33
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5703032, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7829542e117c185489814e4d14f46201
+      internalID: -1900988717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 71
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5790911, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107d2974273089442b6aa08a112277ba
+      internalID: -827805348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 70
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5272138, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575fde3e0dd9e50439b9b7244eda820f
+      internalID: -1941386558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 70
+        width: 29
+        height: 48
+      alignment: 9
+      pivot: {x: 0.521818, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e88b7c48b992348b099d333f1effb5
+      internalID: 1779314501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 70
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5408207, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c463fa72f1289bd4cbb1fc7e305210d5
+      internalID: 895575708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 71
+        width: 31
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5476242, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060aee5c3465c4249b29cd0bab4352d3
+      internalID: -551132196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_24
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 70
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.58844584, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a6818876d8d58439294d4eee8bd18b
+      internalID: -2067405176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_25
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 70
+        width: 31
+        height: 48
+      alignment: 9
+      pivot: {x: 0.574838, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e42f2c3cb1a3f49a4f9fc3aa16d9ae
+      internalID: -2108913886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_26
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 70
+        width: 32
+        height: 49
+      alignment: 9
+      pivot: {x: 0.54613495, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8fc60ff130ecd40a77a0f42eded702
+      internalID: -48317529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 7
+        width: 29
+        height: 47
+      alignment: 9
+      pivot: {x: 0.46363634, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79fecd2b56b3ef419b23e66c6a356a8
+      internalID: -1698863080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 7
+        width: 31
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4523751, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71490859a0cce8f4d88dbf5cbb80c146
+      internalID: -830691045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 8
+        width: 29
+        height: 46
+      alignment: 9
+      pivot: {x: 0.48545417, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8027b51f9920c45957e87e317dba13
+      internalID: -675186597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 8
+        width: 24
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5351512, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e26795335be4f04db83591b4b859c43
+      internalID: -1055933627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_31
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 7
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5421814, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540c99c17d5544944b3c1c1727f33918
+      internalID: 1646809360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_32
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 7
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5546796, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67aaa528fa67f548ad086e80ce2d032
+      internalID: -1462469493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 7
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5843628, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bc70e5ecc775548aaea7cab7b9be07
+      internalID: -85544942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_34
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 7
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bbd3ccf32b95349a27e2d5522193f0
+      internalID: -1250261972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerWomanWalk_35
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 7
+        width: 27
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63f69dd1df561047b656b8e95b7f900
+      internalID: 430430143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      farmerWomanWalk_33: -85544942
+      farmerWomanWalk_5: 1650289424
+      farmerWomanWalk_19: -827805348
+      farmerWomanWalk_3: 983616228
+      farmerWomanWalk_32: -1462469493
+      farmerWomanWalk_28: -830691045
+      farmerWomanWalk_16: 1901861039
+      farmerWomanWalk_23: -551132196
+      farmerWomanWalk_7: -2099326994
+      farmerWomanWalk_25: -2108913886
+      farmerWomanWalk_34: -1250261972
+      farmerWomanWalk_20: -1941386558
+      farmerWomanWalk_31: 1646809360
+      farmerWomanWalk_4: -1278946207
+      farmerWomanWalk_35: 430430143
+      farmerWomanWalk_26: -48317529
+      farmerWomanWalk_10: 135718381
+      farmerWomanWalk_11: 2080726309
+      farmerWomanWalk_8: -1969410179
+      farmerWomanWalk_9: -1341980526
+      farmerWomanWalk_17: -632040930
+      farmerWomanWalk_2: -665317174
+      farmerWomanWalk_1: 226498088
+      farmerWomanWalk_14: 428042043
+      farmerWomanWalk_15: -1656242896
+      farmerWomanWalk_18: -1900988717
+      farmerWomanWalk_13: -52533397
+      farmerWomanWalk_6: 239385986
+      farmerWomanWalk_24: -2067405176
+      farmerWomanWalk_12: -1720391767
+      farmerWomanWalk_27: -1698863080
+      farmerWomanWalk_30: -1055933627
+      farmerWomanWalk_29: -675186597
+      farmerWomanWalk_21: 1779314501
+      farmerWomanWalk_0: -2099108048
+      farmerWomanWalk_22: 895575708
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
