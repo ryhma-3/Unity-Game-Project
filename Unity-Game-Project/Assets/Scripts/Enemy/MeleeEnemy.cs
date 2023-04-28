@@ -46,6 +46,8 @@ public class MeleeEnemy : skeleton
         else if (Vector3.Distance(target.position,
               transform.position) > chaseRadius)
         {
+            myRigidbody.bodyType = RigidbodyType2D.Static;
+            myRigidbody.bodyType = RigidbodyType2D.Dynamic;
             anim.SetBool("wakeUp", false);
         }
     }
