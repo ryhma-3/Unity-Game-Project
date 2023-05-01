@@ -1,0 +1,1059 @@
+fileFormatVersion: 2
+guid: 0ed752d8fbecad44087f414fc265f5b0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SnowOrc_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 329
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a107c23f0302a64e977c97a450db2d4
+      internalID: 410054787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 329
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9e15b0aa932034bb559ece0131563f
+      internalID: 1237027888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 328
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bc83074b6b00c4fb7b366036e14a87
+      internalID: -2072502446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 327
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22477584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bedb2ca375661f4eb6c7d50c90ca052
+      internalID: -1980254015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 328
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2082582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce123d701476e24db08f44343133a46
+      internalID: 1337794260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 329
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b10a7d557fe664f9c993ec8e80f704
+      internalID: -623533937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 328
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd3654b2a8a62748b07b94255ea8588
+      internalID: -317671456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 327
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.500001, y: 0.22477584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f39252a13d34841812d294ea7b7283
+      internalID: 1143101439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 328
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.4765566, y: 0.22477584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6940759e3217417439ece756fcfaf5a0
+      internalID: -367683123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 264
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.46366176, y: 0.22595578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adb8e97a464ea94b930ee2f0d56cd37
+      internalID: -652619174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 264
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09699b95077c634bbcaf2d03c43c36e
+      internalID: -827831400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 265
+        width: 23
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4684017, y: 0.2000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f65a69c7675a14b95848a5ca96132d
+      internalID: -1665901393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 265
+        width: 22
+        height: 41
+      alignment: 9
+      pivot: {x: 0.46696472, y: 0.2000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eef35c952f8e74f9999621d74e5048
+      internalID: -570535510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 264
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.46971765, y: 0.19134812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a36d8c49576e1348b13a8f4960fbfa8
+      internalID: 363735561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_14
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 264
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e70ab2fc9c5a89479ec77a86f425d13
+      internalID: 352279055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_15
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 264
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7143adf48b254bc48a80231c94a38571
+      internalID: -1742766694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_16
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 264
+        width: 23
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2061e980a46254d82ff68a86e07c80
+      internalID: -1130040864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_17
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 264
+        width: 22
+        height: 42
+      alignment: 9
+      pivot: {x: 0.45044777, y: 0.20865232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbd7840701b11446bec271e6093621c
+      internalID: -2003126716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 32
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b089200dc532e36499e5e8c788144730
+      internalID: -838528290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 200
+        width: 32
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9137e24aee649ef42bcd61899b7367cf
+      internalID: -779808192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 199
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5113559, y: 0.23159857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ee496c56bfe5c49894823cb7cef15d
+      internalID: 663739202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 199
+        width: 30
+        height: 45
+      alignment: 9
+      pivot: {x: 0.48788705, y: 0.24037611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d3afab010ce73499fdcbb2d12a17b6
+      internalID: 882815301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_22
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 199
+        width: 30
+        height: 46
+      alignment: 9
+      pivot: {x: 0.51211244, y: 0.23159857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cf79609b6f05a489b5b80a00efab9c
+      internalID: -138585821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 200
+        width: 32
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1e79f918ad3b04e8661ecf51904285
+      internalID: 705106256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 199
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6cf36425f8c7d4c9d7127fdd034298
+      internalID: 412387021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_25
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 199
+        width: 30
+        height: 45
+      alignment: 9
+      pivot: {x: 0.51211345, y: 0.22422586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98c4ca3eed423f4b9030f3944a8cd64
+      internalID: 762072175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_26
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 199
+        width: 30
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20789967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a715da9aa7cff24bbc9c31292db3b09
+      internalID: -1872189014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 136
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5726765, y: 0.19134812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dfa57612ea8514faa1a66735909808
+      internalID: 1336659753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 136
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df22957b0fd5a9347b759c369fa84295
+      internalID: 1358986179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 137
+        width: 23
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5157988, y: 0.19999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a91e7fbf73e5934398458207eb3a9eb
+      internalID: -1919302421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 137
+        width: 22
+        height: 41
+      alignment: 9
+      pivot: {x: 0.54955155, y: 0.2177258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc6463b81f6bd9439f871136d4cfd6a
+      internalID: 348943170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 136
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5605634, y: 0.22595578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707a3f3a424d94249951ea2cd71bf1ac
+      internalID: -1232129377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 136
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5778678, y: 0.2177258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0433e4feb96b0409b05d85a41bd652
+      internalID: -1033766450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_33
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 136
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6059863, y: 0.20865194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aba47f13205b434dbb921f10ff7a65f
+      internalID: -1328332443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_34
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 136
+        width: 23
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5789954, y: 0.23460788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400b53d72f0025c4eab86c492a1b7433
+      internalID: -2110366846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 136
+        width: 22
+        height: 42
+      alignment: 9
+      pivot: {x: 0.59910446, y: 0.22595578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0235299c26373a14c872cc4b3426c520
+      internalID: -38722787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 32
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1467911b26f20442a8ea078e8414979
+      internalID: 981005440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 73
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f486d3a168040545a7eee693a656849
+      internalID: -443691741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_38
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 73
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb6d4a7bc478784da1f9f667df45d79
+      internalID: -364237751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_39
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 74
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a8955a844c6b49ada0a630aec0f9a
+      internalID: 1001618856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 74
+        width: 31
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5361470b4987167459cf424894dcabd1
+      internalID: 894951341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowOrc_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 73
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdf017ff7ab56f479bbaaca3e348bec
+      internalID: 800755828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SnowOrc_37: -443691741
+      SnowOrc_35: -38722787
+      SnowOrc_10: -827831400
+      SnowOrc_14: 352279055
+      SnowOrc_23: 705106256
+      SnowOrc_6: -317671456
+      SnowOrc_20: 663739202
+      SnowOrc_26: -1872189014
+      SnowOrc_27: 1336659753
+      SnowOrc_2: -2072502446
+      SnowOrc_8: -367683123
+      SnowOrc_29: -1919302421
+      SnowOrc_17: -2003126716
+      SnowOrc_33: -1328332443
+      SnowOrc_15: -1742766694
+      SnowOrc_9: -652619174
+      SnowOrc_13: 363735561
+      SnowOrc_12: -570535510
+      SnowOrc_31: -1232129377
+      SnowOrc_41: 800755828
+      SnowOrc_30: 348943170
+      SnowOrc_3: -1980254015
+      SnowOrc_38: -364237751
+      SnowOrc_40: 894951341
+      SnowOrc_28: 1358986179
+      SnowOrc_7: 1143101439
+      SnowOrc_0: 410054787
+      SnowOrc_18: -838528290
+      SnowOrc_25: 762072175
+      SnowOrc_21: 882815301
+      SnowOrc_24: 412387021
+      SnowOrc_11: -1665901393
+      SnowOrc_22: -138585821
+      SnowOrc_4: 1337794260
+      SnowOrc_16: -1130040864
+      SnowOrc_19: -779808192
+      SnowOrc_34: -2110366846
+      SnowOrc_36: 981005440
+      SnowOrc_32: -1033766450
+      SnowOrc_39: 1001618856
+      SnowOrc_5: -623533937
+      SnowOrc_1: 1237027888
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
