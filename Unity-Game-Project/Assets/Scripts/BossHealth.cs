@@ -14,6 +14,9 @@ public class BossHealth : MonoBehaviour
     private float BossMaxHP;
     private float BossHP;
     public string Name;
+    public bool playerIsClose = false;
+
+    public GameObject HealthUI;
 
     public TextMeshProUGUI textMesh;
 
@@ -26,8 +29,10 @@ public class BossHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    
         UpdateHealthUI();
         BossHP = Mathf.Clamp(script.health, 0, BossMaxHP);
+        CheckPlayer();
     }
 
     public void UpdateHealthUI()
@@ -39,7 +44,6 @@ public class BossHealth : MonoBehaviour
         if (fillBack > HealthFraction)
         {
             frontHealthBar.fillAmount = HealthFraction;
-            backHealthBar.color = Color.red;
             lerpTimer += Time.deltaTime;
             float percentComplete = lerpTimer / chipSpeed;
             percentComplete = percentComplete * percentComplete;
@@ -47,12 +51,27 @@ public class BossHealth : MonoBehaviour
         }
         if (fillFront < HealthFraction)
         {
-            backHealthBar.color = Color.green;
             backHealthBar.fillAmount = HealthFraction;
             lerpTimer += Time.deltaTime;
             float percentComplete = lerpTimer / chipSpeed;
             percentComplete = percentComplete * percentComplete;
             frontHealthBar.fillAmount = Mathf.Lerp(fillFront, backHealthBar.fillAmount, percentComplete);
+        }
+    }
+
+
+    public void CheckPlayer()
+    {
+        if (Vector3.Distance(script.target.position,
+              transform.position) < script.toMaxHealthRadius)
+        {
+            HealthUI.SetActive(true);
+        }
+
+        if (Vector3.Distance(script.target.position,
+              transform.position) > script.toMaxHealthRadius)
+        {
+            HealthUI.SetActive(false);
         }
     }
 

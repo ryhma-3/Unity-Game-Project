@@ -13274,50 +13274,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1386177417}
     m_Modifications:
-    - target: {fileID: 1630970529, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: damage
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 937341417482981300, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: damage
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: health
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 276786626}
-    - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: maxHealth
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: moveSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: chaseRadius
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: homePosition.x
-      value: 46.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297158331893245714, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: homePosition.y
-      value: 5.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4110616202759915812, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: damage
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4611004994495862251, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: damage
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 7476379652628972325, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13361,10 +13321,6 @@ PrefabInstance:
     - target: {fileID: 7476379652628972325, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8630598751604890453, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
-      propertyPath: damage
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9020856148898363970, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
       propertyPath: m_Name

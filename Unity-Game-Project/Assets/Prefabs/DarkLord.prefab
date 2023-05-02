@@ -63,7 +63,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.15
-  damage: -1
+  damage: 5
 --- !u!1 &2061156548203072135
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
-  damage: 10
+  damage: 15
 --- !u!1 &3426321078258070226
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
-  damage: 10
+  damage: 15
 --- !u!1 &3551587413803766859
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
-  damage: 10
+  damage: 15
 --- !u!1 &4871771901642289896
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
-  damage: 10
+  damage: 15
 --- !u!1 &9020856148898363970
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,6 +418,7 @@ GameObject:
   - component: {fileID: 7530432727783491126}
   - component: {fileID: 2346695912665528617}
   - component: {fileID: 5691600077258068565}
+  - component: {fileID: 8407492153228594082}
   m_Layer: 0
   m_Name: DarkLord
   m_TagString: enemy
@@ -442,6 +443,7 @@ Transform:
   - {fileID: 7977832177823524937}
   - {fileID: 7960216441697842469}
   - {fileID: 1630970528}
+  - {fileID: 4526919004417815993}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -603,17 +605,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: 40
-  health: 40
+  maxHealth: 50
+  health: 50
   enemyName: DarkLord
   baseAttack: 10
-  moveSpeed: 4
-  homePosition: {x: -257.1, y: 419.8}
+  moveSpeed: 5
+  homePosition: {x: 46.5, y: 5.7}
+  isBoss: 1
+  script: {fileID: 8407492153228594082}
   damageSoundEffect: {fileID: 2346695912665528617}
   sprite: {fileID: 8101984547843423426}
   myRigidbody: {fileID: 8705015323421644390}
   target: {fileID: 0}
-  chaseRadius: 6
+  chaseRadius: 9
   attackRadius: 2
   anim: {fileID: 2027207986391045304}
   toMaxHealthRadius: 20
@@ -824,3 +828,167 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BossDeath: {fileID: 11400000, guid: 6437e62e60d508c408e69820ab41fe4e, type: 2}
+--- !u!114 &8407492153228594082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020856148898363970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69c5f6e2e3bcc64aafef2b6fdcbcc77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chipSpeed: 2
+  frontHealthBar: {fileID: 2721970208461968616}
+  backHealthBar: {fileID: 829390319714397989}
+  script: {fileID: 1297158331893245714}
+  Name: Dark Lord LUCIFER
+  playerIsClose: 0
+  HealthUI: {fileID: 986694313023732349}
+  textMesh: {fileID: 8355962910561572775}
+--- !u!1001 &3012700184175451838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7476379652628972325}
+    m_Modifications:
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629596290956485827, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_Name
+      value: BossHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629596290956485827, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+--- !u!114 &829390319714397989 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2471865704449667483, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+  m_PrefabInstance: {fileID: 3012700184175451838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &986694313023732349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2629596290956485827, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+  m_PrefabInstance: {fileID: 3012700184175451838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2721970208461968616 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 867263576033348182, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+  m_PrefabInstance: {fileID: 3012700184175451838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &4526919004417815993 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1665656773090077447, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+  m_PrefabInstance: {fileID: 3012700184175451838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8355962910561572775 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6501250789314693401, guid: c4b1924f7ec10f6469a86d6a6341eb6a, type: 3}
+  m_PrefabInstance: {fileID: 3012700184175451838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
