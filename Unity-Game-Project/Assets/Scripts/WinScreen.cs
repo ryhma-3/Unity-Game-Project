@@ -14,8 +14,8 @@ public class WinScreen : MonoBehaviour
     {
         DeathScreen.playerDead = true;
         victoryUI.SetActive(true);
-        Time.timeScale = 0f;
         winSound.Play();
+        Time.timeScale = 0f;
         StartCoroutine(TemporarilyDeactivate());
     }
 
