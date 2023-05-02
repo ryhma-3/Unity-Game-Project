@@ -5,8 +5,10 @@ using UnityEngine;
 public class MeleeEnemy : skeleton
 {
     public float toMaxHealthRadius;
-    public float attackAnimationDelay = (1f);
+    public float attackAnimationDelay = 1;
     [SerializeField] private AudioSource attackSoundEffect;
+
+    
 
     void Start()
     {
@@ -44,6 +46,7 @@ public class MeleeEnemy : skeleton
                 myRigidbody.bodyType = RigidbodyType2D.Dynamic;
                 StartCoroutine(AttackCo());
             }
+            
         }
 
         else if (Vector3.Distance(target.position,
