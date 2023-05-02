@@ -10,6 +10,7 @@ public class WinScript : MonoBehaviour
     public VictoryCondition condition2;
     public VictoryCondition condition3;
     public VictoryCondition condition4;
+    public bool isExecuted;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +21,9 @@ public class WinScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (condition1.BossRuntimeValue && condition2.BossRuntimeValue && condition3.BossRuntimeValue && condition4.BossRuntimeValue)
+        if (condition1.BossRuntimeValue && condition2.BossRuntimeValue && condition3.BossRuntimeValue && condition4.BossRuntimeValue && isExecuted == false)
         {
+            isExecuted = true;
             win.ActivateVictory();
         }
     }
