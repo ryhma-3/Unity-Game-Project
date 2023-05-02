@@ -96,11 +96,6 @@ public class PlayerMovement : MonoBehaviour
             potiondSoundEffect.Play();
             potions.UsePotion();
         }
-        //WIN CONDITION DEBUGGIN
-        if (Input.GetKeyDown(KeyCode.F12))
-        {
-            win.ActivateVictory();
-        }
     }
 
     private IEnumerator AttackCo()
