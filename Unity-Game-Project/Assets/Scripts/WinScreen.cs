@@ -7,21 +7,24 @@ public class WinScreen : MonoBehaviour
 {
 
     public GameObject victoryUI;
-    public GameObject explosionsparent;
-    public Image[] explosions;
+    public GameObject[] explosionsparent;
+
+    [SerializeField] private AudioSource winSound;
     public void ActivateVictory()
     {
         DeathScreen.playerDead = true;
         victoryUI.SetActive(true);
         Time.timeScale = 0f;
-        
+        winSound.Play();
         StartCoroutine(TemporarilyDeactivate());
     }
 
     private IEnumerator TemporarilyDeactivate()
-    {
-        
-            yield return new WaitForSecondsRealtime(4);
-            explosionsparent.SetActive(true);
+    {   
+        foreach (GameObject parent in explosionsparent)
+        {
+            yield return new WaitForSecondsRealtime(1);
+            parent.SetActive(true);
+        }
     }
 }
