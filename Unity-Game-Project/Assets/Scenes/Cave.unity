@@ -5535,11 +5535,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5782531085720332628, guid: 64b8e46eca67e6e4a88346d92e3e0d00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5782531085720332628, guid: 64b8e46eca67e6e4a88346d92e3e0d00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5782531085720332628, guid: 64b8e46eca67e6e4a88346d92e3e0d00, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13211,7 +13211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526817834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.019989, y: -3.29, z: 0}
+  m_LocalPosition: {x: 0.51, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13249,7 +13249,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.019664705, y: -0.502851}
+  m_Offset: {x: -0.009214759, y: -0.26250792}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13260,7 +13260,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9989675, y: 2.005702}
+  m_Size: {x: 3.085736, y: 1.5250158}
   m_EdgeRadius: 0
 --- !u!4 &1544722192 stripped
 Transform:
@@ -13324,7 +13324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7476379652628972325, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.53
+      value: 44.34
       objectReference: {fileID: 0}
     - target: {fileID: 7476379652628972325, guid: 1fcdb703425a23443bb0474a512ccd3c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13450,7 +13450,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674888818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: 0, z: -5}
+  m_LocalPosition: {x: 0.5, y: -3, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
