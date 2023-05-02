@@ -7,27 +7,35 @@ using TMPro;
 public class BossHealth : MonoBehaviour
 {
     private float lerpTimer;
-    public FloatValue maxHealth;
     public float chipSpeed = 2f;
     public Image frontHealthBar;
     public Image backHealthBar;
-    public FloatValue playerCurrentHealth;
-    public SignalSender playerHealthSignal;
+    public MeleeEnemy script;
+    private float BossMaxHP;
+    private float BossHP;
+    public string Name;
 
+    public TextMeshProUGUI textMesh;
+
+    private void Start()
+    {
+        BossMaxHP = script.maxHealth;
+        textMesh.text = Name;
+    }
 
     // Update is called once per frame
     void Update()
     {
         UpdateHealthUI();
-        playerCurrentHealth.RuntimeValue = Mathf.Clamp(playerCurrentHealth.RuntimeValue, 0, maxHealth.RuntimeValue);
+        BossHP = Mathf.Clamp(script.health, 0, BossMaxHP);
     }
 
     public void UpdateHealthUI()
     {
-        float tempHealth = playerCurrentHealth.RuntimeValue;
+        float tempHealth = BossHP;
         float fillFront = frontHealthBar.fillAmount;
         float fillBack = backHealthBar.fillAmount;
-        float HealthFraction = tempHealth / maxHealth.RuntimeValue;
+        float HealthFraction = tempHealth / BossMaxHP;
         if (fillBack > HealthFraction)
         {
             frontHealthBar.fillAmount = HealthFraction;
@@ -48,15 +56,13 @@ public class BossHealth : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage()
     {
-        playerCurrentHealth.RuntimeValue -= damage;
         lerpTimer = 0f;
     }
 
-    public void RestoreHealth(float healAmount)
+    public void RestoreHealth()
     {
-        playerCurrentHealth.RuntimeValue += healAmount;
         lerpTimer = 0f;
     }
 }

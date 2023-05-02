@@ -24,6 +24,8 @@ public class Enemy : MonoBehaviour
     public float moveSpeed;
     public Vector2 homePosition;
     private bool alive = true;
+    public bool isBoss;
+    public BossHealth script;
 
     [SerializeField] private AudioSource damageSoundEffect;
 
@@ -38,6 +40,10 @@ public class Enemy : MonoBehaviour
     {
         damageSoundEffect.Play();
         health -= damage;
+        if (isBoss)
+        {
+            script.TakeDamage();
+        }
         StartCoroutine(Flash());
         if (health <= 0)
         {

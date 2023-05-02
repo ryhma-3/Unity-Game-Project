@@ -673,6 +673,7 @@ GameObject:
   - component: {fileID: 9013896626237491555}
   - component: {fileID: 3821182159082927740}
   - component: {fileID: 1674384024}
+  - component: {fileID: 5201129384731463297}
   m_Layer: 0
   m_Name: WhipBoss
   m_TagString: enemy
@@ -864,6 +865,8 @@ MonoBehaviour:
   baseAttack: 10
   moveSpeed: 5
   homePosition: {x: 63.7, y: 131.9}
+  isBoss: 1
+  script: {fileID: 5201129384731463297}
   damageSoundEffect: {fileID: 3821182159082927740}
   sprite: {fileID: 7342762501661111191}
   myRigidbody: {fileID: 7879292475382798643}
@@ -1079,3 +1082,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BossDeath: {fileID: 11400000, guid: 56f0bf5a971980f4a801cf7b28eb53cc, type: 2}
+--- !u!114 &5201129384731463297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7540775430543160599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69c5f6e2e3bcc64aafef2b6fdcbcc77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chipSpeed: 2
+  frontHealthBar: {fileID: 0}
+  backHealthBar: {fileID: 0}
+  script: {fileID: 546867615979006023}
+  Name: Executioner Thomas
+  textMesh: {fileID: 0}
