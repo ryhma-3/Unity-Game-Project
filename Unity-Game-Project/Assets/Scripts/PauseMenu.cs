@@ -9,7 +9,9 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject settingsMenuUI;
+    public GameObject ControlsMenuUI;
     public AudioMixer audioMixer;
+
 
 
     // Update is called once per frame
@@ -73,6 +75,19 @@ public class PauseMenu : MonoBehaviour
         Debug.Log(volume);
         audioMixer.SetFloat("Volume", volume);
     }
+
+     public void OpenControls()
+    {
+        pauseMenuUI.SetActive(false);
+        ControlsMenuUI.SetActive(true);
+    }
+
+    public void ExitControls()
+    {
+        ControlsMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(true);
+    }
+
 
 
 }
