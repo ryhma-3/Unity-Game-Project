@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 1297158331893245714}
   - component: {fileID: 7530432727783491126}
   - component: {fileID: 2346695912665528617}
+  - component: {fileID: 5691600077258068565}
   m_Layer: 0
   m_Name: DarkLord
   m_TagString: enemy
@@ -615,6 +616,8 @@ MonoBehaviour:
   chaseRadius: 6
   attackRadius: 2
   anim: {fileID: 2027207986391045304}
+  toMaxHealthRadius: 20
+  attackAnimationDelay: 1
   attackSoundEffect: {fileID: 7530432727783491126}
 --- !u!82 &7530432727783491126
 AudioSource:
@@ -808,3 +811,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5691600077258068565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020856148898363970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f76873f693e88409c3feacc6be88b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BossDeath: {fileID: 11400000, guid: 6437e62e60d508c408e69820ab41fe4e, type: 2}
