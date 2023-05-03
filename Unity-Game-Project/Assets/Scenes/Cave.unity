@@ -5773,8 +5773,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1874651680, guid: 64b8e46eca67e6e4a88346d92e3e0d00, type: 3}
+      propertyPath: thrust
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1874651680, guid: 64b8e46eca67e6e4a88346d92e3e0d00, type: 3}
       propertyPath: knockTime
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5782531085720332624, guid: 64b8e46eca67e6e4a88346d92e3e0d00, type: 3}
       propertyPath: m_Name
