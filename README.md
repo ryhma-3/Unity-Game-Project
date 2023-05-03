@@ -29,8 +29,14 @@ The objective of the game is to defeat all of the bosses on the map. The player 
 
 ## Getting Started
 
-The game will be published on [Unity Play](https://play.unity.com/) once we have determined that it is in a publishable state. Once the game is uploaded on Unity Play, 
-we will add a link to this readme file. At this point the game is only playable through Unity-Hub. 
+The game is playable on [Unity Play](https://play.unity.com/mg/other/kira-x1v5). 
+
+Controls: 
+Move: WASD
+Attack: Left Mouse Button/ Space
+Special Attack: Mouse Wheel/ CTRL
+Interact: F
+Open Menu: ESC
 
 
 ---
@@ -94,7 +100,7 @@ Here are some documenets which we have created in the planning phase of our game
 
 | Location      | Description |
 | ----------- | ----------- |
-| Town      | (player) wrong sound effect     |
+| UnityPlay      | Main Menu zoomed in at the start    |
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
