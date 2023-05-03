@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 # Unity-Game-Project - Kira
-Game project for the Haaga-Helia Ohjelmistoprojekti II-course Spring 2023. 
+A Video game project for the Haaga-Helia Ohjelmistoprojekti II-course of Spring 2023. 
 
 <details>
   <summary>Table of Contents</summary>
