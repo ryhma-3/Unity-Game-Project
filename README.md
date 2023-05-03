@@ -31,12 +31,17 @@ The objective of the game is to defeat all of the bosses on the map. The player 
 
 The game is playable on [Unity Play](https://play.unity.com/mg/other/kira-x1v5). 
 
-Controls: 
-Move: WASD
-Attack: Left Mouse Button/ Space
-Special Attack: Mouse Wheel/ CTRL
-Interact: F
-Open Menu: ESC
+ Controls: 
+
+ Move: WASD
+
+ Attack: Left Mouse Button/ Space
+
+ Special Attack: Mouse Wheel/ CTRL
+
+ Interact: F
+
+ Open Menu: ESC
 
 
 ---
