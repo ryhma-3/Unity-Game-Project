@@ -39,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
     private potionUI potions;
     private DeathScreen death;
     private WinScreen win;
+    private float attackDelay = 0.5f;
+    private float spellDelay = 1.5f;
 
     [SerializeField] private AudioSource walkSoundEffect;
     [SerializeField] private AudioSource meleeSoundEffect;
@@ -94,11 +96,6 @@ public class PlayerMovement : MonoBehaviour
             potiondSoundEffect.Play();
             potions.UsePotion();
         }
-        //WIN CONDITION DEBUGGIN
-        if (Input.GetKeyDown(KeyCode.F12))
-        {
-            win.ActivateVictory();
-        }
     }
 
     private IEnumerator AttackCo()
@@ -108,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
         meleeSoundEffect.Play();
         yield return null;
         animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(.33f);
+        yield return new WaitForSeconds(attackDelay);
         currentState = PlayerState.walk;
     }
 
@@ -119,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         spellSoundEffect.Play();
         yield return null;
         animator.SetBool("spell", false);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(spellDelay);
         currentState = PlayerState.walk;
     }
 

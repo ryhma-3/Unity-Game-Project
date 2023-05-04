@@ -11,7 +11,7 @@ public class PotionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerIsClose)
+        if (playerIsClose && potioncounter.RuntimeValue < 5)
         {
             //Add a potion to the potion counter
             potioncounter.RuntimeValue += 1;

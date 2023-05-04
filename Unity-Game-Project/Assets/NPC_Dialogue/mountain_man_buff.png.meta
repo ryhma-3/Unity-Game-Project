@@ -1,0 +1,5965 @@
+fileFormatVersion: 2
+guid: 3201475aa1db71349b3da8836d4099f1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mountain_man_buff_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3584
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dbcefa953b92445abfec419b68c823
+      internalID: 287310982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3584
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f524bd05252764ebdb6f78b183020d
+      internalID: 260300882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3584
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e672466f74bec0d4e887f5a990887cef
+      internalID: 1104950782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3584
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624d1417d3d7ee439c905c68bd16307
+      internalID: 210626524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3584
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a0e1effeb0ea644b40bcf7c4874546
+      internalID: 2024231655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3584
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba463e3124ebb4459d54b462fa02378
+      internalID: -2100911245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3584
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5a1178e45dbc949afb7da3918e2eb9
+      internalID: 1384241104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 3611
+        width: 66
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ecf438cfc0244e9acb5620a88555d
+      internalID: -338785707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3520
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336cb71ec20791c43a20db69eb3bc6a0
+      internalID: -1798770542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3520
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee6f421c60f9c544a4354754aed325a
+      internalID: -1863923008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3520
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5534b1edc8fc341b98325775e8ccd4
+      internalID: 847453176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3520
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aff1994064528a44a94e2c18439f8b5
+      internalID: -1908799975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3520
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017b0601a260810499dbbea2caf0c5f0
+      internalID: -2114254845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3520
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a5b205313cb6c44a4ccb15dd40cf5c
+      internalID: -1149662011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3520
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7658b164b48af3f499f81ed391e3e192
+      internalID: -1010253044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3457
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4cbb89f7e03224e8790008da3e9bd5
+      internalID: -288631969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3457
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf85f6d2b512a74a9c3172b360bc24f
+      internalID: 1758327135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3457
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b362d69771d0ea546ab131cc2406b043
+      internalID: -446609580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3457
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1669e443aad2e6f4d9bfd1f85e36eae0
+      internalID: -1153023829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_19
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3457
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a8112a6ef10f944a1657f57af093d2
+      internalID: 1445787440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3457
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a30b8f46b480e34983b7f8289ca00a1
+      internalID: -360213509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_21
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3457
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8bae84f71bb84386801e43008f967
+      internalID: -972061959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3393
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e530b9f330e5404ea473cf79e0c828f
+      internalID: 1201528194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3393
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b111b138c5d204889c7020c8c7e20e
+      internalID: -2090800477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3393
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da83f269745d80943a9edad0eb4eca49
+      internalID: -2098676945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3393
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beb5060c0baac0499a4f66bfe53a961
+      internalID: -1494659141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3393
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9742524aca077aa49829547a59339e5f
+      internalID: 1818859993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_27
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3393
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3b1fc3e994d5942b328fbe16a4e91d
+      internalID: 1145737583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3393
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f78126c48b9284a86ed4c7742b34d7
+      internalID: -159746924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3329
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fe5d070d7072446967a16bd3a851af
+      internalID: 1349490026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3327
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed0f19be4163a945a53ce723f70ac0e
+      internalID: 1518161871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3327
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b752134b1933f40bd7a328fe1991d7
+      internalID: -891338079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3327
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4bc309918ef014fa26b4f5fa1ea872
+      internalID: -1008375298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_33
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 3327
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab7b410ddbbff34081131becb4ac11b
+      internalID: -2125894933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_34
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 3327
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0fb7fa034a0864bb9c81617bafc8a5
+      internalID: 2146039654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_35
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3327
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2105e46e72cd345478fd40a9fa3d25da
+      internalID: -656603591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_36
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3327
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671ea522831d56c409c23146aca68cc0
+      internalID: 162363596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3265
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d82c1d3a48712e459bf7cc631e2f705
+      internalID: -847309683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3265
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2cabdb15cc44748a9dbb2cce73454e
+      internalID: -1334489142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3265
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f10f867846d24daf851169f6e8d1d
+      internalID: 1816016989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3265
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba381b03f96b4d447b994b6f69299027
+      internalID: 1607342989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3265
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f290b7b6f24baf243ba044ded3835f0f
+      internalID: 1354910110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_42
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3265
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a0ecfcc6ec7f34089f47f308094a0a
+      internalID: -1116543128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_43
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3265
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317a7495a8e45b9498f0087d07d0a43b
+      internalID: 2010225376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_44
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3265
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004551b1e36b9f543bbeffacf023627b
+      internalID: 1274381854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_45
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3201
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ad8a5c67710454bad607429e9223be
+      internalID: -690020222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3201
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a2128df3ee8134c91f33eccfdc094f
+      internalID: 830966442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3201
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e14107473aa1a4f876a103336a93f3
+      internalID: 924764210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3201
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a15eaf0ece632f4789ef32267a71e67
+      internalID: 1015317110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3201
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a90a8ac67187dc47bde43092bd105f2
+      internalID: -590331340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3201
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a75dc077d51f94d86f21cb6d63fb33
+      internalID: 134668622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_51
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3201
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7b84adb50ebb64ba660a6cdfde6af8
+      internalID: 1441581432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_52
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3201
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5a9286c97baef48af56967e515fce6
+      internalID: -527720920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3137
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629208fdca4c7644a8287426b2965079
+      internalID: 1265837243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3137
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf8f63d623bc06448c70f79a79ce219
+      internalID: -2119015168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3137
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0bf6fc44b9feb4fbf3dda6f9fe1326
+      internalID: -542961091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_56
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3137
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b9abcce21f6e4184347359505fb71
+      internalID: 678832657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_57
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3137
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad654d82d50bc94fbd3e7fdfb46bbb8
+      internalID: 929026271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_58
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3137
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce44b5f779619bf46b9a35b918b40429
+      internalID: -420281212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_59
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3137
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bf8c1278d67a54f8687cd3a3b8a54b
+      internalID: 617980921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_60
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3137
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c8604ce0b90d48a9977865b1981f4
+      internalID: -347663563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_61
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3073
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1c43745951ce1449b3873ade6bae3d
+      internalID: -142605071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_62
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3074
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f71530e6e102439e3e15ece5193cf
+      internalID: 2093230923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_63
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3073
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e6e627fa3ba3c4a9f12769fcee2ee4
+      internalID: -1057090639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3071
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7526feafdb1fa07448119e47263f293d
+      internalID: 635140720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_65
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3073
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cbfcf8705d38a49b740d4e9f57bd0b
+      internalID: 827873014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_66
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3074
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7806798e49342b44b342faf9985618f
+      internalID: -1003535606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_67
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3073
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af4734e62a4b3b48a22f117e3029bb9
+      internalID: 933177157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_68
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3071
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32f28fdff858624f9554612e71ca0b5
+      internalID: -99964608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_69
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3073
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f916ee88da41d0845821bc7252daab19
+      internalID: 2034273506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3009
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080ff5936fdd7940ba9d6f5105c69cf
+      internalID: -957716122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3009
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7897eb2a8adbe9f4bac64c8615c5e9ce
+      internalID: -1778306275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3010
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e924970726cf2a41a3899c5fee09cc9
+      internalID: -1871030778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3010
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78eec75233ba8f47b4a42289a99614d
+      internalID: -827324369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_74
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3009
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779abffe74693c84c861cc91f08e64c1
+      internalID: -1349631073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_75
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3009
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cbe20dc62c09a4a8c7de8bf38732e9
+      internalID: 1958099208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_76
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3009
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc3e566f34cbad4e9a08acd79fbce06
+      internalID: 1409822207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_77
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 3009
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dfd2ca03f379a43a93f07482ac7972
+      internalID: 1231684045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_78
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3009
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8522aa0e2b46964da63f7facc68e11a
+      internalID: 386531037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_79
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2944
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f3550fd5485b244bac20f15e1becaa
+      internalID: -1296835352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_80
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2944
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10922de2a9ce1840ab135ace21f9619
+      internalID: -1735226934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_81
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2944
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d801956e15152d4fae631c642d847aa
+      internalID: -1060131304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2943
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90255cccfbc354bb46eaa8dca54d6c
+      internalID: 772490864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_83
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2944
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043b035eaf30c414496929154a91bb31
+      internalID: -1403944438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_84
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2944
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783b00ad9e2b77444961e5f804bc8c98
+      internalID: -1751536058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_85
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2944
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb5d949e3351aa4a9b24e2e240569b9
+      internalID: 1566019484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_86
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2944
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2522d149ef934eb43b9063a893d4fce0
+      internalID: 739887282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_87
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2944
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69400004f25da3f41986b1c9005c68a2
+      internalID: 1255413244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_88
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2880
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde777a0544df994d92de6f0e6b7a438
+      internalID: 557170377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2880
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc0bf5def1d344489fcf515b7cf5e23
+      internalID: -1748877460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2882
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b4ce13bbbeda45b8d1a13af8a0c43
+      internalID: -197086855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2882
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26eb1cfa9d740a4ab3daba1e8f67e01
+      internalID: -290062304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_92
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2880
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb72ba17a026a974781799679a21d9b2
+      internalID: 254226643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_93
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2880
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72808dbc7300624ca9fca1e72c152af
+      internalID: -106736892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_94
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2880
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1651f93f21cc4f54ca24368dd1102098
+      internalID: 1294455118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_95
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2880
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0b57d7a8fddda458e58d5a4ab937bd
+      internalID: 1558820642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_96
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2880
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cde52b7e208b004e9ab96cdc22a1a45
+      internalID: 737289193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_97
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2816
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09321ab7c821a514abf385ca4ff9604b
+      internalID: -7313046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2816
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cb7b07dcfce344ca85c626edc8a1dd
+      internalID: -614592171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_99
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2816
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d38b8168e9cbf498c668b2c3131df4
+      internalID: -350952472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2816
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ef0df7084d1b646bb68f4ce04a5524
+      internalID: -1495624862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_101
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2816
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce39640941b6975448a4424040b67626
+      internalID: -1922646312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_102
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2816
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717331d386c56b4a94a02eb3f511e76
+      internalID: 91342777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_103
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2752
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba357bc22947e4f4d8d00a0e2fba07d4
+      internalID: 681898614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2752
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98762b46554b39140952b4a1fd86724a
+      internalID: -2024721489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_105
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2752
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40088eae083fb0c4295ccc2242febd05
+      internalID: -785617894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_106
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2752
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1df89c69b45224a930fa9ad9e057fa
+      internalID: -1729969147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_107
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2752
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800578c4bc1913478e72f7c8a24d4cb
+      internalID: 1822988877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_108
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2752
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d598b79c6afec240bb6d2bbcc58c5aa
+      internalID: -1339886828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_109
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2688
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e467f84f97ae604885a0bcd7a2f45b9
+      internalID: -1113670171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2688
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bfa8091c7bd2c45aee0fd455e7cec3
+      internalID: 1250766870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_111
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2688
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e70310f857b8cb4890eb5940ae62564
+      internalID: -2065846188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_112
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2688
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87912469d474b4449e44f8556f989a6
+      internalID: 752597611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_113
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2688
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec7f83e4d02f144a4f33e43b30116d
+      internalID: 379581122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_114
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2688
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6033012e41d1d1a47bf05df5106d0a70
+      internalID: 1918778976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_115
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2624
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de75b81404cd88f468a8487944b5b4c8
+      internalID: -562738861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_116
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2624
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973008b910f05d543b0008da2ac01e1d
+      internalID: -954249831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_117
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2624
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9005a94b6392983469c9bbcfafbc71cd
+      internalID: 57843783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_118
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2624
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c173944aa919044d821416893fdc393
+      internalID: 1259240255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_119
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2624
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027b726ae7df0074da8836009130d3bb
+      internalID: 2016179830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_120
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2624
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87152fe68dcac8f4fae8c691a905c9d0
+      internalID: -1365308743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_121
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2561
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e6ebea01dba5249a41cdbefeb849f3
+      internalID: -1866089963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_122
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2558
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7065537ad95e16346a15fc17cca0e24d
+      internalID: -1846495036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_123
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ba3c9a6d96394d9d8c0ba90bcaced
+      internalID: 1677594012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_124
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29df770dba3fa0d4ba554067f4d0f42a
+      internalID: -928989215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_125
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2558
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae29fb0e9448f04d90ece6a700dbc3c
+      internalID: 1114415904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_126
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce540a7a3ad2ac2409c0160af0996f44
+      internalID: 1528149352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_127
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c7f8b26be427d429b69939cf805b3d
+      internalID: -1246497966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_128
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf279e638b80d084db5382e79351f77b
+      internalID: -1707672425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_129
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2558
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a65adb10507a40bfbc3ae79281efb
+      internalID: 1948171164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_130
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2558
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f48fa2e89589e4b9e9b45f7d29ab1b
+      internalID: 1986107114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_131
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8655e939921074d46a8009a937802471
+      internalID: 1479627708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_132
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2558
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58febd452c344824384f1586a1713d3c
+      internalID: 180403278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_133
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2558
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d21a68f848cdd4aa74f2758e740f8b
+      internalID: -1919523072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_134
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2497
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de174b0d9bb61479ae42cf1dedb3c6
+      internalID: -1599318704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_135
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2497
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9392294175ffcc249b6294897c2bb151
+      internalID: -681238832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_136
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2497
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9431564858fad45806ab85240db9a9
+      internalID: -1143313073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_137
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2497
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc56730945476e8449e47d1bc9898b5e
+      internalID: 603307631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_138
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2497
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d291a822f8b737e4faddad58c5d4856b
+      internalID: 1783323249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_139
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2497
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0753b878a5c01dd4aa692387d5199497
+      internalID: 608344309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_140
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2497
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81559c40a6a8bd478b0f95d9f6e9b5a
+      internalID: -1035235079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_141
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2497
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e969ed460c271da4090473b2edfe8812
+      internalID: 1516518104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_142
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2497
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60f52cf772eab4abf4f306baee8c92
+      internalID: 276837416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_143
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2497
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2caa42290c40ae428de2ea66dc65a7d
+      internalID: 2136867615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_144
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2497
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a925d039aedac054f918d89c78475939
+      internalID: -3258212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_145
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2497
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdfacf4517758d409bf9ae1dca84a16
+      internalID: -594152173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_146
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2497
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111833ee29e1bc04b9e6abbaaf232940
+      internalID: 316678466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_147
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2433
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d12787937620b4b90df7a9914ef076
+      internalID: 2054727575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2433
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8321fe6215f4fa74aa578f22e5704962
+      internalID: -1325575027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_149
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2433
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fbe36cbf99cad43a779d65f90d23ee
+      internalID: -1877565896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_150
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2433
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d418a8b01a04347b4dc7eb569a76ca
+      internalID: -1669487645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_151
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2433
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8466d5a8cdabbce4da52b0f016705a1b
+      internalID: -1024555180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_152
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2433
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e848b66cdf4583408bb6c037e549e8a
+      internalID: 1446554430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_153
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2433
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d796ab750b655014ca10f294867d96ff
+      internalID: -427649587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_154
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2433
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e54412f3745a9946962a9dbf9d4c7e7
+      internalID: 875654102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_155
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2433
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c0512dc633f16428bcc1f92e3836e6
+      internalID: 334408331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_156
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2433
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab5fdf6700c964e96b71790d2d7be8
+      internalID: -865661160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_157
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 2433
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee1d098a0fdb1042bbc13cef659bb93
+      internalID: -95555801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_158
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2433
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b92a9fb8a9bd64a8483fe8e1c8ea98
+      internalID: -1534927653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_159
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2433
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae6f297d39e687478dd0d38d90157fa
+      internalID: 1175710361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_160
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2369
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3a1fc1c4a88a9489de73cbf1229746
+      internalID: -777051354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_161
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2369
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50e2adbf365a404090c14831cec0d0c
+      internalID: 1433190212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2369
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95effa3709af849afaa672eba6bf9c
+      internalID: 355699469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_163
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2369
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b220ab24c54050478978f74678f4238
+      internalID: 1113780039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_164
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2390
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354bfcacae4f48f4aabdd548b5f40ba7
+      internalID: -534581844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_165
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2369
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022f0db0773a62f4f9d99b4347052c12
+      internalID: -1803148784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_166
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2369
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54778ee35326c384d84d7962a717c184
+      internalID: 548556527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_167
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2369
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42ee2cd00c64164d9e12ca77bb68c57
+      internalID: 279114437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_168
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2369
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c2c5dbf51fdec429d827d7f3df3a4e
+      internalID: 1005320775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_169
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2369
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e492228c6296bf348b1190bf9f8ed86d
+      internalID: -1635536399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_170
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2390
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae0188257d90cf4caf4a7316c3a80ec
+      internalID: 250277161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_171
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2369
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2210da1675bea744aa8e179ea857b9c
+      internalID: 534130126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_172
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2369
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fccfca388af2842959e9db5a10f988
+      internalID: 274374789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_173
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2369
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507a9203b9c80e949b0306b74a224786
+      internalID: 1385028875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_174
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2369
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6cf48ce1b29f94f8be963138853e45
+      internalID: -88176248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_175
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2305
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc2870ddf590241864d6e00fc850a6
+      internalID: 885077058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_176
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2305
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6ada9b3ce841040b85a7ce5cba37fd
+      internalID: -615611168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_177
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2305
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def0f1d9c346f194fa248cd865b222c8
+      internalID: -271746608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_178
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2303
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cae7e2f16e77404d91bc0cab4e85776
+      internalID: -1481521427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_179
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2303
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8e9d2634788244c967b171cc34981f
+      internalID: 2090943298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_180
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2303
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455920321460d6a409f8b91adf6c446e
+      internalID: -473534880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_181
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2303
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806346a35f518bf45bbf95002acaeee1
+      internalID: -72517122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_182
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2303
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf8ffb3b965c804894129658e12b41f
+      internalID: 1154075550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_183
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 2303
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9493fdeb8a8c64990572b419584ea7
+      internalID: 1534997790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_184
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2303
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcc09f48c2cc054fba6d7c350122836
+      internalID: 686379959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_185
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2177
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a04b5f0d9d2fa241b5149ab42765215
+      internalID: 1845806310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_186
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 2175
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749d6dd6fbf92634a803b8068d7c8085
+      internalID: -1967137378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_187
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2175
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b66827bb0abc344495693a0bac4cb8a
+      internalID: -856793677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_188
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2175
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe902490e0a067d47afb7ced51b7204d
+      internalID: -633772029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_189
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2175
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438415d4a923f6b4fb7e13f4d00e5bd9
+      internalID: -1499656632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_190
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2175
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201b54347edfb6941bdf19bff5c287cf
+      internalID: -2100461673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_191
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1983
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea2aa46b1a382146aed5d58484f6e52
+      internalID: 1710905536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_192
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1984
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e0d09d0183cf241a498f6ce00c52db
+      internalID: -1910228615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_193
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1984
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c78d0857dfeea4994f1aaf333f00c5
+      internalID: 626654681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_194
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1984
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077cb499d7eb3dc4a99d17cf88beed96
+      internalID: -1106360353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_195
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1984
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c0971eaee9f1046ba1cd534fc30316
+      internalID: -981167025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_196
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1984
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69978946208602342bdd1423f62af4bc
+      internalID: 702101161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_197
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1790
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc05be848abd6f4f9452eeabd64499d
+      internalID: 209758264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_198
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1792
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3224b0a339124489be3858e862125e
+      internalID: -1348707636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_199
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1792
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83963354d91d57a4ea207124f68de661
+      internalID: -1410336244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_200
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1792
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c46a631488cd54aa30334498c9b3b4
+      internalID: 150088738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_201
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1774
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f076743ebad950243b560e2f3c34196c
+      internalID: 1078313596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_202
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1776
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16adf662d62e8646a0180fa10c3c0d7
+      internalID: -37003410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_203
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1598
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1510ded3b474db948af5bde35241d795
+      internalID: -628411941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_204
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1601
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a71660c30fb5d147b2f37622f4e1787
+      internalID: -1657879766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_205
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1601
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee1b3e399c21564f82bb5000785de56
+      internalID: 197571500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_206
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1601
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad3f0fdf8cefa149b9542b5a063c00c
+      internalID: 2026383333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_207
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1601
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849cb84326ccdc74e92f8604ba309162
+      internalID: -373805177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_208
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1601
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140aa515c1810b245a45e3f30a601072
+      internalID: 1966749688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_209
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1407
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382bdae1b405d33439a96fae362e6950
+      internalID: -1984110912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_210
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1407
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7211955c9f89f9345993cc3e8cc66119
+      internalID: -1280026997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_211
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1407
+        width: 84
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97a4ba6536c88d458debc32931f1099
+      internalID: -5655725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_212
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1407
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632eebc46c0c8f34f8eb842ec652f74d
+      internalID: 946210375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_213
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1407
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b9c0239a39e904a8df0dd4138e7c7e
+      internalID: -1350523700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_214
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1409
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7cc1adc843f2347a3f0f3d817dbdec
+      internalID: -1463082702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_215
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1217
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9ad48644e0557458a8b41c30830bdd
+      internalID: -476041629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_216
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1217
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660dc75c389028448be68f50601b5057
+      internalID: -998933573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_217
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 91
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d133370e3da176428ddb0d03dc0f794
+      internalID: -1818359895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_218
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1217
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0db3d53cffe1b40a1133869edcdfbc
+      internalID: -1160484604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_219
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1217
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4b61f0c8230e4f8a2ea722c2b89b4
+      internalID: 1607959003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_220
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1215
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ed1430b4315c04eb4784cc70d89e14
+      internalID: 1121177695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_221
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1024
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7884ce610d3a1b04faa0f7d4c6960e76
+      internalID: -1113304628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_222
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1024
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f053091a7db4447a8360fdae48b2ad
+      internalID: 256238666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_223
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1024
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9af8e44c51662c418db4256abec5cda
+      internalID: -529449011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_224
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1021
+        width: 80
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76efff0de7c22a847bdbb84094b8895a
+      internalID: -734389769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_225
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1024
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250b1cb486ac4be448f9bf846d84e444
+      internalID: -1470424944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_226
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1022
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c662ee8bab3694aab71a0eeb1e2fba
+      internalID: -1893917221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_227
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 832
+        width: 94
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f3a036a127e5648bcc84e25739be5f
+      internalID: -960539884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_228
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 832
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f6d1caa8d89964787e8c5866cb8c0e
+      internalID: 2045260106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_229
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 832
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4591e26b0e4e3b488ccd9cf67f56603
+      internalID: -1850598799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_230
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 832
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a0040610e419d4a9fff7188c009def
+      internalID: -1274483600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_231
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 832
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7dc3ff68f13504da791d822b1656e6
+      internalID: 591371467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_232
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 830
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7933c6e22cb5ed24fbefa0c43d72a50b
+      internalID: -686879695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_233
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 641
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b3884bbecfb4d4e8bb8c5441a242d0
+      internalID: 99992830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_234
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 639
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24306c6cad1bd82488eafe729bb9b1c1
+      internalID: -1189329967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_235
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc26ee8e062f0ba42bea5b22d3927dd0
+      internalID: 397931040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_236
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 639
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98efabc439ab7b24a96f5320b61567b2
+      internalID: 1442180047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_237
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 639
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e209374424aa88f41bf0fe18518b9347
+      internalID: -139306076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_238
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 639
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0b8e469cec1b24592cfba7c00a6265
+      internalID: 225690439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_239
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 639
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee36c643de7dc404f8bfdf6b034e092e
+      internalID: -209525824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_240
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 639
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ef109cd3675746b33f6695e646a76
+      internalID: -459619946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_241
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 447
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d872a68aceac94e8f90144d807d8a6
+      internalID: 85677554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_242
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 449
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1090bff63dd3964c93178a349682e7e
+      internalID: 409214440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_243
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 449
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35a8d67b8cbf614cac707e6aff30452
+      internalID: -1116820108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_244
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 449
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7579c136e94b48f45803dced5e9f6215
+      internalID: -1723338367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_245
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 449
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c5e34c690c7f74a8bfde0caf87ca50
+      internalID: 872041406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_246
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 449
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd3315f420dca14a962d4be935d1532
+      internalID: 1811511649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_247
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 449
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c4a6f02c908a44c815b8c4f2d54bbd
+      internalID: 290271030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_248
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 449
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3595de2c2d78e5a458582a23f54ab996
+      internalID: 694086283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_249
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 256
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaa4e5fbe5754f48a7fca72f9dd4507
+      internalID: 773027441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_250
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 258
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91fe3080054fc43a967d69f6d4456b
+      internalID: 883653928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_251
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 258
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754f332db656c96489d0e582cc522923
+      internalID: -851182348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_252
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 255
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa7c9b632b265742b246f27d5234736
+      internalID: -813039983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_253
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 242
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e0e82ddb33874abe8d6acfb45f4ab
+      internalID: 1942355970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_254
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 232
+        width: 25
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df54927b2d17d84d93f16747136a91f
+      internalID: 472438616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_255
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 242
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6ded493bbee3041ba775314b6f5576
+      internalID: -1022598145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_256
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 255
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5776f106d977664d835dfb14416ecf6
+      internalID: 484376732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_257
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 62
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6664dbacd1b0c5419c640f0367a91b0
+      internalID: -1610508371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_258
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 64
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955fa82dec300a04eac7346691f9ecf0
+      internalID: 695169908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_259
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 64
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7186830e26f004889e40df28f5acd8
+      internalID: -2105102671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_260
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 64
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5124712d41edc49b3435963ec716a9
+      internalID: -837642247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_261
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 64
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdad8cc7bc2e90d439735f3c5da23a13
+      internalID: 190806266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_262
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 64
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae258d21c0e456419aa024b3f04dbda
+      internalID: -282430553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_263
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 64
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17db40fe3eb8afc4b9af9f8490a38bb1
+      internalID: 610266544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_man_buff_264
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 64
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3168a1216ceb6e94bab3c252abb7cbcb
+      internalID: 1994078308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mountain_man_buff_44: 1274381854
+      mountain_man_buff_58: -420281212
+      mountain_man_buff_87: 1255413244
+      mountain_man_buff_202: -37003410
+      mountain_man_buff_241: 85677554
+      mountain_man_buff_99: -350952472
+      mountain_man_buff_157: -95555801
+      mountain_man_buff_232: -686879695
+      mountain_man_buff_83: -1403944438
+      mountain_man_buff_224: -734389769
+      mountain_man_buff_85: 1566019484
+      mountain_man_buff_154: 875654102
+      mountain_man_buff_16: 1758327135
+      mountain_man_buff_169: -1635536399
+      mountain_man_buff_103: 681898614
+      mountain_man_buff_140: -1035235079
+      mountain_man_buff_256: 484376732
+      mountain_man_buff_180: -473534880
+      mountain_man_buff_151: -1024555180
+      mountain_man_buff_263: 610266544
+      mountain_man_buff_39: 1816016989
+      mountain_man_buff_55: -542961091
+      mountain_man_buff_7: -338785707
+      mountain_man_buff_153: -427649587
+      mountain_man_buff_82: 772490864
+      mountain_man_buff_257: -1610508371
+      mountain_man_buff_162: 355699469
+      mountain_man_buff_208: 1966749688
+      mountain_man_buff_96: 737289193
+      mountain_man_buff_253: 1942355970
+      mountain_man_buff_217: -1818359895
+      mountain_man_buff_227: -960539884
+      mountain_man_buff_23: -2090800477
+      mountain_man_buff_107: 1822988877
+      mountain_man_buff_127: -1246497966
+      mountain_man_buff_130: 1986107114
+      mountain_man_buff_92: 254226643
+      mountain_man_buff_15: -288631969
+      mountain_man_buff_69: 2034273506
+      mountain_man_buff_189: -1499656632
+      mountain_man_buff_102: 91342777
+      mountain_man_buff_233: 99992830
+      mountain_man_buff_36: 162363596
+      mountain_man_buff_240: -459619946
+      mountain_man_buff_114: 1918778976
+      mountain_man_buff_260: -837642247
+      mountain_man_buff_47: 924764210
+      mountain_man_buff_100: -1495624862
+      mountain_man_buff_136: -1143313073
+      mountain_man_buff_122: -1846495036
+      mountain_man_buff_262: -282430553
+      mountain_man_buff_84: -1751536058
+      mountain_man_buff_163: 1113780039
+      mountain_man_buff_225: -1470424944
+      mountain_man_buff_101: -1922646312
+      mountain_man_buff_206: 2026383333
+      mountain_man_buff_95: 1558820642
+      mountain_man_buff_252: -813039983
+      mountain_man_buff_239: -209525824
+      mountain_man_buff_111: -2065846188
+      mountain_man_buff_254: 472438616
+      mountain_man_buff_187: -856793677
+      mountain_man_buff_37: -847309683
+      mountain_man_buff_135: -681238832
+      mountain_man_buff_199: -1410336244
+      mountain_man_buff_238: 225690439
+      mountain_man_buff_249: 773027441
+      mountain_man_buff_26: 1818859993
+      mountain_man_buff_0: 287310982
+      mountain_man_buff_5: -2100911245
+      mountain_man_buff_205: 197571500
+      mountain_man_buff_223: -529449011
+      mountain_man_buff_45: -690020222
+      mountain_man_buff_41: 1354910110
+      mountain_man_buff_70: -957716122
+      mountain_man_buff_78: 386531037
+      mountain_man_buff_61: -142605071
+      mountain_man_buff_112: 752597611
+      mountain_man_buff_132: 180403278
+      mountain_man_buff_190: -2100461673
+      mountain_man_buff_134: -1599318704
+      mountain_man_buff_143: 2136867615
+      mountain_man_buff_212: 946210375
+      mountain_man_buff_19: 1445787440
+      mountain_man_buff_25: -1494659141
+      mountain_man_buff_165: -1803148784
+      mountain_man_buff_207: -373805177
+      mountain_man_buff_159: 1175710361
+      mountain_man_buff_6: 1384241104
+      mountain_man_buff_77: 1231684045
+      mountain_man_buff_133: -1919523072
+      mountain_man_buff_108: -1339886828
+      mountain_man_buff_219: 1607959003
+      mountain_man_buff_62: 2093230923
+      mountain_man_buff_88: 557170377
+      mountain_man_buff_57: 929026271
+      mountain_man_buff_156: -865661160
+      mountain_man_buff_231: 591371467
+      mountain_man_buff_79: -1296835352
+      mountain_man_buff_128: -1707672425
+      mountain_man_buff_203: -628411941
+      mountain_man_buff_46: 830966442
+      mountain_man_buff_42: -1116543128
+      mountain_man_buff_236: 1442180047
+      mountain_man_buff_177: -271746608
+      mountain_man_buff_261: 190806266
+      mountain_man_buff_137: 603307631
+      mountain_man_buff_228: 2045260106
+      mountain_man_buff_10: 847453176
+      mountain_man_buff_194: -1106360353
+      mountain_man_buff_32: -1008375298
+      mountain_man_buff_59: 617980921
+      mountain_man_buff_49: -590331340
+      mountain_man_buff_160: -777051354
+      mountain_man_buff_1: 260300882
+      mountain_man_buff_155: 334408331
+      mountain_man_buff_65: 827873014
+      mountain_man_buff_148: -1325575027
+      mountain_man_buff_237: -139306076
+      mountain_man_buff_4: 2024231655
+      mountain_man_buff_97: -7313046
+      mountain_man_buff_164: -534581844
+      mountain_man_buff_74: -1349631073
+      mountain_man_buff_158: -1534927653
+      mountain_man_buff_109: -1113670171
+      mountain_man_buff_71: -1778306275
+      mountain_man_buff_216: -998933573
+      mountain_man_buff_98: -614592171
+      mountain_man_buff_94: 1294455118
+      mountain_man_buff_138: 1783323249
+      mountain_man_buff_126: 1528149352
+      mountain_man_buff_222: 256238666
+      mountain_man_buff_229: -1850598799
+      mountain_man_buff_172: 274374789
+      mountain_man_buff_117: 57843783
+      mountain_man_buff_210: -1280026997
+      mountain_man_buff_170: 250277161
+      mountain_man_buff_24: -2098676945
+      mountain_man_buff_264: 1994078308
+      mountain_man_buff_204: -1657879766
+      mountain_man_buff_141: 1516518104
+      mountain_man_buff_40: 1607342989
+      mountain_man_buff_129: 1948171164
+      mountain_man_buff_105: -785617894
+      mountain_man_buff_76: 1409822207
+      mountain_man_buff_185: 1845806310
+      mountain_man_buff_125: 1114415904
+      mountain_man_buff_161: 1433190212
+      mountain_man_buff_38: -1334489142
+      mountain_man_buff_201: 1078313596
+      mountain_man_buff_149: -1877565896
+      mountain_man_buff_56: 678832657
+      mountain_man_buff_181: -72517122
+      mountain_man_buff_52: -527720920
+      mountain_man_buff_167: 279114437
+      mountain_man_buff_196: 702101161
+      mountain_man_buff_91: -290062304
+      mountain_man_buff_34: 2146039654
+      mountain_man_buff_220: 1121177695
+      mountain_man_buff_218: -1160484604
+      mountain_man_buff_213: -1350523700
+      mountain_man_buff_168: 1005320775
+      mountain_man_buff_150: -1669487645
+      mountain_man_buff_184: 686379959
+      mountain_man_buff_166: 548556527
+      mountain_man_buff_21: -972061959
+      mountain_man_buff_121: -1866089963
+      mountain_man_buff_211: -5655725
+      mountain_man_buff_173: 1385028875
+      mountain_man_buff_2: 1104950782
+      mountain_man_buff_60: -347663563
+      mountain_man_buff_183: 1534997790
+      mountain_man_buff_147: 2054727575
+      mountain_man_buff_182: 1154075550
+      mountain_man_buff_118: 1259240255
+      mountain_man_buff_258: 695169908
+      mountain_man_buff_176: -615611168
+      mountain_man_buff_115: -562738861
+      mountain_man_buff_13: -1149662011
+      mountain_man_buff_93: -106736892
+      mountain_man_buff_104: -2024721489
+      mountain_man_buff_124: -928989215
+      mountain_man_buff_20: -360213509
+      mountain_man_buff_51: 1441581432
+      mountain_man_buff_68: -99964608
+      mountain_man_buff_175: 885077058
+      mountain_man_buff_14: -1010253044
+      mountain_man_buff_221: -1113304628
+      mountain_man_buff_31: -891338079
+      mountain_man_buff_106: -1729969147
+      mountain_man_buff_198: -1348707636
+      mountain_man_buff_8: -1798770542
+      mountain_man_buff_27: 1145737583
+      mountain_man_buff_72: -1871030778
+      mountain_man_buff_50: 134668622
+      mountain_man_buff_192: -1910228615
+      mountain_man_buff_209: -1984110912
+      mountain_man_buff_18: -1153023829
+      mountain_man_buff_186: -1967137378
+      mountain_man_buff_30: 1518161871
+      mountain_man_buff_255: -1022598145
+      mountain_man_buff_234: -1189329967
+      mountain_man_buff_89: -1748877460
+      mountain_man_buff_12: -2114254845
+      mountain_man_buff_110: 1250766870
+      mountain_man_buff_144: -3258212
+      mountain_man_buff_152: 1446554430
+      mountain_man_buff_191: 1710905536
+      mountain_man_buff_250: 883653928
+      mountain_man_buff_193: 626654681
+      mountain_man_buff_171: 534130126
+      mountain_man_buff_179: 2090943298
+      mountain_man_buff_28: -159746924
+      mountain_man_buff_200: 150088738
+      mountain_man_buff_230: -1274483600
+      mountain_man_buff_174: -88176248
+      mountain_man_buff_75: 1958099208
+      mountain_man_buff_214: -1463082702
+      mountain_man_buff_139: 608344309
+      mountain_man_buff_235: 397931040
+      mountain_man_buff_3: 210626524
+      mountain_man_buff_116: -954249831
+      mountain_man_buff_247: 290271030
+      mountain_man_buff_67: 933177157
+      mountain_man_buff_145: -594152173
+      mountain_man_buff_251: -851182348
+      mountain_man_buff_215: -476041629
+      mountain_man_buff_11: -1908799975
+      mountain_man_buff_48: 1015317110
+      mountain_man_buff_17: -446609580
+      mountain_man_buff_63: -1057090639
+      mountain_man_buff_113: 379581122
+      mountain_man_buff_197: 209758264
+      mountain_man_buff_9: -1863923008
+      mountain_man_buff_73: -827324369
+      mountain_man_buff_90: -197086855
+      mountain_man_buff_123: 1677594012
+      mountain_man_buff_248: 694086283
+      mountain_man_buff_22: 1201528194
+      mountain_man_buff_146: 316678466
+      mountain_man_buff_80: -1735226934
+      mountain_man_buff_226: -1893917221
+      mountain_man_buff_66: -1003535606
+      mountain_man_buff_54: -2119015168
+      mountain_man_buff_86: 739887282
+      mountain_man_buff_259: -2105102671
+      mountain_man_buff_43: 2010225376
+      mountain_man_buff_119: 2016179830
+      mountain_man_buff_246: 1811511649
+      mountain_man_buff_33: -2125894933
+      mountain_man_buff_53: 1265837243
+      mountain_man_buff_64: 635140720
+      mountain_man_buff_81: -1060131304
+      mountain_man_buff_195: -981167025
+      mountain_man_buff_178: -1481521427
+      mountain_man_buff_188: -633772029
+      mountain_man_buff_243: -1116820108
+      mountain_man_buff_242: 409214440
+      mountain_man_buff_131: 1479627708
+      mountain_man_buff_29: 1349490026
+      mountain_man_buff_35: -656603591
+      mountain_man_buff_244: -1723338367
+      mountain_man_buff_120: -1365308743
+      mountain_man_buff_245: 872041406
+      mountain_man_buff_142: 276837416
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

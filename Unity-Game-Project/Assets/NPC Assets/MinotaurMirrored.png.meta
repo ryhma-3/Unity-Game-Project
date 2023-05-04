@@ -1,0 +1,705 @@
+fileFormatVersion: 2
+guid: 6d8cca0d00a2a1b4699084781c179178
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MinotaurMirrored_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 747
+        width: 68
+        height: 52
+      alignment: 9
+      pivot: {x: 0.77117985, y: 0.16776334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18621601a16912047a6580cd5a103a99
+      internalID: 220078649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_43
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 747
+        width: 42
+        height: 52
+      alignment: 9
+      pivot: {x: 0.49147105, y: 0.16555904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57458281b31d3f740b6a18c7998e6987
+      internalID: -170314669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_44
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 747
+        width: 39
+        height: 52
+      alignment: 9
+      pivot: {x: 0.36682832, y: 0.16555904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cfdf943ddbf114c88690813f3f7e69
+      internalID: -1466108070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_45
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 747
+        width: 37
+        height: 51
+      alignment: 9
+      pivot: {x: 0.37899038, y: 0.15434833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcca59cb2224014d9c3b502a99f4861
+      internalID: 43483641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_46
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 747
+        width: 31
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4884427, y: 0.17190611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb094e757141ed0408f6b34b275c6756
+      internalID: -1771476170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_47
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 748
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5111923, y: 0.17190611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2136d6042c83047882cdcd2bcf7596
+      internalID: 1110323292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 555
+        width: 60
+        height: 53
+      alignment: 9
+      pivot: {x: 0.2343469, y: 0.18310316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd752ad194cf2cf4bb71733dcb558125
+      internalID: 5569587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 555
+        width: 63
+        height: 53
+      alignment: 9
+      pivot: {x: 0.21572682, y: 0.18310316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e089ac7d386ab1a4bb264d9a165a861f
+      internalID: 642758755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_50
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 555
+        width: 58
+        height: 53
+      alignment: 9
+      pivot: {x: 0.26223913, y: 0.17634554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334b5df6d15a0744391659a384fe9981
+      internalID: -194062059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_51
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 551
+        width: 28
+        height: 57
+      alignment: 9
+      pivot: {x: 0.51918685, y: 0.2251362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0813c6f870a425f45a9122f2a146cbc7
+      internalID: -1117144836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_52
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 547
+        width: 28
+        height: 59
+      alignment: 9
+      pivot: {x: 0.44243294, y: 0.27588615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd5d1f2135c79d42af96b35e938c66b
+      internalID: 239205747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_53
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 555
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4017846, y: 0.19661957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7b6f430920e2a43ba9048f55e09cba
+      internalID: 1427733638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_54
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 354
+        width: 63
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7652434, y: 0.28984022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf8c1e9a0b12fd47b88dabf1c264260
+      internalID: 857123277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_55
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 345
+        width: 63
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6796812, y: 0.3649129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423285073db925d40a2532eb39b30cd6
+      internalID: 1134057516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_56
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 362
+        width: 42
+        height: 55
+      alignment: 9
+      pivot: {x: 0.35026696, y: 0.18693237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bca59766e3dfe4c97a195d02556a5f
+      internalID: -78710999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_57
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 359
+        width: 37
+        height: 57
+      alignment: 9
+      pivot: {x: 0.34460118, y: 0.21576142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4c9af35204a79459b85b95ec0459a3
+      internalID: 290361161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_58
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 363
+        width: 32
+        height: 55
+      alignment: 9
+      pivot: {x: 0.40454674, y: 0.17386475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17498f9a7a1c9e4e97487d07f06df54
+      internalID: 836648452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_59
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 363
+        width: 32
+        height: 55
+      alignment: 9
+      pivot: {x: 0.47192764, y: 0.1673312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea35606976aec24d83d4765afbfea01
+      internalID: -414805399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_60
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 171
+        width: 60
+        height: 53
+      alignment: 9
+      pivot: {x: 0.7474701, y: 0.17998922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b02264cd9bb594ebce35185223fe83
+      internalID: 952541286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_61
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 171
+        width: 63
+        height: 53
+      alignment: 9
+      pivot: {x: 0.7735639, y: 0.18249051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c7a7385d607684b9f5a65744215b8c
+      internalID: 1719293051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_62
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 171
+        width: 58
+        height: 53
+      alignment: 9
+      pivot: {x: 0.7400034, y: 0.18749338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f084995df3735c4480f8deee40b1edf
+      internalID: -1476747827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_63
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 167
+        width: 28
+        height: 57
+      alignment: 9
+      pivot: {x: 0.44791523, y: 0.22791009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e290fe84b9c149a6274233d7203f0
+      internalID: 1070625709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_64
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 163
+        width: 28
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5473458, y: 0.27639875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748c70b14a40fa4695ff1be0bf52257
+      internalID: -1023779240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinotaurMirrored_65
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 171
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0.62428665, y: 0.18999466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937d767a39de7364baa3d49a4584a27b
+      internalID: -1702701307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MinotaurMirrored_55: 1134057516
+      MinotaurMirrored_64: -1023779240
+      MinotaurMirrored_38: 156431780
+      MinotaurMirrored_65: -1702701307
+      MinotaurMirrored_12: -1650482531
+      MinotaurMirrored_23: 1988727634
+      MinotaurMirrored_35: -910627722
+      MinotaurMirrored_63: 1070625709
+      MinotaurMirrored_50: -194062059
+      MinotaurMirrored_21: 49207045
+      MinotaurMirrored_16: -1674098021
+      MinotaurMirrored_4: 1861473013
+      MinotaurMirrored_6: -1394325600
+      MinotaurMirrored_34: -151740692
+      MinotaurMirrored_17: 269448080
+      MinotaurMirrored_57: 290361161
+      MinotaurMirrored_43: -170314669
+      MinotaurMirrored_9: -1054526719
+      MinotaurMirrored_51: -1117144836
+      MinotaurMirrored_59: -414805399
+      MinotaurMirrored_44: -1466108070
+      MinotaurMirrored_49: 642758755
+      MinotaurMirrored_3: 1239206936
+      MinotaurMirrored_7: 336335213
+      MinotaurMirrored_0: -1021589581
+      MinotaurMirrored_48: 5569587
+      MinotaurMirrored_33: -1312945920
+      MinotaurMirrored_19: -386405532
+      MinotaurMirrored_39: 911666704
+      MinotaurMirrored_8: 1844740714
+      MinotaurMirrored_42: 220078649
+      MinotaurMirrored_47: 1110323292
+      MinotaurMirrored_14: 156207006
+      MinotaurMirrored_40: 217247167
+      MinotaurMirrored_53: 1427733638
+      MinotaurMirrored_11: 1504393017
+      MinotaurMirrored_10: -358985934
+      MinotaurMirrored_31: -1839988149
+      MinotaurMirrored_30: -497699856
+      MinotaurMirrored_41: 84885615
+      MinotaurMirrored_15: 1109158498
+      MinotaurMirrored_13: 1554355326
+      MinotaurMirrored_56: -78710999
+      MinotaurMirrored_45: 43483641
+      MinotaurMirrored_46: -1771476170
+      MinotaurMirrored_61: 1719293051
+      MinotaurMirrored_18: 1326837484
+      MinotaurMirrored_1: 1002686086
+      MinotaurMirrored_22: -1124720073
+      MinotaurMirrored_36: -1984971482
+      MinotaurMirrored_27: -593500213
+      MinotaurMirrored_54: 857123277
+      MinotaurMirrored_26: -202722046
+      MinotaurMirrored_29: 1190979883
+      MinotaurMirrored_5: -2139726866
+      MinotaurMirrored_58: 836648452
+      MinotaurMirrored_62: -1476747827
+      MinotaurMirrored_25: 429225909
+      MinotaurMirrored_32: -1507958620
+      MinotaurMirrored_2: -2070344887
+      MinotaurMirrored_24: -306412233
+      MinotaurMirrored_20: -1154059401
+      MinotaurMirrored_37: -924716939
+      MinotaurMirrored_52: 239205747
+      MinotaurMirrored_60: 952541286
+      MinotaurMirrored_28: -2131691744
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

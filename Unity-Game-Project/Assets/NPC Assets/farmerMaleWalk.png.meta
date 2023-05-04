@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: b5cdfebd27f0f5346b2138017decbc7d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farmerMaleWalk_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 205
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.36505216, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3212022d140d0419e6e49ac74db902
+      internalID: -1947258426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 205
+        width: 41
+        height: 48
+      alignment: 9
+      pivot: {x: 0.36541244, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d38705aace1f42826afa458d7c040
+      internalID: 675102443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 204
+        width: 38
+        height: 49
+      alignment: 9
+      pivot: {x: 0.39362776, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f6bd2cc351e2445b813d20f0df1c69
+      internalID: 832488809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 203
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0.44716194, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1afd3dcb2ab354e8640d09679e1ce0
+      internalID: -1785886438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 204
+        width: 38
+        height: 49
+      alignment: 9
+      pivot: {x: 0.39756775, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a28cb432204f6b41b552dbcd2e9a06a
+      internalID: 1411283849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 205
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.37524268, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9d11c1a743964e8e1691425dd613f
+      internalID: 609683944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 204
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.36688158, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184bf4ef5a404a54bad5970ad55932e0
+      internalID: -1630566886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 203
+        width: 40
+        height: 49
+      alignment: 9
+      pivot: {x: 0.35263747, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d06e9a3144be0b43931312b4443bd19
+      internalID: -1005879561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 204
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.37753072, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b5d84696bc9754793b91d2ed5d3384
+      internalID: -920996118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 140
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5198286, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a248f6afc06fc428f355a83bcd7e5d
+      internalID: 1922138536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 140
+        width: 38
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5244201, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5fd42794945454089bd70082cd829b
+      internalID: 435562940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 141
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4643093, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27e8251549c0d94cb187e91300db783
+      internalID: -1773211962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 141
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.30964974, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85e7a3a112467e44a9cb205686bada7
+      internalID: -281418934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 140
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.31361505, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b52a40b37110ad4e9c9f4e75972c8b1
+      internalID: -1285212694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 140
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.28121352, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f6091099cf6c14e857280e17b8cb4b
+      internalID: 1624203563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 140
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.33344367, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47193b79b95cef44e829313bd736b804
+      internalID: 1582563236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_16
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 140
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.34534082, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8946250cd0043b043a45c8947049164f
+      internalID: 2000599789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_17
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 140
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47620568, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53225eeca3cc884a9e2712562db3000
+      internalID: 1936828330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 76
+        width: 43
+        height: 49
+      alignment: 9
+      pivot: {x: 0.6319904, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c87ec6ca5a1c43adaa05eb5e671b4
+      internalID: -1829262378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 76
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.6315075, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149cca7ab5fdf6b4d8b220a6645ccf94
+      internalID: 425333553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 75
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.64526767, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5eb7022b560224690e7854dc635fc9
+      internalID: 1572598663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 75
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.63150734, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f65ef418261bb40b40c46134d92840
+      internalID: -615616792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 75
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6418893, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e81e9243cc201a4da2c462227bb3d89
+      internalID: -1669994936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 76
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.63842845, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d19a1f2063f3c944ad243a04880ea63
+      internalID: 314264705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_24
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 75
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.558425, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7945a0f1234f5da4d98664e54f0b127c
+      internalID: 1274095756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 75
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5283783, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d01a42aca7e2546bf9914d9f8bece9
+      internalID: 216698162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_26
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 75
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5667707, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e5e2d25391fd74985f6cc0b420fa90
+      internalID: 1395768997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 12
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4927236, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dd26c5add8e1d4aa7a0efa9e83b3c3
+      internalID: 1459495804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 12
+        width: 38
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4701283, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c58e26cad0dc04dbef98e5f7f67c40
+      internalID: 2102214550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 13
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.52910554, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8a50dfe42797b4b9ec8b52bf319eac
+      internalID: 1757482002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 13
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.66735643, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7eb14a117f4cc4290ff9082c9ef5a1
+      internalID: 1781229934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 12
+        width: 40
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6773621, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1e99287f19fa540ab98ea37290632a
+      internalID: 1095297818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_32
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 12
+        width: 42
+        height: 49
+      alignment: 9
+      pivot: {x: 0.7060772, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa1f6d5bf546b4a96bd06d9fad4174
+      internalID: -1244187331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_33
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 12
+        width: 40
+        height: 50
+      alignment: 9
+      pivot: {x: 0.68800354, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15054735b4b06f54db56e45f3e15d9e7
+      internalID: 191935588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_34
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 12
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6855469, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f9188158feecf4e935ee3bfb6d329b
+      internalID: 512984681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmerMaleWalk_35
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 12
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.547296, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb33c32da95354542ae26ab9cccacd88
+      internalID: 343662144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      farmerMaleWalk_23: 314264705
+      farmerMaleWalk_35: 343662144
+      farmerMaleWalk_18: -1829262378
+      farmerMaleWalk_4: 1411283849
+      farmerMaleWalk_28: 2102214550
+      farmerMaleWalk_29: 1757482002
+      farmerMaleWalk_26: 1395768997
+      farmerMaleWalk_33: 191935588
+      farmerMaleWalk_14: 1624203563
+      farmerMaleWalk_11: -1773211962
+      farmerMaleWalk_0: -1947258426
+      farmerMaleWalk_12: -281418934
+      farmerMaleWalk_8: -920996118
+      farmerMaleWalk_21: -615616792
+      farmerMaleWalk_27: 1459495804
+      farmerMaleWalk_17: 1936828330
+      farmerMaleWalk_30: 1781229934
+      farmerMaleWalk_24: 1274095756
+      farmerMaleWalk_31: 1095297818
+      farmerMaleWalk_7: -1005879561
+      farmerMaleWalk_6: -1630566886
+      farmerMaleWalk_9: 1922138536
+      farmerMaleWalk_3: -1785886438
+      farmerMaleWalk_25: 216698162
+      farmerMaleWalk_2: 832488809
+      farmerMaleWalk_13: -1285212694
+      farmerMaleWalk_16: 2000599789
+      farmerMaleWalk_1: 675102443
+      farmerMaleWalk_34: 512984681
+      farmerMaleWalk_15: 1582563236
+      farmerMaleWalk_10: 435562940
+      farmerMaleWalk_5: 609683944
+      farmerMaleWalk_22: -1669994936
+      farmerMaleWalk_19: 425333553
+      farmerMaleWalk_20: 1572598663
+      farmerMaleWalk_32: -1244187331
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: f1b3474fe8e5ad04b98e633c282a21ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beachWoman_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 208
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683b015afe4f4ec419ce83cd2e8ff8f7
+      internalID: -701786002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 207
+        width: 35
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca5863a8999ba45881bff0d358ed79
+      internalID: 482385134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 206
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a5726b0f9083f4e9ffeaaffbaf4d95
+      internalID: 270178787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 205
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c051423724f8d4e8ab87f4e1c3b14b
+      internalID: 2124766330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 206
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1b6f54ae3e5fa4f81e756c4b4a0313
+      internalID: -275208557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 207
+        width: 35
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b482d8b69f60842b8c916cc81cdffa
+      internalID: 1459293547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 206
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea04b3416c10f14ba2b77388a4c1881
+      internalID: 1590092558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 205
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eeccb04d9480742912079d71ceaa2f
+      internalID: -284137801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_8
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 206
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b8f5bbb7b62fe4baecd1a380dee9a3
+      internalID: -1913698042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 143
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3f483f8cfb4974bb84585fed89854e
+      internalID: -251835207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 143
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a448613bcdf64204db2f35a98e380bf6
+      internalID: 1726790551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 144
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a4c38aadefa664c8f8e5e0f5065b1e
+      internalID: 1428794895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 144
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cf7fc4c769fc84a981d691174ac107
+      internalID: 1054987162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 143
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86880c46c1a9464da7e3fb093e8e70a
+      internalID: 1119609871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 143
+        width: 28
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ff8704c23d6d345abee0b6c6ca744f
+      internalID: -145985126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 143
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d464d1393a5c9c4aa7eb92fd96ecfc7
+      internalID: 1261816561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 143
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0285f9aff9f7a59408ae72dd266f6054
+      internalID: 91641461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 143
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363195aee69a4014ca733387463e4740
+      internalID: 1865532481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17013bb30e2ddc94298fe476cbdc15a7
+      internalID: 192294931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 79
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8146ef5b77f615547baa94059c57e1b9
+      internalID: 792948589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 78
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16793a741a00454c8d88e138fb7e810
+      internalID: -2036671943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 78
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8139934930a214d9fd38e90c1ccb55
+      internalID: -2036581673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 78
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e4189b5f94c345af5d3e8343d88be
+      internalID: 1638949046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 79
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6761a70909b8543a7adfb1491e749a
+      internalID: 1726478435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 78
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122dd0d812b36114c9f3f7c67fbc8c6b
+      internalID: -688211721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_25
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 78
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f11c677ef03d142bef8e74db9bc026
+      internalID: 454152052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 78
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1933c8edd9bfcf4aabc681e0c52c058
+      internalID: -1951732565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f1b499ace93843ba193429e880067
+      internalID: 152542574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67792a7f2416ad42b85b41510209e0f
+      internalID: -1711144982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30c03991ca4fe4eaa8d98060f2bdb0
+      internalID: -1102107337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ad21754b7a5542b192e78bd962163
+      internalID: 263646059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 15
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dc205d4c5a22e4aadd6357e706a36b
+      internalID: -782751198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 15
+        width: 28
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb96be9a246ddee41b11da99d29165d2
+      internalID: -1487888052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 15
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8931813ab4d3114b85fd5fc6098375b
+      internalID: 491692746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 15
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be31d2d3cee0cd4bab80a0bf7cf29bc
+      internalID: -203253486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beachWoman_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 15
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f046f1ce1d9c72247ae4f71282f537b8
+      internalID: 1077901505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      beachWoman_35: 1077901505
+      beachWoman_30: 263646059
+      beachWoman_22: 1638949046
+      beachWoman_32: -1487888052
+      beachWoman_16: 91641461
+      beachWoman_2: 270178787
+      beachWoman_3: 2124766330
+      beachWoman_14: -145985126
+      beachWoman_8: -1913698042
+      beachWoman_1: 482385134
+      beachWoman_13: 1119609871
+      beachWoman_12: 1054987162
+      beachWoman_31: -782751198
+      beachWoman_28: -1711144982
+      beachWoman_5: 1459293547
+      beachWoman_11: 1428794895
+      beachWoman_29: -1102107337
+      beachWoman_17: 1865532481
+      beachWoman_26: -1951732565
+      beachWoman_23: 1726478435
+      beachWoman_34: -203253486
+      beachWoman_25: 454152052
+      beachWoman_9: -251835207
+      beachWoman_15: 1261816561
+      beachWoman_21: -2036581673
+      beachWoman_18: 192294931
+      beachWoman_27: 152542574
+      beachWoman_10: 1726790551
+      beachWoman_6: 1590092558
+      beachWoman_0: -701786002
+      beachWoman_33: 491692746
+      beachWoman_24: -688211721
+      beachWoman_19: 792948589
+      beachWoman_7: -284137801
+      beachWoman_20: -2036671943
+      beachWoman_4: -275208557
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -24,7 +24,7 @@ public class StaminaSystem : MonoBehaviour
         stamina = Mathf.Clamp(stamina, 0, maxStamina);
         UpdateStaminaUI();
         //Enabled 0 stamina sprint for Debug purposes, to make sure player cant sprint at 0 stamina change >= in the if clause to >.
-        if (Input.GetKey(KeyCode.LeftShift) && stamina >= 0)
+        if (Input.GetKey(KeyCode.LeftShift) && stamina > 0)
         {
             PlayerMovement.isSprinting = true;
             LooseStamina(0.25f);
